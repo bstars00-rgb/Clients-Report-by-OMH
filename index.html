@@ -28,7 +28,7 @@
     background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased;
     transition: background .25s, color .25s;
   }
-  .wrap { max-width: 980px; margin: 0 auto; padding: 20px 16px 60px; }
+  .wrap { max-width: 1600px; margin: 0 auto; padding: 22px 28px 60px; }
   header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom: 6px; }
   .brand { display:flex; align-items:center; gap:10px; }
   .brand .logo { font-size: 26px; }
@@ -73,6 +73,8 @@
   .legend span b { font-weight:800; }
   .up { color: var(--up); } .down { color: var(--down); } .new { color: var(--new); } .same { color: var(--same); }
 
+  .rank-cols { display:grid; grid-template-columns: 1fr 1fr; gap: 0 40px; align-items:start; }
+  @media (max-width: 900px) { .rank-cols { grid-template-columns: 1fr; gap:0; } }
   table { width:100%; border-collapse: collapse; }
   thead th {
     text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted);
@@ -167,18 +169,32 @@
   </div>
   <div class="meta-row" id="metaRow"></div>
 
-  <table>
-    <thead>
-      <tr>
-        <th class="r">#</th>
-        <th class="c" data-i18n="thChange">Change</th>
-        <th data-i18n="thHotel">Hotel</th>
-        <th class="code" data-i18n="thCode">Code</th>
-        <th class="city" data-i18n="thCity">City</th>
-      </tr>
-    </thead>
-    <tbody id="tbody"></tbody>
-  </table>
+  <div class="rank-cols">
+    <table>
+      <thead>
+        <tr>
+          <th class="r">#</th>
+          <th class="c" data-i18n="thChange">Change</th>
+          <th data-i18n="thHotel">Hotel</th>
+          <th class="code" data-i18n="thCode">Code</th>
+          <th class="city" data-i18n="thCity">City</th>
+        </tr>
+      </thead>
+      <tbody id="tbodyL"></tbody>
+    </table>
+    <table id="tableR">
+      <thead>
+        <tr>
+          <th class="r">#</th>
+          <th class="c" data-i18n="thChange">Change</th>
+          <th data-i18n="thHotel">Hotel</th>
+          <th class="code" data-i18n="thCode">Code</th>
+          <th class="city" data-i18n="thCity">City</th>
+        </tr>
+      </thead>
+      <tbody id="tbodyR"></tbody>
+    </table>
+  </div>
   <div class="empty" id="emptyMsg" style="display:none" data-i18n="noResult">No hotels match your filter.</div>
 
   <footer>
@@ -318,8 +334,7 @@ function render(){
     return true;
   });
 
-  const tb = document.getElementById('tbody');
-  tb.innerHTML = rows.map(h => {
+  const rowHtml = (h) => {
     const topCls = h.rank <= 3 ? ' class="topglow"' : '';
     const nb = h.isNew ? ' <span class="newbadge">'+t('newTxt')+'</span>' : '';
     return '<tr'+topCls+'>'+
@@ -329,7 +344,13 @@ function render(){
       '<td class="code">'+(h.code ? escapeHtml(h.code) : '—')+'</td>'+
       '<td class="city">'+escapeHtml(h.city)+'</td>'+
     '</tr>';
-  }).join('');
+  };
+  // 2단 분할: 왼쪽 = 상위 절반, 오른쪽 = 하위 절반 (좁은 화면에선 자동 1단 stack)
+  const half = Math.ceil(rows.length / 2);
+  document.getElementById('tbodyL').innerHTML = rows.slice(0, half).map(rowHtml).join('');
+  document.getElementById('tbodyR').innerHTML = rows.slice(half).map(rowHtml).join('');
+  // 오른쪽 테이블이 비면 숨김 (검색 결과 적을 때 헤더만 뜨는 것 방지)
+  document.getElementById('tableR').style.visibility = rows.length > half ? 'visible' : 'hidden';
 
   document.getElementById('emptyMsg').style.display = rows.length ? 'none' : 'block';
   document.getElementById('metaRow').textContent =
