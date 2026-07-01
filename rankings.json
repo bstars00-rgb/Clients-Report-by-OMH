@@ -966,7 +966,38 @@
           "up": 782
         },
         "climbCount": 49,
-        "fallCount": 45
+        "fallCount": 45,
+        "actions": [
+          {
+            "key": "recRisingCity",
+            "p": {
+              "city": "Tokyo",
+              "n": 782
+            }
+          },
+          {
+            "key": "recClimber",
+            "p": {
+              "hotel": "the b ikebukuro",
+              "city": "Tokyo",
+              "n": 441
+            }
+          },
+          {
+            "key": "recNew",
+            "p": {
+              "n": 1,
+              "hotel": "Hotel Monte Hermana Tokyo"
+            }
+          },
+          {
+            "key": "recHotCity",
+            "p": {
+              "city": "Tokyo",
+              "n": 30
+            }
+          }
+        ]
       }
     },
     "Korea": {
@@ -1469,7 +1500,38 @@
           "up": 179
         },
         "climbCount": 29,
-        "fallCount": 19
+        "fallCount": 19,
+        "actions": [
+          {
+            "key": "recRisingCity",
+            "p": {
+              "city": "Seoul",
+              "n": 179
+            }
+          },
+          {
+            "key": "recClimber",
+            "p": {
+              "hotel": "The Hotel Sokcho",
+              "city": "Sokcho",
+              "n": 88
+            }
+          },
+          {
+            "key": "recHotCity",
+            "p": {
+              "city": "Seoul",
+              "n": 21
+            }
+          },
+          {
+            "key": "recFaller",
+            "p": {
+              "hotel": "Rosana Hotel",
+              "n": 30
+            }
+          }
+        ]
       }
     },
     "Vietnam": {
@@ -1981,7 +2043,38 @@
           "up": 649
         },
         "climbCount": 32,
-        "fallCount": 14
+        "fallCount": 14,
+        "actions": [
+          {
+            "key": "recRisingCity",
+            "p": {
+              "city": "Nha Trang",
+              "n": 649
+            }
+          },
+          {
+            "key": "recClimber",
+            "p": {
+              "hotel": "The Empyrean Nha Trang",
+              "city": "Nha Trang",
+              "n": 338
+            }
+          },
+          {
+            "key": "recNew",
+            "p": {
+              "n": 3,
+              "hotel": "The Sol Hotel (Formerly: An Vista Hotel)"
+            }
+          },
+          {
+            "key": "recHotCity",
+            "p": {
+              "city": "Nha Trang",
+              "n": 13
+            }
+          }
+        ]
       }
     }
   }
