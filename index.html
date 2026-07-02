@@ -293,7 +293,8 @@ const I18N = {
     moversTitle:'Movers Board', climbersLbl:'🚀 Top Climbers', newcomersLbl:'✨ New Entries', fallersLbl:'📉 Top Drops', noData:'No data',
     tabPromos:'Promotions', promoTitle:'Active Promotions', promoSub:'Live deals you can promote now · sorted by best discount · updated weekly',
     thDiscount:'Discount', thPromoCount:'Promos', thStay:'Stay Period', promoUpTo:'up to', promoFixed:'Special', promoHotelsWith:'hotels on promotion', promoMax:'max discount',
-    dealRoom:'Room', dealStay:'Stay', promoAllCities:'All cities'
+    dealRoom:'Room', dealStay:'Stay', promoAllCities:'All cities', dlPromos:'⬇ Download (CSV)',
+    csvHotel:'Hotel', csvCode:'Code', csvCity:'City', csvPromo:'Promotion', csvDiscount:'Discount', csvRoom:'Room Type', csvStayFrom:'Stay From', csvStayTo:'Stay To'
   },
   ko: {
     title:'주간 인기 호텔 랭킹', subtitle:'by OhMyHotel · 부킹 기준 주간 순위',
@@ -324,7 +325,8 @@ const I18N = {
     moversTitle:'무버스 보드', climbersLbl:'🚀 급상승', newcomersLbl:'✨ 신규 진입', fallersLbl:'📉 급락', noData:'데이터 없음',
     tabPromos:'프로모션', promoTitle:'진행 중 프로모션', promoSub:'지금 바로 판매·홍보 가능한 라이브 딜 · 최대 할인순 · 매주 업데이트',
     thDiscount:'할인', thPromoCount:'프로모션', thStay:'투숙 기간', promoUpTo:'최대', promoFixed:'특가', promoHotelsWith:'개 호텔 프로모션 중', promoMax:'최대 할인',
-    dealRoom:'룸타입', dealStay:'투숙', promoAllCities:'전체 도시'
+    dealRoom:'룸타입', dealStay:'투숙', promoAllCities:'전체 도시', dlPromos:'⬇ 다운로드 (CSV)',
+    csvHotel:'호텔', csvCode:'코드', csvCity:'도시', csvPromo:'프로모션', csvDiscount:'할인', csvRoom:'룸타입', csvStayFrom:'투숙시작', csvStayTo:'투숙종료'
   },
   zh: {
     title:'每周热销酒店排行榜', subtitle:'by OhMyHotel · 基于预订的每周排名',
@@ -355,7 +357,8 @@ const I18N = {
     moversTitle:'变动榜', climbersLbl:'🚀 上升最快', newcomersLbl:'✨ 新进榜', fallersLbl:'📉 下降最快', noData:'无数据',
     tabPromos:'促销', promoTitle:'进行中的促销', promoSub:'现在即可推广销售的实时优惠 · 按最大折扣排序 · 每周更新',
     thDiscount:'折扣', thPromoCount:'促销数', thStay:'入住期间', promoUpTo:'最高', promoFixed:'特惠', promoHotelsWith:'家酒店促销中', promoMax:'最大折扣',
-    dealRoom:'房型', dealStay:'入住', promoAllCities:'全部城市'
+    dealRoom:'房型', dealStay:'入住', promoAllCities:'全部城市', dlPromos:'⬇ 下载 (CSV)',
+    csvHotel:'酒店', csvCode:'编号', csvCity:'城市', csvPromo:'促销', csvDiscount:'折扣', csvRoom:'房型', csvStayFrom:'入住开始', csvStayTo:'入住结束'
   }
 };
 
@@ -575,6 +578,27 @@ function renderPromoRows(){
   }).join('') || '<tr><td colspan="6" class="empty">'+t('noData')+'</td></tr>';
   document.getElementById('promoMeta').textContent = t('showing')+' '+list.length+' '+t('of')+' '+(c.promotions?c.promotions.length:0);
 }
+function downloadPromos(){
+  const c = DATA.countries[country]; if(!c || !c.promotions) return;
+  const list = c.promotions.filter(p => (!promoCity || p.city===promoCity) && (!promoQ || p.hotel.toLowerCase().includes(promoQ)));
+  const esc = s => { s = String(s==null?'':s); return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; };
+  const head = [t('csvHotel'),t('csvCode'),t('csvCity'),t('csvPromo'),t('csvDiscount'),t('csvRoom'),t('csvStayFrom'),t('csvStayTo')];
+  const lines = [head.join(',')];
+  list.forEach(p => {
+    const deals = (p.deals && p.deals.length) ? p.deals : [{name:'',value:(p.maxPct!=null?('-'+p.maxPct+'%'):''),room:'',ciFrom:p.ciFrom,ciTo:p.ciTo}];
+    deals.forEach(d => {
+      lines.push([p.hotel,p.code,p.city,d.name,d.value,d.room,d.ciFrom,(d.ciTo && d.ciTo>'2098'?'':d.ciTo)].map(esc).join(','));
+    });
+  });
+  const csv = '\ufeff' + lines.join('\r\n'); // UTF-8 BOM (Excel 한글/中文/日本語 호환)
+  const blob = new Blob([csv], { type:'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const cc = (c.meta.en||country);
+  a.href = url; a.download = 'OMH_Promotions_'+cc+'_'+DATA.period.end+'.csv';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
+}
 function renderPromotions(){
   const c = DATA.countries[country]; const el=document.getElementById('viewPromos');
   if(!c){ el.innerHTML=''; return; }
@@ -590,6 +614,7 @@ function renderPromotions(){
     '<div class="promo-controls">'+
       '<select id="promoCityF" onchange="onPromoFilter()"><option value="">'+t('promoAllCities')+' ('+cities.length+')</option>'+cities.map(ct=>'<option value="'+ct.replace(/"/g,'&quot;')+'">'+ct+'</option>').join('')+'</select>'+
       '<input type="search" id="promoSearch" oninput="onPromoFilter()" placeholder="'+t('search')+'">'+
+      '<button class="btn" onclick="downloadPromos()" style="border-color:#fb7185;color:#fb7185">'+t('dlPromos')+'</button>'+
       '<span id="promoMeta" class="meta-row" style="margin:0 0 0 auto"></span>'+
     '</div>'+
     '<table><thead><tr><th>'+t('thDiscount')+'</th><th>'+t('thHotel')+'</th><th class="code">'+t('thCode')+'</th><th class="city">'+t('thCity')+'</th><th class="r">'+t('thPromoCount')+'</th><th class="city">'+t('thStay')+'</th></tr></thead><tbody id="promoTbody"></tbody></table>';
