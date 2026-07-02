@@ -8,7 +8,9 @@
   "order": [
     "Japan",
     "Korea",
-    "Vietnam"
+    "Vietnam",
+    "Hong Kong",
+    "Taiwan"
   ],
   "countries": {
     "Japan": {
@@ -59341,6 +59343,1270 @@
         "hotels": 585,
         "maxPct": 89,
         "avgPct": 36
+      }
+    },
+    "Hong Kong": {
+      "meta": {
+        "en": "Hong Kong",
+        "ko": "홍콩",
+        "zh": "香港",
+        "flag": "🇭🇰"
+      },
+      "total": 0,
+      "cities": [],
+      "hotels": [],
+      "insights": null,
+      "cityRanking": [],
+      "seasonality": null,
+      "demandIndex": [],
+      "chainRanking": [],
+      "movers": {
+        "climbers": [],
+        "fallers": [],
+        "newcomers": []
+      },
+      "promoOnly": true,
+      "promotions": [
+        {
+          "code": "107922",
+          "hotel": "Dorsett Wanchai Hong Kong",
+          "city": "Hong Kong Island",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 23,
+          "roomCount": 7,
+          "ciFrom": "2023-10-16",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "Min 4N",
+              "value": "20.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2026-01-06",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 45D",
+              "value": "25.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "EB 14D",
+              "value": "10.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Family Quadruple Room  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Family Quadruple Room  Min 2 Nights",
+              "value": "15.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Family Quadruple Room  Super Saver",
+              "value": "10.0%",
+              "room": "Deluxe Family Quadruple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Triple Room  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Deluxe Triple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Triple Room  Min 2 Nights",
+              "value": "15.0%",
+              "room": "Deluxe Triple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Deluxe Triple Room  Super Saver",
+              "value": "10.0%",
+              "room": "Deluxe Triple Room",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Executive Suite 2 Single or 1 King  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Executive Suite 2 Single or 1 King",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Premier Causeway Bay City View Room 2 Single or 1 Double  Super Saver",
+              "value": "10.0%",
+              "room": "Premier Causeway Bay City View Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Premier Causeway Bay City View Room 2 Single or 1 Double  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Premier Causeway Bay City View Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "131154",
+          "hotel": "Cosmo Hotel Hong Kong",
+          "city": "Hong Kong Island",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 16,
+          "roomCount": 6,
+          "ciFrom": "2023-10-16",
+          "ciTo": "2031-12-31",
+          "deals": [
+            {
+              "name": "Min 4N",
+              "value": "20.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2026-01-06",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 14D",
+              "value": "15.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 45D",
+              "value": "25.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Executive Room 2 Single or 1 Double  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Min 7 Nights",
+              "value": "30.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2023-11-03",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Executive Room 2 Single or 1 Double  Super Saver",
+              "value": "10.0%",
+              "room": "Executive Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Standard Room 2 Single or 1 Double  Super Saver",
+              "value": "10.0%",
+              "room": "Standard Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Standard Room 2 Single or 1 Double  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Standard Room 2 Single or 1 Double",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Studio Quad  Super Saver",
+              "value": "10.0%",
+              "room": "Studio Quad",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Studio Quad  28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Studio Quad",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Studio Triple   Super Saver",
+              "value": "10.0%",
+              "room": "Studio Triple",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            },
+            {
+              "name": "Studio Triple   28 Days Early Bird",
+              "value": "20.0%",
+              "room": "Studio Triple",
+              "ciFrom": "2023-10-16",
+              "ciTo": "2030-12-31"
+            }
+          ]
+        },
+        {
+          "code": "299239",
+          "hotel": "Dorsett Mongkok, Hong Kong",
+          "city": "Kowloon",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 6,
+          "roomCount": 5,
+          "ciFrom": "2025-01-23",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "Super Saver",
+              "value": "10.0%",
+              "room": "Family Quad",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 2nights Stay",
+              "value": "15.0%",
+              "room": "Family Quad",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 4nights Stay",
+              "value": "20.0%",
+              "room": "Family Quad",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "28days Early Bird",
+              "value": "20.0%",
+              "room": "Family Quad",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "45days Early Bird",
+              "value": "25.0%",
+              "room": "Family Quad",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 7nights Stay",
+              "value": "30.0%",
+              "room": "Room Comfort",
+              "ciFrom": "2025-01-23",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001348",
+          "hotel": "Dorsett Kai Tak, Hong Kong",
+          "city": "Kowloon",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 1,
+          "ciFrom": "2026-02-11",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "Fantastic 4 Family with BF",
+              "value": "30.0%",
+              "room": "Premier Triple Room",
+              "ciFrom": "2026-02-11",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "192303",
+          "hotel": "Silka Tsuen Wan Hong Kong",
+          "city": "Kwai Chung",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 8,
+          "roomCount": 13,
+          "ciFrom": "2025-12-05",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "Min 2N",
+              "value": "5.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2025-12-05",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 4N",
+              "value": "8.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 7N",
+              "value": "11.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 14N",
+              "value": "15.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 14D (NRF)",
+              "value": "15.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 14D",
+              "value": "8.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 21D",
+              "value": "13.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 21D (NRF)",
+              "value": "20.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-02-19",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "599412",
+          "hotel": "The Harbourview",
+          "city": "Hong Kong Island",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 7,
+          "roomCount": 4,
+          "ciFrom": "2026-04-01",
+          "ciTo": "2027-03-31",
+          "deals": [
+            {
+              "name": "Early Bird 45Days",
+              "value": "10.0%",
+              "room": "Harbour View Room",
+              "ciFrom": "2026-04-27",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "Early Bird 60Days",
+              "value": "15.0%",
+              "room": "Harbour View Room",
+              "ciFrom": "2026-04-27",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "Early Bird 90Days",
+              "value": "20.0%",
+              "room": "Harbour View Room",
+              "ciFrom": "2026-04-27",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "Bassic Promotion",
+              "value": "0.0%",
+              "room": "Premier Plus Room",
+              "ciFrom": "2026-04-01",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "EB 45Days",
+              "value": "10.0%",
+              "room": "Premier Twin Room",
+              "ciFrom": "2026-04-01",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "EB 60Days",
+              "value": "15.0%",
+              "room": "Premier Twin Room",
+              "ciFrom": "2026-04-01",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "EB 90Days",
+              "value": "20.0%",
+              "room": "Premier Twin Room",
+              "ciFrom": "2026-04-01",
+              "ciTo": "2027-03-31"
+            }
+          ]
+        },
+        {
+          "code": "162705",
+          "hotel": "Silka Far East Hotel Hong Kong",
+          "city": "Tsuen Wan",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 6,
+          "roomCount": 7,
+          "ciFrom": "2025-12-05",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "Min 2N",
+              "value": "5.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2025-12-05",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 14D",
+              "value": "15.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2025-12-05",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 4N",
+              "value": "8.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 7N",
+              "value": "11.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 14N",
+              "value": "15.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 14D",
+              "value": "8.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 21D",
+              "value": "20.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Early Bird 21D",
+              "value": "13.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-02",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "120168",
+          "hotel": "Kowloon Harbourfront Hotel",
+          "city": "Kowloon",
+          "maxPct": 15,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 4,
+          "ciFrom": "2026-04-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "Min 3 Nights Non-Refundable",
+              "value": "15.0%",
+              "room": "2-Bedroom Cityview Suite",
+              "ciFrom": "2026-04-29",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "6 Days Last Minute Non-Refundable",
+              "value": "10.0%",
+              "room": "2-Bedroom Cityview Suite",
+              "ciFrom": "2026-04-29",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "7 Days Early Bird Non-Refundable",
+              "value": "15.0%",
+              "room": "2-Bedroom Cityview Suite",
+              "ciFrom": "2026-04-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "838798",
+          "hotel": "Harbour Plaza Metropolis",
+          "city": "Kowloon",
+          "maxPct": 15,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 5,
+          "ciFrom": "2026-04-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "7 Days Early Bird Non-Refundable",
+              "value": "15.0%",
+              "room": "Deluxe Room",
+              "ciFrom": "2026-04-29",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "6 Days Last Minute Non-Refundable",
+              "value": "10.0%",
+              "room": "Deluxe Room",
+              "ciFrom": "2026-04-29",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 3N (NRF)",
+              "value": "15.0%",
+              "room": "Deluxe Room",
+              "ciFrom": "2026-05-08",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "162673",
+          "hotel": "Rambler Garden Hotel",
+          "city": "Tsing Yi",
+          "maxPct": 12,
+          "hasFixed": false,
+          "promoCount": 8,
+          "roomCount": 5,
+          "ciFrom": "2025-12-30",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "Basic Promotion",
+              "value": "5.0%",
+              "room": "Business Room",
+              "ciFrom": "2026-04-14",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 2N",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "EB 45D",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "EB 30D",
+              "value": "9.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "EB 14D",
+              "value": "7.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 14D",
+              "value": "12.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 7N",
+              "value": "11.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 3N",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "171101",
+          "hotel": "Rambler Oasis Hotel",
+          "city": "Tsing Yi",
+          "maxPct": 12,
+          "hasFixed": false,
+          "promoCount": 8,
+          "roomCount": 5,
+          "ciFrom": "2025-12-30",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "Basic Promotion",
+              "value": "5.0%",
+              "room": "Business Room",
+              "ciFrom": "2026-04-14",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 2N",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "EB 45D",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "EB 30D",
+              "value": "9.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "EB 14D",
+              "value": "7.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 14N",
+              "value": "12.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 7N",
+              "value": "11.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 3N",
+              "value": "10.0%",
+              "room": "Business Room",
+              "ciFrom": "2025-12-30",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "208498",
+          "hotel": "Warwick Hotel Cheung Chau",
+          "city": "Cheung Chau",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 15,
+          "roomCount": 7,
+          "ciFrom": "2026-04-13",
+          "ciTo": "2026-06-30",
+          "deals": [
+            {
+              "name": "Early Bird 5D",
+              "value": "5.0%",
+              "room": "Deluxe Family Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Min 2N",
+              "value": "10.0%",
+              "room": "Deluxe Family Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Family Suite with Breakfast 7 Days Early Bird Non-Refundable",
+              "value": "10.0%",
+              "room": "Deluxe Family Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Family Suite Room Only 7 Days Early Bird Non-Refundable",
+              "value": "5.0%",
+              "room": "Deluxe Family Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Ocean View Room with Balcony (Room Only)- 7 Days Early Bird Non-Refundable",
+              "value": "5.0%",
+              "room": "Deluxe Ocean View Room with Balcony",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Ocean View Room with Balcony (include Breakfast)- 7 Days Early Bird Non-Refundable",
+              "value": "10.0%",
+              "room": "Deluxe Ocean View Room with Balcony",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Suite  (include Breakfast)- 7 Days Early Bird Non-Refundable",
+              "value": "10.0%",
+              "room": "Deluxe Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Deluxe Suite  (Room Only)- 7 Days Early Bird Non-Refundable",
+              "value": "5.0%",
+              "room": "Deluxe Suite",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Family Room    7 Days Early Bird Non-Refundable",
+              "value": "10.0%",
+              "room": "Family Room",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Family Room    7 Days Early Bird Non-Refundable",
+              "value": "5.0%",
+              "room": "Family Room",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Standard Double Mountain View  (include Breakfast)- 7 Days Early Bird Non-Refundable",
+              "value": "10.0%",
+              "room": "Standard Double Mountain View",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "Standard Double Mountain View  (Room Only)- 7 Days Early Bird Non-Refundable",
+              "value": "5.0%",
+              "room": "Standard Double Mountain View",
+              "ciFrom": "2026-04-13",
+              "ciTo": "2026-06-30"
+            }
+          ]
+        },
+        {
+          "code": "461336",
+          "hotel": "Tung Nam Lou Art Hotel",
+          "city": "Kowloon",
+          "maxPct": 8,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 9,
+          "ciFrom": "2026-05-13",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "EB  14D",
+              "value": "8.0%",
+              "room": "(Signature Studio) EAST ROOM",
+              "ciFrom": "2026-05-13",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Basic Promotion",
+              "value": "5.0%",
+              "room": "(Signature Studio) EAST ROOM",
+              "ciFrom": "2026-05-13",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Min 3N only for Korea",
+              "value": "8.0%",
+              "room": "(Signature Studio) EAST ROOM",
+              "ciFrom": "2026-05-13",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "104233",
+          "hotel": "The Kowloon Hotel",
+          "city": "Kowloon",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 2,
+          "ciFrom": "2026-04-02",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "Korea FIT Campaign",
+              "value": "",
+              "room": "Deluxe Twin Room",
+              "ciFrom": "2026-05-01",
+              "ciTo": "2026-09-30"
+            },
+            {
+              "name": "Min 3N Korea FIT",
+              "value": "",
+              "room": "Deluxe Twin Room",
+              "ciFrom": "2026-05-01",
+              "ciTo": "2026-09-30"
+            },
+            {
+              "name": "Asia Escape FIT Campaign (for Korea market)",
+              "value": "",
+              "room": "Deluxe Twin Room",
+              "ciFrom": "2026-04-02",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
+          "code": "534247",
+          "hotel": "Hotel Alexandra",
+          "city": "Hong Kong Island",
+          "maxPct": null,
+          "hasFixed": true,
+          "promoCount": 3,
+          "roomCount": 3,
+          "ciFrom": "2026-04-14",
+          "ciTo": "2027-03-31",
+          "deals": [
+            {
+              "name": "Delighted Cake Set with coffee or tea for 2 person and room upgrade to a Clover Seaview room",
+              "value": "HKD 200.0",
+              "room": "Clover Seaview Room",
+              "ciFrom": "2026-04-14",
+              "ciTo": "2026-09-30"
+            },
+            {
+              "name": "Free upgrade to Clover Seaview Room",
+              "value": "HKD 200.0",
+              "room": "Clover Seaview Room",
+              "ciFrom": "2026-10-01",
+              "ciTo": "2027-03-31"
+            },
+            {
+              "name": "Delighted Cake Set with Coffee or Tea for 2 person",
+              "value": "",
+              "room": "Clover City View Room",
+              "ciFrom": "2026-10-01",
+              "ciTo": "2027-03-31"
+            }
+          ]
+        },
+        {
+          "code": "218035",
+          "hotel": "Harbour Grand Kowloon",
+          "city": "Kowloon",
+          "maxPct": null,
+          "hasFixed": true,
+          "promoCount": 1,
+          "roomCount": 1,
+          "ciFrom": "2026-06-08",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "upgrade to Deluxe Harbourview Room for a minimum stay of 3 consecutive nights",
+              "value": "HKD 400.0",
+              "room": "Deluxe  Harbour View",
+              "ciFrom": "2026-06-08",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        }
+      ],
+      "promoCities": [
+        "Cheung Chau",
+        "Hong Kong Island",
+        "Kowloon",
+        "Kwai Chung",
+        "Tsing Yi",
+        "Tsuen Wan"
+      ],
+      "promoSummary": {
+        "hotels": 16,
+        "maxPct": 30,
+        "avgPct": 19
+      }
+    },
+    "Taiwan": {
+      "meta": {
+        "en": "Taiwan",
+        "ko": "대만",
+        "zh": "台湾",
+        "flag": "🇹🇼"
+      },
+      "total": 0,
+      "cities": [],
+      "hotels": [],
+      "insights": null,
+      "cityRanking": [],
+      "seasonality": null,
+      "demandIndex": [],
+      "chainRanking": [],
+      "movers": {
+        "climbers": [],
+        "fallers": [],
+        "newcomers": []
+      },
+      "promoOnly": true,
+      "promotions": [
+        {
+          "code": "177689",
+          "hotel": "Legend Hotel Pier 2",
+          "city": "Kaohsiung",
+          "maxPct": 46,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 10,
+          "ciFrom": "2025-05-08",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "ALLROOMTYPE BASIC PROMOTION40%OFF",
+              "value": "40.0%",
+              "room": "Budget Single Room",
+              "ciFrom": "2025-05-08",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "MEMBER ONLY PROMOTION",
+              "value": "46.0%",
+              "room": "Budget Single Room",
+              "ciFrom": "2025-05-08",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "496986",
+          "hotel": "Dandy Hotel Daan Park Branch",
+          "city": "Taipei",
+          "maxPct": 42,
+          "hasFixed": false,
+          "promoCount": 6,
+          "roomCount": 9,
+          "ciFrom": "2025-05-20",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "14 Days Last Minute",
+              "value": "40.0%",
+              "room": "City View Deluxe Double Room",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "15 Days Early Bird",
+              "value": "42.0%",
+              "room": "City View Deluxe Double Room",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Deluxe Room with Park View   14 Days Last Minute",
+              "value": "40.0%",
+              "room": "Deluxe Room with Park View",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Deluxe Room with Park View   15 Days Early Bird",
+              "value": "42.0%",
+              "room": "Deluxe Room with Park View",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Elite Twin Room with Park View   15 Days Early Bird",
+              "value": "42.0%",
+              "room": "Elite Twin Room with Park View",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Elite Twin Room with Park View   14 Days Last Minute",
+              "value": "40.0%",
+              "room": "Elite Twin Room with Park View",
+              "ciFrom": "2025-05-20",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "906917",
+          "hotel": "Solaria Nishitetsu Hotel Taipei Ximen",
+          "city": "Taipei",
+          "maxPct": 36,
+          "hasFixed": false,
+          "promoCount": 5,
+          "roomCount": 9,
+          "ciFrom": "2026-05-14",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "Basic Promotion",
+              "value": "20.0%",
+              "room": "Corner Trip Triple Room",
+              "ciFrom": "2026-05-14",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "30 Days Early Bird",
+              "value": "30.0%",
+              "room": "Corner Trip Triple Room",
+              "ciFrom": "2026-05-14",
+              "ciTo": "2027-12-24"
+            },
+            {
+              "name": "14Days Last Minute",
+              "value": "27.0%",
+              "room": "Corner Trip Triple Room",
+              "ciFrom": "2026-05-14",
+              "ciTo": "2027-12-24"
+            },
+            {
+              "name": "Min 3 Nights",
+              "value": "36.0%",
+              "room": "Corner Trip Triple Room",
+              "ciFrom": "2026-05-14",
+              "ciTo": "2027-12-29"
+            },
+            {
+              "name": "Min 2 Nights",
+              "value": "32.0%",
+              "room": "Corner Trip Triple Room",
+              "ciFrom": "2026-05-14",
+              "ciTo": "2027-12-24"
+            }
+          ]
+        },
+        {
+          "code": "250361",
+          "hotel": "Hua Shan Din by Cosmos Creation",
+          "city": "Taipei",
+          "maxPct": 13,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 8,
+          "ciFrom": "2025-09-04",
+          "ciTo": "2026-12-17",
+          "deals": [
+            {
+              "name": "早鳥30天優惠",
+              "value": "10.0%",
+              "room": "Standard Double",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "早鳥60天優惠",
+              "value": "13.0%",
+              "room": "Standard Double",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "連住3晚優惠",
+              "value": "5.0%",
+              "room": "Standard Double",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            }
+          ]
+        },
+        {
+          "code": "264330",
+          "hotel": "Taipei Garden Hotel",
+          "city": "Taipei",
+          "maxPct": 13,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 6,
+          "ciFrom": "2025-09-03",
+          "ciTo": "2026-12-17",
+          "deals": [
+            {
+              "name": "連住3晚優惠",
+              "value": "5.0%",
+              "room": "Luxury Double",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "早鳥60天",
+              "value": "13.0%",
+              "room": "Luxury Double",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-06-30"
+            },
+            {
+              "name": "早鳥30天優惠",
+              "value": "10.0%",
+              "room": "Luxury Double",
+              "ciFrom": "2025-09-03",
+              "ciTo": "2026-12-17"
+            }
+          ]
+        },
+        {
+          "code": "526307",
+          "hotel": "Cosmos Hotel Taipei",
+          "city": "Taipei",
+          "maxPct": 13,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 8,
+          "ciFrom": "2025-09-04",
+          "ciTo": "2026-12-17",
+          "deals": [
+            {
+              "name": "早鳥30天優惠",
+              "value": "10.0%",
+              "room": "Deluxe Triple",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "早鳥60天優惠",
+              "value": "13.0%",
+              "room": "Deluxe Triple",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "連住3晚優惠",
+              "value": "5.0%",
+              "room": "Deluxe Triple",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            }
+          ]
+        },
+        {
+          "code": "685113",
+          "hotel": "Bee House Taipei",
+          "city": "Taipei",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 5,
+          "ciFrom": "2025-09-04",
+          "ciTo": "2026-12-17",
+          "deals": [
+            {
+              "name": "連住3晚優惠",
+              "value": "5.0%",
+              "room": "Deluxe Triple",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            },
+            {
+              "name": "早鳥30天優惠",
+              "value": "10.0%",
+              "room": "Deluxe Triple",
+              "ciFrom": "2025-09-04",
+              "ciTo": "2026-12-17"
+            }
+          ]
+        },
+        {
+          "code": "142206",
+          "hotel": "Le Room Hotel Taoyuan",
+          "city": "Taoyuan City",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 5,
+          "ciFrom": "2026-01-01",
+          "ciTo": "2026-06-30",
+          "deals": [
+            {
+              "name": "2026 New Year Promotion",
+              "value": "10.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-01-01",
+              "ciTo": "2026-06-30"
+            }
+          ]
+        },
+        {
+          "code": "750081",
+          "hotel": "Xinshe Hotel - Linsen",
+          "city": "Taipei",
+          "maxPct": 9,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 5,
+          "ciFrom": "2026-01-13",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "Min 3N Promotion",
+              "value": "9.0%",
+              "room": "Deluxe Double Room",
+              "ciFrom": "2026-01-13",
+              "ciTo": "2026-08-31"
+            }
+          ]
+        }
+      ],
+      "promoCities": [
+        "Kaohsiung",
+        "Taipei",
+        "Taoyuan City"
+      ],
+      "promoSummary": {
+        "hotels": 9,
+        "maxPct": 46,
+        "avgPct": 21
       }
     }
   }
