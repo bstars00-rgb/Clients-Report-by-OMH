@@ -1340,6 +1340,76 @@
             "pct": 0
           }
         ],
+        "losDist": [
+          {
+            "nights": "1",
+            "pct": 41.3
+          },
+          {
+            "nights": "2",
+            "pct": 27.8
+          },
+          {
+            "nights": "3",
+            "pct": 16.3
+          },
+          {
+            "nights": "4+",
+            "pct": 14.6
+          }
+        ],
+        "leadDist": [
+          {
+            "band": "<7",
+            "pct": 22
+          },
+          {
+            "band": "7-14",
+            "pct": 13.2
+          },
+          {
+            "band": "15-30",
+            "pct": 17.5
+          },
+          {
+            "band": "31-60",
+            "pct": 18.5
+          },
+          {
+            "band": "60+",
+            "pct": 28.8
+          }
+        ],
+        "dowDist": [
+          {
+            "dow": 0,
+            "pct": 13.9
+          },
+          {
+            "dow": 1,
+            "pct": 12.5
+          },
+          {
+            "dow": 2,
+            "pct": 11.8
+          },
+          {
+            "dow": 3,
+            "pct": 12.5
+          },
+          {
+            "dow": 4,
+            "pct": 12.5
+          },
+          {
+            "dow": 5,
+            "pct": 15.1
+          },
+          {
+            "dow": 6,
+            "pct": 21.7
+          }
+        ],
         "avgLeadDays": 50,
         "avgLOS": 2.2
       },
@@ -27035,139 +27105,150 @@
           "hotel": "AMANEK Beppu YULA-RE",
           "code": "713510",
           "city": "Beppu",
-          "roomType": "Standard King Non Smoking"
+          "roomTypes": [
+            "Standard King Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Monte Hermana Fukuoka",
           "code": "163030",
           "city": "Fukuoka",
-          "roomType": "Run of House"
+          "roomTypes": [
+            "Run of House"
+          ]
         },
         {
           "hotel": "Hotel Monterey Fukuoka",
           "code": "552124",
           "city": "Fukuoka",
-          "roomType": "Moderate Twin (Non Smoking)"
-        },
-        {
-          "hotel": "Hotel Monterey Fukuoka",
-          "code": "552124",
-          "city": "Fukuoka",
-          "roomType": "Superior Twin (Non Smoking)"
+          "roomTypes": [
+            "Superior Twin (Non Smoking)",
+            "Moderate Twin (Non Smoking)"
+          ]
         },
         {
           "hotel": "Hotel Monterey La Soeur Fukuoka",
           "code": "169327",
           "city": "Fukuoka",
-          "roomType": "Standard Semi Double (Non Smoking)"
+          "roomTypes": [
+            "Standard Semi Double (Non Smoking)"
+          ]
         },
         {
           "hotel": "Hotel Oriental Express Fukuoka Nakasu Kawabata",
           "code": "687288",
           "city": "Fukuoka",
-          "roomType": "Standard Double (Non-Smoking)"
+          "roomTypes": [
+            "Standard Double (Non-Smoking)"
+          ]
         },
         {
           "hotel": "Hotel Oriental Express Fukuoka Tenjin",
           "code": "693407",
           "city": "Fukuoka",
-          "roomType": "Standard Double (Non-Smoking)"
+          "roomTypes": [
+            "Standard Double (Non-Smoking)"
+          ]
         },
         {
           "hotel": "Oriental Hotel Fukuoka Hakata Station",
           "code": "399985",
           "city": "Fukuoka",
-          "roomType": "Moderate Twin (Non-Smoking)"
-        },
-        {
-          "hotel": "Oriental Hotel Fukuoka Hakata Station",
-          "code": "399985",
-          "city": "Fukuoka",
-          "roomType": "Standard Double (Non-Smoking)"
+          "roomTypes": [
+            "Standard Double (Non-Smoking)",
+            "Moderate Twin (Non-Smoking)"
+          ]
         },
         {
           "hotel": "Washington R&B Hotel Hakataekimae Dai 2",
           "code": "279206",
           "city": "Fukuoka",
-          "roomType": "Connecting Room (Non Smoking)"
-        },
-        {
-          "hotel": "Washington R&B Hotel Hakataekimae Dai 2",
-          "code": "279206",
-          "city": "Fukuoka",
-          "roomType": "Semi Double (Non Smoking)"
+          "roomTypes": [
+            "Semi Double (Non Smoking)",
+            "Connecting Room (Non Smoking)"
+          ]
         },
         {
           "hotel": "Hotel Monterey La Soeur Naha",
           "code": "1001620",
           "city": "Naha",
-          "roomType": "King Double Non Smoking"
-        },
-        {
-          "hotel": "Hotel Monterey La Soeur Naha",
-          "code": "1001620",
-          "city": "Naha",
-          "roomType": "Standard Twin Room Non Smoking"
+          "roomTypes": [
+            "King Double Non Smoking",
+            "Standard Twin Room Non Smoking"
+          ]
         },
         {
           "hotel": "HOTEL AMANEK Asakusa Sakurabashi",
           "code": "1001587",
           "city": "Tokyo",
-          "roomType": "Standard Double Non Smoking"
+          "roomTypes": [
+            "Standard Double Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Amanek Shinjuku Kabukicho",
           "code": "834452",
           "city": "Tokyo",
-          "roomType": "Standard Queen Non Smoking"
+          "roomTypes": [
+            "Standard Queen Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Monterey Akasaka",
           "code": "167121",
           "city": "Tokyo",
-          "roomType": "Standard Double Non Smoking"
+          "roomTypes": [
+            "Standard Double Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Monterey Hanzomon",
           "code": "155719",
           "city": "Tokyo",
-          "roomType": "Standard Double Non Smoking"
+          "roomTypes": [
+            "Standard Double Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Monterey La Soeur Ginza",
           "code": "177974",
           "city": "Tokyo",
-          "roomType": "Semi Double Non Smoking"
+          "roomTypes": [
+            "Semi Double Non Smoking"
+          ]
         },
         {
           "hotel": "Hotel Sunroute Plaza Shinjuku",
           "code": "181491",
           "city": "Tokyo",
-          "roomType": "Economy Double Non Smoking"
-        },
-        {
-          "hotel": "Hotel Sunroute Plaza Shinjuku",
-          "code": "181491",
-          "city": "Tokyo",
-          "roomType": "Standard Twin Non Smoking"
+          "roomTypes": [
+            "Economy Double Non Smoking",
+            "Standard Twin Non Smoking"
+          ]
         },
         {
           "hotel": "Pearl Hotel Shinjuku Akebonobashi",
           "code": "350682",
           "city": "Tokyo",
-          "roomType": "Semi Double Room Non Smoking"
+          "roomTypes": [
+            "Semi Double Room Non Smoking"
+          ]
         },
         {
           "hotel": "Sotetsu Fresa Inn Ginza Nanachome",
           "code": "158197",
           "city": "Tokyo",
-          "roomType": "Comfort Double Non Smoking"
+          "roomTypes": [
+            "Comfort Double Non Smoking"
+          ]
         },
         {
           "hotel": "Sotetsu Fresa Inn Tokyo Roppongi",
           "code": "204439",
           "city": "Tokyo",
-          "roomType": "Double Non Smoking"
+          "roomTypes": [
+            "Double Non Smoking"
+          ]
         }
       ],
       "hbCities": [
@@ -27995,6 +28076,76 @@
           {
             "month": "2027-06",
             "pct": 0.3
+          }
+        ],
+        "losDist": [
+          {
+            "nights": "1",
+            "pct": 52.3
+          },
+          {
+            "nights": "2",
+            "pct": 25.7
+          },
+          {
+            "nights": "3",
+            "pct": 11.5
+          },
+          {
+            "nights": "4+",
+            "pct": 10.4
+          }
+        ],
+        "leadDist": [
+          {
+            "band": "<7",
+            "pct": 35
+          },
+          {
+            "band": "7-14",
+            "pct": 13
+          },
+          {
+            "band": "15-30",
+            "pct": 18.4
+          },
+          {
+            "band": "31-60",
+            "pct": 21.7
+          },
+          {
+            "band": "60+",
+            "pct": 11.8
+          }
+        ],
+        "dowDist": [
+          {
+            "dow": 0,
+            "pct": 13.8
+          },
+          {
+            "dow": 1,
+            "pct": 12.7
+          },
+          {
+            "dow": 2,
+            "pct": 11.3
+          },
+          {
+            "dow": 3,
+            "pct": 12.1
+          },
+          {
+            "dow": 4,
+            "pct": 12.4
+          },
+          {
+            "dow": 5,
+            "pct": 18.7
+          },
+          {
+            "dow": 6,
+            "pct": 19
           }
         ],
         "avgLeadDays": 28,
@@ -38426,55 +38577,52 @@
           "hotel": "Felix by STX Hotel & Suite",
           "code": "665136",
           "city": "Busan",
-          "roomType": "Family Loft Suite (Non-smoking)"
-        },
-        {
-          "hotel": "Felix by STX Hotel & Suite",
-          "code": "665136",
-          "city": "Busan",
-          "roomType": "Studio Loft Deluxe (Non-smoking)"
+          "roomTypes": [
+            "Studio Loft Deluxe (Non-smoking)",
+            "Family Loft Suite (Non-smoking)"
+          ]
         },
         {
           "hotel": "Skybay Hotel Gyeongpo",
           "code": "241059",
           "city": "Gangneung",
-          "roomType": "Lake view Deluxe Double (Non Smoking)"
+          "roomTypes": [
+            "Lake view Deluxe Double (Non Smoking)"
+          ]
         },
         {
           "hotel": "Fraser Place Namdaemun Seoul",
           "code": "725676",
           "city": "Seoul",
-          "roomType": "Superior Double (Non-smoking)"
+          "roomTypes": [
+            "Superior Double (Non-smoking)"
+          ]
         },
         {
           "hotel": "N285 Hotel Insadong",
           "code": "812953",
           "city": "Seoul",
-          "roomType": "DOUBLE A (H2)"
+          "roomTypes": [
+            "DOUBLE A (H2)"
+          ]
         },
         {
           "hotel": "Roynet Hotel Seoul Mapo",
           "code": "741474",
           "city": "Seoul",
-          "roomType": "Deluxe Twin (Non Smoking)"
-        },
-        {
-          "hotel": "Roynet Hotel Seoul Mapo",
-          "code": "741474",
-          "city": "Seoul",
-          "roomType": "Standard Double (Non Smoking)"
-        },
-        {
-          "hotel": "Roynet Hotel Seoul Mapo",
-          "code": "741474",
-          "city": "Seoul",
-          "roomType": "Standard Twin(Non Smoking)"
+          "roomTypes": [
+            "Standard Twin(Non Smoking)",
+            "Standard Double (Non Smoking)",
+            "Deluxe Twin (Non Smoking)"
+          ]
         },
         {
           "hotel": "The Stay Classic Myeongdong",
           "code": "886479",
           "city": "Seoul",
-          "roomType": "Deluxe Twin (H) No Parking"
+          "roomTypes": [
+            "Deluxe Twin (H) No Parking"
+          ]
         }
       ],
       "hbCities": [
@@ -39306,6 +39454,76 @@
           {
             "month": "2027-04",
             "pct": 0.1
+          }
+        ],
+        "losDist": [
+          {
+            "nights": "1",
+            "pct": 50.4
+          },
+          {
+            "nights": "2",
+            "pct": 25.4
+          },
+          {
+            "nights": "3",
+            "pct": 14.1
+          },
+          {
+            "nights": "4+",
+            "pct": 10.2
+          }
+        ],
+        "leadDist": [
+          {
+            "band": "<7",
+            "pct": 42.9
+          },
+          {
+            "band": "7-14",
+            "pct": 12
+          },
+          {
+            "band": "15-30",
+            "pct": 17.3
+          },
+          {
+            "band": "31-60",
+            "pct": 11.4
+          },
+          {
+            "band": "60+",
+            "pct": 16.4
+          }
+        ],
+        "dowDist": [
+          {
+            "dow": 0,
+            "pct": 11.9
+          },
+          {
+            "dow": 1,
+            "pct": 12.6
+          },
+          {
+            "dow": 2,
+            "pct": 11.1
+          },
+          {
+            "dow": 3,
+            "pct": 12.2
+          },
+          {
+            "dow": 4,
+            "pct": 14.2
+          },
+          {
+            "dow": 5,
+            "pct": 18.7
+          },
+          {
+            "dow": 6,
+            "pct": 19.3
           }
         ],
         "avgLeadDays": 30,
