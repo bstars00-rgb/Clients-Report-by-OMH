@@ -12,10 +12,10 @@ permissions:
   pages: write
   id-token: write
 
-# 동시 배포 1건만 (중복 방지)
+# 동시 배포 제어 — 진행 중 배포를 취소하지 않음 (Pages environment 꼬임 방지, GitHub 공식 권장)
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
