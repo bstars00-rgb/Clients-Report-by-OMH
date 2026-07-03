@@ -518,11 +518,10 @@ function render(){
   const rowHtml = (h) => {
     const topCls = h.rank <= 3 ? ' class="topglow"' : '';
     const nb = h.isNew ? ' <span class="newbadge">'+t('newTxt')+'</span>' : '';
-    const pb = (h.promoPct != null) ? ' <span class="promo-badge" title="'+t('tabPromos')+'">-'+h.promoPct+'%</span>' : '';
     return '<tr'+topCls+'>'+
       '<td class="rank" style="text-align:right">'+medal(h.rank)+'</td>'+
       '<td class="change">'+changeCell(h)+'</td>'+
-      '<td class="hotel">'+escapeHtml(h.hotel)+nb+pb+'</td>'+
+      '<td class="hotel">'+escapeHtml(h.hotel)+nb+'</td>'+
       '<td class="code">'+(h.code ? escapeHtml(h.code) : '—')+'</td>'+
       '<td class="city">'+escapeHtml(h.city)+'</td>'+
     '</tr>';
