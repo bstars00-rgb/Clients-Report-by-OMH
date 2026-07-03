@@ -5,7 +5,7 @@
   },
   "generated": "2026-06-27",
   "promoFolder": "2026년 6월 29일",
-  "hbFolder": "HardBlock",
+  "hbFolder": "[Ohmyhotel] Hardblock Allotment Report - 2026-06-29",
   "order": [
     "Japan",
     "Korea",
@@ -27178,6 +27178,74 @@
           ]
         },
         {
+          "hotel": "Daiwa Roynet Hotel Osaka Sakaisuji Honmachi PREMIER",
+          "code": "725693",
+          "city": "Osaka",
+          "roomTypes": [
+            "Moderate Double Non Smoking",
+            "Moderate Twin Non Smoking"
+          ]
+        },
+        {
+          "hotel": "Daiwa Roynet Hotel Osaka Uehonmachi",
+          "code": "453378",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Double Non Smoking"
+          ]
+        },
+        {
+          "hotel": "Hotel AMANEK Osaka Namba",
+          "code": "1001586",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Double (Non Smoking)",
+            "Superior Twin (Non Smoking)"
+          ]
+        },
+        {
+          "hotel": "KOKO HOTEL Osaka Namba Sennichimae",
+          "code": "1001365",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Twin Non Smoking (MAIN)"
+          ]
+        },
+        {
+          "hotel": "KOKO HOTEL Osaka Shinsaibashi",
+          "code": "768491",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Double (Non Smoking)",
+            "Moderate Queen (Non Smoking)"
+          ]
+        },
+        {
+          "hotel": "Shin Osaka Washington Hotel Plaza",
+          "code": "551313",
+          "city": "Osaka",
+          "roomTypes": [
+            "(A)Semi Double Room Non Smoking"
+          ]
+        },
+        {
+          "hotel": "Smile Hotel Osaka Yotsubashi",
+          "code": "763368",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Double Non Smoking"
+          ]
+        },
+        {
+          "hotel": "Smile Hotel Premium Osaka Higashi Shinsaibashi",
+          "code": "285030",
+          "city": "Osaka",
+          "roomTypes": [
+            "Standard Double (Non Smoking)",
+            "Standard Twin (Non Smoking)"
+          ]
+        },
+        {
           "hotel": "HOTEL AMANEK Asakusa Sakurabashi",
           "code": "1001587",
           "city": "Tokyo",
@@ -27255,11 +27323,12 @@
         "Beppu",
         "Fukuoka",
         "Naha",
+        "Osaka",
         "Tokyo"
       ],
       "hbSummary": {
-        "hotels": 18,
-        "roomTypes": 23
+        "hotels": 26,
+        "roomTypes": 35
       }
     },
     "Korea": {
@@ -58795,9 +58864,24 @@
         "maxPct": 89,
         "avgPct": 36
       },
-      "hardblock": [],
-      "hbCities": [],
-      "hbSummary": null
+      "hardblock": [
+        {
+          "hotel": "Seaesta Hotel Nha Trang",
+          "code": "886622",
+          "city": "Nha Trang",
+          "roomTypes": [
+            "Deluxe Double City View - ALTM",
+            "Deluxe Twin City View - ALTM"
+          ]
+        }
+      ],
+      "hbCities": [
+        "Nha Trang"
+      ],
+      "hbSummary": {
+        "hotels": 1,
+        "roomTypes": 2
+      }
     },
     "Hong Kong": {
       "meta": {
