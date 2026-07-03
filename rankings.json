@@ -5,6 +5,7 @@
   },
   "generated": "2026-06-27",
   "promoFolder": "2026년 6월 29일",
+  "hbFolder": "HardBlock",
   "order": [
     "Japan",
     "Korea",
@@ -27354,6 +27355,762 @@
         "hotels": 700,
         "maxPct": 75,
         "avgPct": 25
+      },
+      "hardblock": [
+        {
+          "code": "552124",
+          "hotel": "Hotel Monterey Fukuoka",
+          "city": "Fukuoka",
+          "total": 5387,
+          "avail": 3901,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 10
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 294
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 638
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 743
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 730
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 713
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 773
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Superior Twin (Non Smoking)",
+              "total": 3074,
+              "avail": 2275
+            },
+            {
+              "roomType": "Moderate Twin (Non Smoking)",
+              "total": 2313,
+              "avail": 1626
+            }
+          ]
+        },
+        {
+          "code": "350682",
+          "hotel": "Pearl Hotel Shinjuku Akebonobashi",
+          "city": "Tokyo",
+          "total": 4048,
+          "avail": 3211,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 25
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 444
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 613
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 598
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 461
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 450
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 620
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Semi Double Room Non Smoking",
+              "total": 4048,
+              "avail": 3211
+            }
+          ]
+        },
+        {
+          "code": "155719",
+          "hotel": "Hotel Monterey Hanzomon",
+          "city": "Tokyo",
+          "total": 2103,
+          "avail": 1707,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 20
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 182
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 285
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 300
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 310
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 300
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 310
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double Non Smoking",
+              "total": 2103,
+              "avail": 1707
+            }
+          ]
+        },
+        {
+          "code": "687288",
+          "hotel": "Hotel Oriental Express Fukuoka Nakasu Kawabata",
+          "city": "Fukuoka",
+          "total": 2140,
+          "avail": 1641,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jul 2026",
+              "avail": 187
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 252
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 298
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 300
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 295
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 309
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double (Non-Smoking)",
+              "total": 2140,
+              "avail": 1641
+            }
+          ]
+        },
+        {
+          "code": "163030",
+          "hotel": "Hotel Monte Hermana Fukuoka",
+          "city": "Fukuoka",
+          "total": 2142,
+          "avail": 1600,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 13
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 202
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 258
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 300
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 289
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 235
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 303
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Run of House",
+              "total": 2142,
+              "avail": 1600
+            }
+          ]
+        },
+        {
+          "code": "399985",
+          "hotel": "Oriental Hotel Fukuoka Hakata Station",
+          "city": "Fukuoka",
+          "total": 2284,
+          "avail": 1600,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 4
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 141
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 255
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 293
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 297
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 300
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 310
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double (Non-Smoking)",
+              "total": 1541,
+              "avail": 1130
+            },
+            {
+              "roomType": "Moderate Twin (Non-Smoking)",
+              "total": 743,
+              "avail": 470
+            }
+          ]
+        },
+        {
+          "code": "693407",
+          "hotel": "Hotel Oriental Express Fukuoka Tenjin",
+          "city": "Fukuoka",
+          "total": 2240,
+          "avail": 1586,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jul 2026",
+              "avail": 142
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 258
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 297
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 279
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 300
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 310
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double (Non-Smoking)",
+              "total": 2240,
+              "avail": 1586
+            }
+          ]
+        },
+        {
+          "code": "167121",
+          "hotel": "Hotel Monterey Akasaka",
+          "city": "Tokyo",
+          "total": 1625,
+          "avail": 1413,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 26
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 179
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 239
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 239
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 244
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 238
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 248
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double Non Smoking",
+              "total": 1625,
+              "avail": 1413
+            }
+          ]
+        },
+        {
+          "code": "177974",
+          "hotel": "Hotel Monterey La Soeur Ginza",
+          "city": "Tokyo",
+          "total": 1627,
+          "avail": 1402,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 11
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 170
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 248
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 240
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 248
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 240
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 245
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Semi Double Non Smoking",
+              "total": 1627,
+              "avail": 1402
+            }
+          ]
+        },
+        {
+          "code": "158197",
+          "hotel": "Sotetsu Fresa Inn Ginza Nanachome",
+          "city": "Tokyo",
+          "total": 1114,
+          "avail": 857,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 17
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 75
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 155
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 150
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 155
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 150
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 155
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Comfort Double Non Smoking",
+              "total": 1114,
+              "avail": 857
+            }
+          ]
+        },
+        {
+          "code": "279206",
+          "hotel": "Washington R&B Hotel Hakataekimae Dai 2",
+          "city": "Fukuoka",
+          "total": 1287,
+          "avail": 798,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 14
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 259
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 244
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 281
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Semi Double (Non Smoking)",
+              "total": 1232,
+              "avail": 743
+            },
+            {
+              "roomType": "Connecting Room (Non Smoking)",
+              "total": 55,
+              "avail": 55
+            }
+          ]
+        },
+        {
+          "code": "1001620",
+          "hotel": "Hotel Monterey La Soeur Naha",
+          "city": "Naha",
+          "total": 900,
+          "avail": 567,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 17
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 124
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 211
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 215
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "King Double Non Smoking",
+              "total": 605,
+              "avail": 387
+            },
+            {
+              "roomType": "Standard Twin Room Non Smoking",
+              "total": 295,
+              "avail": 180
+            }
+          ]
+        },
+        {
+          "code": "834452",
+          "hotel": "Hotel Amanek Shinjuku Kabukicho",
+          "city": "Tokyo",
+          "total": 849,
+          "avail": 547,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 20
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 135
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 202
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 190
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Queen Non Smoking",
+              "total": 849,
+              "avail": 547
+            }
+          ]
+        },
+        {
+          "code": "181491",
+          "hotel": "Hotel Sunroute Plaza Shinjuku",
+          "city": "Tokyo",
+          "total": 1120,
+          "avail": 502,
+          "status": "limited",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 14
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 178
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 310
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Economy Double Non Smoking",
+              "total": 928,
+              "avail": 419
+            },
+            {
+              "roomType": "Standard Twin Non Smoking",
+              "total": 192,
+              "avail": 83
+            }
+          ]
+        },
+        {
+          "code": "1001587",
+          "hotel": "HOTEL AMANEK Asakusa Sakurabashi",
+          "city": "Tokyo",
+          "total": 610,
+          "avail": 437,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 54
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 95
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 144
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 144
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Double Non Smoking",
+              "total": 610,
+              "avail": 437
+            }
+          ]
+        },
+        {
+          "code": "204439",
+          "hotel": "Sotetsu Fresa Inn Tokyo Roppongi",
+          "city": "Tokyo",
+          "total": 615,
+          "avail": 393,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 4
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 95
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 144
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 150
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Double Non Smoking",
+              "total": 615,
+              "avail": 393
+            }
+          ]
+        },
+        {
+          "code": "169327",
+          "hotel": "Hotel Monterey La Soeur Fukuoka",
+          "city": "Fukuoka",
+          "total": 610,
+          "avail": 383,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 4
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 88
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 146
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 145
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Semi Double (Non Smoking)",
+              "total": 610,
+              "avail": 383
+            }
+          ]
+        },
+        {
+          "code": "713510",
+          "hotel": "AMANEK Beppu YULA-RE",
+          "city": "Beppu",
+          "total": 590,
+          "avail": 335,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 8
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 84
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 112
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 131
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard King Non Smoking",
+              "total": 590,
+              "avail": 335
+            }
+          ]
+        }
+      ],
+      "hbCities": [
+        "Beppu",
+        "Fukuoka",
+        "Naha",
+        "Tokyo"
+      ],
+      "hbSummary": {
+        "hotels": 18,
+        "rooms": 22880,
+        "almostGone": 0
+      },
+      "hbInsights": {
+        "topHotel": {
+          "hotel": "Hotel Monterey Fukuoka",
+          "city": "Fukuoka",
+          "avail": 3901
+        },
+        "topCity": {
+          "city": "Fukuoka",
+          "rooms": 11509
+        },
+        "peakMonth": {
+          "month": "Aug 2026",
+          "rooms": 4714
+        },
+        "almostGone": []
       }
     },
     "Korea": {
@@ -38914,6 +39671,271 @@
         "hotels": 332,
         "maxPct": 70,
         "avgPct": 19
+      },
+      "hardblock": [
+        {
+          "code": "741474",
+          "hotel": "Roynet Hotel Seoul Mapo",
+          "city": "Seoul",
+          "total": 6420,
+          "avail": 5207,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 20
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 643
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 895
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 899
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 920
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 900
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 930
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Standard Twin(Non Smoking)",
+              "total": 3210,
+              "avail": 2655
+            },
+            {
+              "roomType": "Standard Double (Non Smoking)",
+              "total": 2140,
+              "avail": 1707
+            },
+            {
+              "roomType": "Deluxe Twin (Non Smoking)",
+              "total": 1070,
+              "avail": 845
+            }
+          ]
+        },
+        {
+          "code": "886479",
+          "hotel": "The Stay Classic Myeongdong",
+          "city": "Seoul",
+          "total": 5305,
+          "avail": 3858,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 21
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 234
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 677
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 742
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 721
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 733
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 730
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Deluxe Twin (H) No Parking",
+              "total": 5305,
+              "avail": 3858
+            }
+          ]
+        },
+        {
+          "code": "725676",
+          "hotel": "Fraser Place Namdaemun Seoul",
+          "city": "Seoul",
+          "total": 1680,
+          "avail": 1478,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 1
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 102
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 155
+            },
+            {
+              "month": "Sep 2026",
+              "avail": 300
+            },
+            {
+              "month": "Oct 2026",
+              "avail": 310
+            },
+            {
+              "month": "Nov 2026",
+              "avail": 300
+            },
+            {
+              "month": "Dec 2026",
+              "avail": 310
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Superior Double (Non-smoking)",
+              "total": 1680,
+              "avail": 1478
+            }
+          ]
+        },
+        {
+          "code": "665136",
+          "hotel": "Felix by STX Hotel & Suite",
+          "city": "Busan",
+          "total": 372,
+          "avail": 327,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 17
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 106
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 204
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Studio Loft Deluxe (Non-smoking)",
+              "total": 230,
+              "avail": 196
+            },
+            {
+              "roomType": "Family Loft Suite (Non-smoking)",
+              "total": 142,
+              "avail": 131
+            }
+          ]
+        },
+        {
+          "code": "241059",
+          "hotel": "Skybay Hotel Gyeongpo",
+          "city": "Gangneung",
+          "total": 400,
+          "avail": 268,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 2
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 111
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 155
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "Lake view Deluxe Double (Non Smoking)",
+              "total": 400,
+              "avail": 268
+            }
+          ]
+        },
+        {
+          "code": "812953",
+          "hotel": "N285 Hotel Insadong",
+          "city": "Seoul",
+          "total": 252,
+          "avail": 233,
+          "status": "available",
+          "monthly": [
+            {
+              "month": "Jun 2026",
+              "avail": 9
+            },
+            {
+              "month": "Jul 2026",
+              "avail": 84
+            },
+            {
+              "month": "Aug 2026",
+              "avail": 140
+            }
+          ],
+          "rooms": [
+            {
+              "roomType": "DOUBLE A (H2)",
+              "total": 252,
+              "avail": 233
+            }
+          ]
+        }
+      ],
+      "hbCities": [
+        "Busan",
+        "Gangneung",
+        "Seoul"
+      ],
+      "hbSummary": {
+        "hotels": 6,
+        "rooms": 11371,
+        "almostGone": 0
+      },
+      "hbInsights": {
+        "topHotel": {
+          "hotel": "Roynet Hotel Seoul Mapo",
+          "city": "Seoul",
+          "avail": 5207
+        },
+        "topCity": {
+          "city": "Seoul",
+          "rooms": 10776
+        },
+        "peakMonth": {
+          "month": "Aug 2026",
+          "rooms": 2226
+        },
+        "almostGone": []
       }
     },
     "Vietnam": {
@@ -59343,7 +60365,11 @@
         "hotels": 585,
         "maxPct": 89,
         "avgPct": 36
-      }
+      },
+      "hardblock": [],
+      "hbCities": [],
+      "hbSummary": null,
+      "hbInsights": null
     },
     "Hong Kong": {
       "meta": {
