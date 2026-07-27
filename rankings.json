@@ -28834,7 +28834,7 @@
           "prevRank": 167,
           "change": 163,
           "isNew": false,
-          "promoPct": 25
+          "promoPct": null
         },
         {
           "rank": 5,
@@ -28844,7 +28844,7 @@
           "prevRank": 219,
           "change": 214,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 2
         },
         {
           "rank": 6,
@@ -30049,34 +30049,6 @@
           ]
         },
         {
-          "code": "682157",
-          "legacyCode": "KR004122",
-          "hotel": "Pale De CZ Condo",
-          "city": "Busan",
-          "maxPct": 55,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 8,
-          "ciFrom": "2026-06-10",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "[여름 기획전]상시",
-              "value": "55.0%",
-              "room": "Deluxe Suite City",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "BASIC 52%",
-              "value": "52.0%",
-              "room": "Deluxe Suite City",
-              "ciFrom": "2026-06-30",
-              "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
           "code": "110444",
           "legacyCode": "KR003410",
           "hotel": "Shilla Stay Ulsan",
@@ -30273,43 +30245,29 @@
           ]
         },
         {
-          "code": "1001370",
-          "legacyCode": "",
-          "hotel": "NewCZ LCT Residence",
+          "code": "682157",
+          "legacyCode": "KR004122",
+          "hotel": "Pale De CZ Condo",
           "city": "Busan",
-          "maxPct": 50,
+          "maxPct": 53,
           "hasFixed": false,
-          "promoCount": 4,
+          "promoCount": 2,
           "roomCount": 8,
-          "ciFrom": "2026-05-21",
+          "ciFrom": "2026-06-10",
           "ciTo": "2099-12-31",
           "deals": [
             {
               "name": "[여름 기획전]상시",
-              "value": "50.0%",
-              "room": "LCT PENTHOUSE",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-12-20"
+              "value": "53.0%",
+              "room": "Deluxe Suite City",
+              "ciFrom": "2026-07-01",
+              "ciTo": "2026-08-31"
             },
             {
-              "name": "얼리버드",
-              "value": "46.0%",
-              "room": "LCT PENTHOUSE",
-              "ciFrom": "2026-05-21",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "2연박",
-              "value": "48.0%",
-              "room": "LCT PENTHOUSE",
-              "ciFrom": "2026-05-21",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "상시 할인",
-              "value": "44.0%",
-              "room": "LCT PENTHOUSE",
-              "ciFrom": "2026-05-21",
+              "name": "BASIC 52%",
+              "value": "52.0%",
+              "room": "Deluxe Suite City",
+              "ciFrom": "2026-06-30",
               "ciTo": "2099-12-31"
             }
           ]
@@ -30616,44 +30574,37 @@
           ]
         },
         {
-          "code": "997148",
+          "code": "1001370",
           "legacyCode": "",
-          "hotel": "Shilla Stay Plus Iho Tewoo",
-          "city": "Jeju City",
-          "maxPct": 47,
+          "hotel": "NewCZ LCT Residence",
+          "city": "Busan",
+          "maxPct": 48,
           "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 11,
-          "ciFrom": "2025-07-07",
-          "ciTo": "2026-12-31",
+          "promoCount": 3,
+          "roomCount": 8,
+          "ciFrom": "2026-05-21",
+          "ciTo": "2099-12-31",
           "deals": [
             {
-              "name": "Basic Promotion",
-              "value": "40.0%",
-              "room": "Deluxe Bunker Ocean View",
-              "ciFrom": "2025-07-07",
-              "ciTo": "2026-12-31"
+              "name": "얼리버드",
+              "value": "46.0%",
+              "room": "LCT PENTHOUSE",
+              "ciFrom": "2026-05-21",
+              "ciTo": "2099-12-31"
             },
             {
               "name": "2연박",
-              "value": "45.0%",
-              "room": "Deluxe Bunker Ocean View",
-              "ciFrom": "2025-07-07",
-              "ciTo": "2026-12-31"
+              "value": "48.0%",
+              "room": "LCT PENTHOUSE",
+              "ciFrom": "2026-05-21",
+              "ciTo": "2099-12-31"
             },
             {
-              "name": "3연박",
-              "value": "47.0%",
-              "room": "Deluxe Bunker Ocean View",
-              "ciFrom": "2025-07-07",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "얼리버드 14일",
-              "value": "43.0%",
-              "room": "Deluxe Bunker Ocean View",
-              "ciFrom": "2025-07-07",
-              "ciTo": "2026-12-31"
+              "name": "상시 할인",
+              "value": "44.0%",
+              "room": "LCT PENTHOUSE",
+              "ciFrom": "2026-05-21",
+              "ciTo": "2099-12-31"
             }
           ]
         },
@@ -32002,76 +31953,6 @@
           ]
         },
         {
-          "code": "685832",
-          "legacyCode": "KR000231",
-          "hotel": "NINE TREE BY PARNAS SEOUL MYEONDONG 1",
-          "city": "Seoul",
-          "maxPct": 25,
-          "hasFixed": false,
-          "promoCount": 8,
-          "roomCount": 4,
-          "ciFrom": "2026-10-04",
-          "ciTo": "2026-10-31",
-          "deals": [
-            {
-              "name": "Family Twin Special Promotion",
-              "value": "20.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Family Twin Min 2 Nights",
-              "value": "25.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Double Min 2 Nights",
-              "value": "25.0%",
-              "room": "Standard Double",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Double Special Promotion",
-              "value": "20.0%",
-              "room": "Standard Double",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Triple Special Promotion",
-              "value": "20.0%",
-              "room": "Standard Triple",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Triple Min 2 Nights.",
-              "value": "25.0%",
-              "room": "Standard Triple",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Twin Min 2 Nights",
-              "value": "25.0%",
-              "room": "Standard Twin",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            },
-            {
-              "name": "Standard Twin Special Promotion",
-              "value": "20.0%",
-              "room": "Standard Twin",
-              "ciFrom": "2026-10-04",
-              "ciTo": "2026-10-31"
-            }
-          ]
-        },
-        {
           "code": "738639",
           "legacyCode": "KR000746",
           "hotel": "Hotel The Designers Jongno",
@@ -32289,48 +32170,6 @@
           ]
         },
         {
-          "code": "155227",
-          "legacyCode": "KR001769",
-          "hotel": "Hyundai Soo Resort Sokcho",
-          "city": "Sokcho",
-          "maxPct": 22,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 3,
-          "ciFrom": "2026-07-17",
-          "ciTo": "2026-08-31",
-          "deals": [
-            {
-              "name": "상시",
-              "value": "10.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-18",
-              "ciTo": "2026-08-22"
-            },
-            {
-              "name": "상시",
-              "value": "20.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-17",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "7월 여름 기획전",
-              "value": "22.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-19",
-              "ciTo": "2026-07-23"
-            },
-            {
-              "name": "7월 여름 기획전",
-              "value": "15.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-24",
-              "ciTo": "2026-07-29"
-            }
-          ]
-        },
-        {
           "code": "710138",
           "legacyCode": "KR002018",
           "hotel": "Kenny Stay Jeju Mosulpo (Hotel Kenny)",
@@ -32372,7 +32211,7 @@
           "city": "Busan",
           "maxPct": 20,
           "hasFixed": false,
-          "promoCount": 12,
+          "promoCount": 14,
           "roomCount": 16,
           "ciFrom": "2026-06-25",
           "ciTo": "2026-12-18",
@@ -32670,6 +32509,48 @@
               "room": "[No Parking] Deluxe Partial Double",
               "ciFrom": "2026-05-21",
               "ciTo": "2027-05-31"
+            }
+          ]
+        },
+        {
+          "code": "155227",
+          "legacyCode": "KR001769",
+          "hotel": "Hyundai Soo Resort Sokcho",
+          "city": "Sokcho",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 3,
+          "ciFrom": "2026-07-17",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "상시",
+              "value": "10.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-18",
+              "ciTo": "2026-08-22"
+            },
+            {
+              "name": "상시",
+              "value": "20.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-17",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "7월 여름 기획전",
+              "value": "15.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-24",
+              "ciTo": "2026-07-29"
+            },
+            {
+              "name": "라스트마닛 특가",
+              "value": "20.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-24",
+              "ciTo": "2026-07-28"
             }
           ]
         },
@@ -34298,34 +34179,6 @@
           ]
         },
         {
-          "code": "730289",
-          "legacyCode": "KR003342",
-          "hotel": "Chestertons Sokcho",
-          "city": "Sokcho",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 6,
-          "ciFrom": "2026-07-20",
-          "ciTo": "2026-09-30",
-          "deals": [
-            {
-              "name": "[썸머픽] 상시",
-              "value": "15.0%",
-              "room": "One Room Family Twin",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
-            },
-            {
-              "name": "[썸머픽] 2연박 이상",
-              "value": "10.0%",
-              "room": "One Room Family Twin",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
-            }
-          ]
-        },
-        {
           "code": "786361",
           "legacyCode": "KR003138",
           "hotel": "IlleInn Hotel",
@@ -34350,34 +34203,6 @@
               "room": "Deluxe King",
               "ciFrom": "2026-03-06",
               "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
-          "code": "1001066",
-          "legacyCode": "",
-          "hotel": "Chestertons Naksan",
-          "city": "Yangyang",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 14,
-          "ciFrom": "2026-07-20",
-          "ciTo": "2026-09-30",
-          "deals": [
-            {
-              "name": "[썸머픽] 상시",
-              "value": "15.0%",
-              "room": "One Room Standard Double Mountain",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
-            },
-            {
-              "name": "[썸머픽] 2연박 이상",
-              "value": "10.0%",
-              "room": "One Room Standard Double Mountain",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
             }
           ]
         },
@@ -34466,34 +34291,6 @@
           ]
         },
         {
-          "code": "1001520",
-          "legacyCode": "",
-          "hotel": "CHESTERTONS GYEONGJU The Terrace Hotel",
-          "city": "Gyeongju",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 7,
-          "ciFrom": "2026-07-20",
-          "ciTo": "2026-09-30",
-          "deals": [
-            {
-              "name": "[썸머픽] 2연박 이상",
-              "value": "10.0%",
-              "room": "City View Deluxe Double Twin",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
-            },
-            {
-              "name": "[썸머픽] 상시",
-              "value": "15.0%",
-              "room": "City View Deluxe Double Twin",
-              "ciFrom": "2026-07-20",
-              "ciTo": "2026-09-30"
-            }
-          ]
-        },
-        {
           "code": "119613",
           "legacyCode": "KR003161",
           "hotel": "Lumia Hotel Myeongdong",
@@ -34532,27 +34329,6 @@
               "room": "Deluxe Double Low Floor Without View",
               "ciFrom": "2026-06-11",
               "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
-          "code": "137537",
-          "legacyCode": "KR001247",
-          "hotel": "Aimi Jeju Beach Hotel",
-          "city": "Jeju City",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 11,
-          "ciFrom": "2026-05-26",
-          "ciTo": "2026-07-23",
-          "deals": [
-            {
-              "name": "Basic Promotion",
-              "value": "15.0%",
-              "room": "Run of House",
-              "ciFrom": "2026-05-26",
-              "ciTo": "2026-07-23"
             }
           ]
         },
@@ -36482,6 +36258,27 @@
           ]
         },
         {
+          "code": "682145",
+          "legacyCode": "682145",
+          "hotel": "Mind Hotel",
+          "city": "Seoul",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 8,
+          "ciFrom": "2026-07-23",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[여름 기획전] 상시",
+              "value": "10.0%",
+              "room": "3PAX Family",
+              "ciFrom": "2026-07-23",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
           "code": "692882",
           "legacyCode": "KR001317",
           "hotel": "Hotel Golden Daisy Seogwipo Ocean",
@@ -36888,6 +36685,34 @@
           ]
         },
         {
+          "code": "719775",
+          "legacyCode": "KR002159",
+          "hotel": "Hotel With City",
+          "city": "Jeju City",
+          "maxPct": 9,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 10,
+          "ciFrom": "2026-07-23",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "SUMMER PICKS",
+              "value": "8.0%",
+              "room": "City Double",
+              "ciFrom": "2026-07-23",
+              "ciTo": "2026-09-30"
+            },
+            {
+              "name": "SUMMER PICKS Min 2Nights",
+              "value": "9.0%",
+              "room": "City Double",
+              "ciFrom": "2026-07-23",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
           "code": "474711",
           "legacyCode": "KR005466",
           "hotel": "Ocean 2 Heaven",
@@ -37129,6 +36954,34 @@
               "room": "Deluxe Double",
               "ciFrom": "2026-05-14",
               "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "804763",
+          "legacyCode": "KR003103",
+          "hotel": "Hamdeok Beach Stay Jeju",
+          "city": "Jeju City",
+          "maxPct": 8,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 11,
+          "ciFrom": "2026-07-23",
+          "ciTo": "2026-09-23",
+          "deals": [
+            {
+              "name": "SUMMER PICKS",
+              "value": "7.0%",
+              "room": "City Deluxe Twin (2 People)",
+              "ciFrom": "2026-07-23",
+              "ciTo": "2026-09-23"
+            },
+            {
+              "name": "SUMMER PICKS Min 2Nights",
+              "value": "8.0%",
+              "room": "City Deluxe Twin (2 People)",
+              "ciFrom": "2026-07-23",
+              "ciTo": "2026-09-23"
             }
           ]
         },
@@ -38493,14 +38346,14 @@
           "promoCount": 1,
           "roomCount": 4,
           "ciFrom": "2026-03-10",
-          "ciTo": "2026-08-31",
+          "ciTo": "2026-09-30",
           "deals": [
             {
               "name": "2연박",
               "value": "3.0%",
               "room": "Deluxe Twin",
               "ciFrom": "2026-03-10",
-              "ciTo": "2026-08-31"
+              "ciTo": "2026-09-30"
             }
           ]
         },
@@ -38564,6 +38417,27 @@
               "room": "Deluxe Double",
               "ciFrom": "2025-12-05",
               "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001633",
+          "legacyCode": "",
+          "hotel": "Nova Stay Gangneung",
+          "city": "Gangneung",
+          "maxPct": 2,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 6,
+          "ciFrom": "2026-07-21",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "상시 특가",
+              "value": "2.0%",
+              "room": "Deluxe Double City",
+              "ciFrom": "2026-07-21",
+              "ciTo": "2026-08-31"
             }
           ]
         },
@@ -38653,14 +38527,14 @@
               "name": "4연박",
               "value": "KRW 4100.0",
               "room": "Mountain View  Triple",
-              "ciFrom": "2026-06-09",
+              "ciFrom": "2026-07-21",
               "ciTo": "2026-12-31"
             },
             {
               "name": "3연박",
               "value": "KRW 3100.0",
               "room": "Mountain View  Triple",
-              "ciFrom": "2026-06-09",
+              "ciFrom": "2026-07-21",
               "ciTo": "2026-12-31"
             },
             {
@@ -38681,7 +38555,7 @@
               "name": "2연박",
               "value": "KRW 2100.0",
               "room": "Mountain View  Triple",
-              "ciFrom": "2026-06-09",
+              "ciFrom": "2026-07-21",
               "ciTo": "2026-12-31"
             }
           ]
@@ -38897,6 +38771,34 @@
           ]
         },
         {
+          "code": "293893",
+          "legacyCode": "",
+          "hotel": "Jungheung Gold Spa & Resort",
+          "city": "Naju",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 3,
+          "ciFrom": "2026-07-01",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "26년 7월",
+              "value": "",
+              "room": "19-pyeong (2People)",
+              "ciFrom": "2026-07-01",
+              "ciTo": "2026-07-31"
+            },
+            {
+              "name": "26년 8월",
+              "value": "",
+              "room": "19-pyeong (2People)",
+              "ciFrom": "2026-08-01",
+              "ciTo": "2026-08-31"
+            }
+          ]
+        },
+        {
           "code": "681577",
           "legacyCode": "KR002107",
           "hotel": "Tops 10 Villa de Aewol",
@@ -38995,7 +38897,7 @@
           "maxPct": null,
           "hasFixed": false,
           "promoCount": 2,
-          "roomCount": 5,
+          "roomCount": 8,
           "ciFrom": "2026-04-24",
           "ciTo": "2099-12-31",
           "deals": [
@@ -39264,27 +39166,6 @@
               "room": "Deluxe Double",
               "ciFrom": "2026-05-12",
               "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
-          "code": "293893",
-          "legacyCode": "",
-          "hotel": "Jungheung Gold Spa & Resort",
-          "city": "Naju",
-          "maxPct": null,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 3,
-          "ciFrom": "2026-07-01",
-          "ciTo": "2026-07-31",
-          "deals": [
-            {
-              "name": "26년 7월",
-              "value": "",
-              "room": "19-pyeong (2People)",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-07-31"
             }
           ]
         },
@@ -40101,7 +39982,7 @@
             {
               "name": "단박",
               "value": "",
-              "room": "Deluxe",
+              "room": "Deluxe (Bath, No Parking)",
               "ciFrom": "2026-07-13",
               "ciTo": "2099-12-31"
             }
@@ -40232,6 +40113,48 @@
               "ciTo": "2099-12-31"
             }
           ]
+        },
+        {
+          "code": "1001978",
+          "legacyCode": "",
+          "hotel": "Busan LaMer Gwangan Stay",
+          "city": "Busan",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 10,
+          "ciFrom": "2026-07-22",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "단박",
+              "value": "",
+              "room": "Han Octave - No Parking",
+              "ciFrom": "2026-07-22",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001982",
+          "legacyCode": "",
+          "hotel": "Busan Gwangalli SEAYOU HOTEL",
+          "city": "Busan",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 5,
+          "ciFrom": "2026-07-21",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "단박",
+              "value": "",
+              "room": "Half Ocean View - No Parking",
+              "ciFrom": "2026-07-21",
+              "ciTo": "2099-12-31"
+            }
+          ]
         }
       ],
       "promoCities": [
@@ -40292,7 +40215,7 @@
       "promoSummary": {
         "hotels": 334,
         "maxPct": 72,
-        "avgPct": 19
+        "avgPct": 18
       },
       "hardblock": [
         {
