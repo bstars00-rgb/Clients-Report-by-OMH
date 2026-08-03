@@ -324,7 +324,7 @@ const I18N = {
     moversTitle:'Movers Board', climbersLbl:'🚀 Top Climbers', newcomersLbl:'✨ New Entries', fallersLbl:'📉 Top Drops', noData:'No data',
     tabPromos:'Promotions', promoTitle:'Active Promotions', promoSub:'Live deals you can promote now · sorted by best discount · updated weekly',
     thDiscount:'Discount', thPromoCount:'Promos', thStay:'Stay Period', promoUpTo:'up to', promoFixed:'Special', promoHotelsWith:'hotels on promotion', promoMax:'max discount',
-    dealRoom:'Room', dealStay:'Stay', dealRoomCode:'RT', dealRatePlan:'RP', promoAllCities:'All cities', dlPromos:'⬇ CSV', dlXlsx:'⬇ Excel', dlLoading:'Preparing…',
+    dealRoom:'Room', dealStay:'Stay', dealRoomCode:'Room Type Code', dealRatePlan:'Rate Plan Code', promoAllCities:'All cities', dlPromos:'⬇ CSV', dlXlsx:'⬇ Excel', dlLoading:'Preparing…',
     tabHardblock:'Preferred Hotels', hbTitle:'Preferred / Recommended Hotels', hbSub:'Handpicked properties we recommend prioritizing — great choices to feature & sell · updated weekly',
     hbRooms:'rooms available', hbHotels:'hotels', hbAlmost:'almost sold out', thAvail:'Available', thTotal:'Allotment', thRoomTypes:'Room Types', thByMonth:'By Month', thRoomType:'Room Type',
     stAvailable:'Available', stLimited:'Limited', stAlmost:'Almost gone',
@@ -370,7 +370,7 @@ const I18N = {
     moversTitle:'무버스 보드', climbersLbl:'🚀 급상승', newcomersLbl:'✨ 신규 진입', fallersLbl:'📉 급락', noData:'데이터 없음',
     tabPromos:'프로모션', promoTitle:'진행 중 프로모션', promoSub:'지금 바로 판매·홍보 가능한 라이브 딜 · 최대 할인순 · 매주 업데이트',
     thDiscount:'할인', thPromoCount:'프로모션', thStay:'투숙 기간', promoUpTo:'최대', promoFixed:'특가', promoHotelsWith:'개 호텔 프로모션 중', promoMax:'최대 할인',
-    dealRoom:'룸타입', dealStay:'투숙', dealRoomCode:'룸코드', dealRatePlan:'요금코드', promoAllCities:'전체 도시', dlPromos:'⬇ CSV', dlXlsx:'⬇ 엑셀', dlLoading:'준비 중…',
+    dealRoom:'룸타입', dealStay:'투숙', dealRoomCode:'룸타입코드', dealRatePlan:'레이트플랜코드', promoAllCities:'전체 도시', dlPromos:'⬇ CSV', dlXlsx:'⬇ 엑셀', dlLoading:'준비 중…',
     tabHardblock:'추천 호텔', hbTitle:'추천 호텔 (Preferred)', hbSub:'저희가 우선 추천드리는 엄선 호텔 — 노출·판매하기 좋은 상품 · 매주 업데이트',
     hbRooms:'실 판매가능', hbHotels:'개 호텔', hbAlmost:'개 마감임박', thAvail:'가능 재고', thTotal:'보장 블록', thRoomTypes:'룸타입', thByMonth:'월별', thRoomType:'룸타입',
     stAvailable:'여유', stLimited:'제한적', stAlmost:'마감임박',
@@ -712,7 +712,8 @@ function renderPromoRows(){
       const dv = d.value ? escapeHtml(d.value) : '';
       const dstay = d.ciFrom ? (d.ciFrom+(d.ciTo?(' ~ '+(d.ciTo>'2098'?'∞':d.ciTo)):'')) : '';
       const dnm = (lang !== 'ko' && d.nameEn) ? d.nameEn : (d.name || '');
-      return '<div class="deal-row"><span class="dv">'+dv+'</span><span class="dn">'+escapeHtml(dnm)+'</span>'+(d.room?'<span class="dr">· '+escapeHtml(d.room)+'</span>':'')+(d.roomCode?'<span class="dr">· '+t('dealRoomCode')+' '+escapeHtml(d.roomCode)+'</span>':'')+(d.ratePlan?'<span class="dr">· '+t('dealRatePlan')+' '+escapeHtml(d.ratePlan)+'</span>':'')+(dstay?'<span class="dd">· '+t('dealStay')+' '+dstay+'</span>':'')+'</div>';
+      const codeCss = 'font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;color:var(--accent,#2FB37E)';
+      return '<div class="deal-row"><span class="dv">'+dv+'</span><span class="dn">'+escapeHtml(dnm)+'</span>'+(d.room?'<span class="dr">· '+escapeHtml(d.room)+'</span>':'')+(d.roomCode?'<span class="dr">· '+t('dealRoomCode')+' <b style="'+codeCss+'">'+escapeHtml(d.roomCode)+'</b></span>':'')+(d.ratePlan?'<span class="dr">· '+t('dealRatePlan')+' <b style="'+codeCss+'">'+escapeHtml(d.ratePlan)+'</b></span>':'')+(dstay?'<span class="dd">· '+t('dealStay')+' '+dstay+'</span>':'')+'</div>';
     }).join('');
     return '<tr class="promo-hotel" onclick="togglePromo('+i+')">'+
         '<td>'+chip+'</td>'+
