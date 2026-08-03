@@ -4,7 +4,7 @@
     "end": "2026-07-31"
   },
   "generated": "2026-06-27",
-  "promoFolder": "2026-07-06",
+  "promoFolder": "2026-08-03",
   "hbFolder": "2026-06-29",
   "monthlyMonth": "2026-07",
   "monthlyPrior": "2026-06",
@@ -31300,7 +31300,7 @@
           "prevRank": 3,
           "change": -6,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 5
         },
         {
           "rank": 10,
@@ -31360,7 +31360,7 @@
           "prevRank": 2,
           "change": -13,
           "isNew": false,
-          "promoPct": 48
+          "promoPct": 51
         },
         {
           "rank": 16,
@@ -31710,7 +31710,7 @@
           "prevRank": 83,
           "change": 33,
           "isNew": false,
-          "promoPct": 8
+          "promoPct": 10
         }
       ],
       "insights": {
@@ -32166,7 +32166,7 @@
           "legacyCode": "KR003019",
           "hotel": "Kwangsu Hotel",
           "city": "Busan",
-          "maxPct": 61,
+          "maxPct": 62,
           "hasFixed": false,
           "promoCount": 6,
           "roomCount": 9,
@@ -32176,9 +32176,17 @@
             {
               "name": "상시 할인",
               "nameEn": "Standard Discount",
-              "value": "40.0%",
+              "value": "46.0%",
               "room": "Corner Family Quadruple City",
               "ciFrom": "2026-05-12",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "45일 얼리버드",
+              "nameEn": "45d Early Bird",
+              "value": "55.0%",
+              "room": "Corner Family Quadruple City",
+              "ciFrom": "2026-07-28",
               "ciTo": "2099-12-31"
             },
             {
@@ -32192,7 +32200,7 @@
             {
               "name": "3연박",
               "nameEn": "3-Night Stay",
-              "value": "50.0%",
+              "value": "57.0%",
               "room": "Corner Family Quadruple City",
               "ciFrom": "2026-07-15",
               "ciTo": "2099-12-31"
@@ -32200,23 +32208,15 @@
             {
               "name": "2연박",
               "nameEn": "2-Night Stay",
-              "value": "48.0%",
+              "value": "55.0%",
               "room": "Corner Family Quadruple City",
               "ciFrom": "2026-07-15",
               "ciTo": "2099-12-31"
             },
             {
-              "name": "라스트 6일 전",
-              "nameEn": "Last Minute 6d advance",
-              "value": "46.0%",
-              "room": "Corner Family Quadruple City",
-              "ciFrom": "2026-05-12",
-              "ciTo": "2099-12-31"
-            },
-            {
               "name": "상시 프로모션",
               "nameEn": "Standard Promotion",
-              "value": "61.0%",
+              "value": "62.0%",
               "room": "Run Of House",
               "ciFrom": "2026-05-27",
               "ciTo": "2099-12-31"
@@ -32744,6 +32744,68 @@
           ]
         },
         {
+          "code": "1001886",
+          "legacyCode": "",
+          "hotel": "HOTEL MOON",
+          "city": "Jeju City",
+          "maxPct": 51,
+          "hasFixed": false,
+          "promoCount": 4,
+          "roomCount": 7,
+          "ciFrom": "2026-06-18",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "상시 - 7월~12월",
+              "nameEn": "Standard - 7-12(month)",
+              "value": "40.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-07-01",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "당일특가",
+              "nameEn": "Same-day Deal",
+              "value": "45.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-06-26",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "43.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-09-01",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "48.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-07-15",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "45.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-07-27",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "51.0%",
+              "room": "Deluxe King",
+              "ciFrom": "2026-07-27",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
           "code": "1001837",
           "legacyCode": "",
           "hotel": "Gloucester Hotel Hamdeok",
@@ -32756,27 +32818,11 @@
           "ciTo": "2026-12-31",
           "deals": [
             {
-              "name": "basic",
-              "nameEn": "basic",
-              "value": "40.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-04-23",
-              "ciTo": "2026-12-31"
-            },
-            {
               "name": "5연박",
               "nameEn": "5-Night Stay",
               "value": "50.0%",
               "room": "Deluxe Double City View",
-              "ciFrom": "2026-07-14",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "2연박 프로모션 43%",
-              "nameEn": "2-Night Stay Promotion 43%",
-              "value": "43.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-07-14",
+              "ciFrom": "2026-07-28",
               "ciTo": "2026-12-31"
             },
             {
@@ -32784,7 +32830,23 @@
               "nameEn": "3-Night Stay Promotion 45%",
               "value": "45.0%",
               "room": "Deluxe Double City View",
-              "ciFrom": "2026-07-14",
+              "ciFrom": "2026-07-28",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "2연박 프로모션 43%",
+              "nameEn": "2-Night Stay Promotion 43%",
+              "value": "43.0%",
+              "room": "Deluxe Double City View",
+              "ciFrom": "2026-07-28",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "basic",
+              "nameEn": "basic",
+              "value": "40.0%",
+              "room": "Deluxe Double City View",
+              "ciFrom": "2026-04-23",
               "ciTo": "2026-12-31"
             }
           ]
@@ -33018,60 +33080,6 @@
           ]
         },
         {
-          "code": "1001886",
-          "legacyCode": "",
-          "hotel": "HOTEL MOON",
-          "city": "Jeju City",
-          "maxPct": 48,
-          "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 7,
-          "ciFrom": "2026-06-18",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "3연박",
-              "nameEn": "3-Night Stay",
-              "value": "48.0%",
-              "room": "Deluxe King",
-              "ciFrom": "2026-07-15",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "3연박",
-              "nameEn": "3-Night Stay",
-              "value": "43.0%",
-              "room": "Deluxe King",
-              "ciFrom": "2026-09-01",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "[썸머픽] 상시",
-              "nameEn": "[Summer Pick] Standard",
-              "value": "45.0%",
-              "room": "Deluxe King",
-              "ciFrom": "2026-07-13",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "당일특가",
-              "nameEn": "Same-day Deal",
-              "value": "45.0%",
-              "room": "Deluxe King",
-              "ciFrom": "2026-06-26",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "상시 - 7월~12월",
-              "nameEn": "Standard - 7-12(month)",
-              "value": "40.0%",
-              "room": "Deluxe King",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
           "code": "1001370",
           "legacyCode": "",
           "hotel": "NewCZ LCT Residence",
@@ -33218,7 +33226,7 @@
               "nameEn": "[Summer Sale] Standard",
               "value": "45.0%",
               "room": "[FLASH SALE] Terrace Deluxe Double",
-              "ciFrom": "2026-07-01",
+              "ciFrom": "2026-07-28",
               "ciTo": "2026-09-20"
             },
             {
@@ -33414,6 +33422,60 @@
               "room": "Deluxe",
               "ciFrom": "2025-07-24",
               "ciTo": "2026-12-23"
+            }
+          ]
+        },
+        {
+          "code": "249745",
+          "legacyCode": "KR003430",
+          "hotel": "Hotel Thomas Myeongdong",
+          "city": "Seoul",
+          "maxPct": 40,
+          "hasFixed": false,
+          "promoCount": 5,
+          "roomCount": 4,
+          "ciFrom": "2026-06-23",
+          "ciTo": "2027-06-30",
+          "deals": [
+            {
+              "name": "라스트미닛 6일",
+              "nameEn": "Last Minute 6d",
+              "value": "40.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2027-02-28"
+            },
+            {
+              "name": "90일전 얼리버드",
+              "nameEn": "90d advance Early Bird",
+              "value": "38.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2027-02-28"
+            },
+            {
+              "name": "3연박 프로모션",
+              "nameEn": "3-Night Stay Promotion",
+              "value": "34.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-06-23",
+              "ciTo": "2027-02-28"
+            },
+            {
+              "name": "45일전 얼리버드",
+              "nameEn": "45d advance Early Bird",
+              "value": "36.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-06-23",
+              "ciTo": "2027-02-28"
+            },
+            {
+              "name": "상시 프로모션",
+              "nameEn": "Standard Promotion",
+              "value": "34.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-06-23",
+              "ciTo": "2027-06-30"
             }
           ]
         },
@@ -33854,44 +33916,6 @@
           ]
         },
         {
-          "code": "249745",
-          "legacyCode": "KR003430",
-          "hotel": "Hotel Thomas Myeongdong",
-          "city": "Seoul",
-          "maxPct": 34,
-          "hasFixed": false,
-          "promoCount": 3,
-          "roomCount": 4,
-          "ciFrom": "2026-06-23",
-          "ciTo": "2027-06-30",
-          "deals": [
-            {
-              "name": "상시 프로모션",
-              "nameEn": "Standard Promotion",
-              "value": "32.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-06-23",
-              "ciTo": "2027-06-30"
-            },
-            {
-              "name": "45일전 얼리버드",
-              "nameEn": "45d advance Early Bird",
-              "value": "34.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-06-23",
-              "ciTo": "2026-11-30"
-            },
-            {
-              "name": "3연박 프로모션",
-              "nameEn": "3-Night Stay Promotion",
-              "value": "34.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-06-23",
-              "ciTo": "2026-11-30"
-            }
-          ]
-        },
-        {
           "code": "216412",
           "legacyCode": "KR003741",
           "hotel": "Savoy Hotel",
@@ -33984,110 +34008,72 @@
           ]
         },
         {
-          "code": "1001705",
-          "legacyCode": "",
-          "hotel": "Restia Incheon Bay Hotel",
-          "city": "Incheon",
+          "code": "156959",
+          "legacyCode": "KR002070",
+          "hotel": "The Soom Forest Hotel",
+          "city": "Yongin",
           "maxPct": 30,
           "hasFixed": false,
-          "promoCount": 5,
-          "roomCount": 4,
-          "ciFrom": "2026-03-06",
-          "ciTo": "2099-12-31",
+          "promoCount": 7,
+          "roomCount": 8,
+          "ciFrom": "2026-03-26",
+          "ciTo": "2026-12-31",
           "deals": [
             {
-              "name": "라스트미닛 3일 전",
-              "nameEn": "Last Minute 3d advance",
-              "value": "17.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
+              "name": "9-12 얼리버드",
+              "nameEn": "9-12 Early Bird",
+              "value": "25.0%",
+              "room": "Deluxe Duplex",
+              "ciFrom": "2026-09-01",
+              "ciTo": "2026-12-31"
             },
             {
-              "name": "30일 얼리버드",
-              "nameEn": "30d Early Bird",
-              "value": "16.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-04-09",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "[여름 기획전]상시",
-              "nameEn": "[Summer Sale]Standard",
+              "name": "당일",
+              "nameEn": "Same-day",
               "value": "30.0%",
-              "room": "Deluxe Double City View",
+              "room": "Deluxe Duplex",
+              "ciFrom": "2026-03-26",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "얼리버드(20%)",
+              "nameEn": "Early Bird(20%)",
+              "value": "20.0%",
+              "room": "Deluxe Duplex",
+              "ciFrom": "2026-06-11",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "당월",
+              "nameEn": "This-month",
+              "value": "15.0%",
+              "room": "Deluxe Duplex",
               "ciFrom": "2026-07-01",
-              "ciTo": "2026-11-30"
+              "ciTo": "2026-08-31"
             },
             {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-04-09",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "라스트 3일 전",
-              "nameEn": "Last Minute 3d advance",
-              "value": "17.0%",
-              "room": "Deluxe Double City View",
-              "ciFrom": "2026-04-09",
-              "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
-          "code": "1001706",
-          "legacyCode": "",
-          "hotel": "Restia Stay Suwon Station",
-          "city": "Suwon",
-          "maxPct": 30,
-          "hasFixed": false,
-          "promoCount": 5,
-          "roomCount": 6,
-          "ciFrom": "2026-03-06",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "[여름 기획전]상시",
-              "nameEn": "[Summer Sale]Standard",
+              "name": "당일특가",
+              "nameEn": "Same-day Deal",
               "value": "30.0%",
-              "room": "City View Deluxe Family Twin",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-11-30"
+              "room": "Deluxe Duplex",
+              "ciFrom": "2026-09-01",
+              "ciTo": "2026-12-31"
             },
             {
-              "name": "라스트 3일 전",
-              "nameEn": "Last Minute 3d advance",
-              "value": "17.0%",
-              "room": "City View Deluxe Family Twin",
-              "ciFrom": "2026-04-09",
-              "ciTo": "2099-12-31"
+              "name": "9-12 당월",
+              "nameEn": "9-12 This-month",
+              "value": "20.0%",
+              "room": "Deluxe Duplex",
+              "ciFrom": "2026-09-01",
+              "ciTo": "2026-12-31"
             },
             {
-              "name": "얼리버드 30일 전",
-              "nameEn": "Early Bird 30d advance",
-              "value": "16.0%",
-              "room": "City View Deluxe Family Twin",
-              "ciFrom": "2026-04-09",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "라스트미닛 3일 전",
-              "nameEn": "Last Minute 3d advance",
-              "value": "17.0%",
-              "room": "City View Deluxe Family Twin",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "City View Deluxe Family Twin",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
+              "name": "얼리버드",
+              "nameEn": "Early Bird",
+              "value": "20.0%",
+              "room": "Deluxe Twin",
+              "ciFrom": "2026-06-11",
+              "ciTo": "2026-08-31"
             }
           ]
         },
@@ -34134,190 +34120,6 @@
               "room": "Deluxe Triple (No View)",
               "ciFrom": "2025-02-17",
               "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
-          "code": "156959",
-          "legacyCode": "KR002070",
-          "hotel": "The Soom Forest Hotel",
-          "city": "Yongin",
-          "maxPct": 30,
-          "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 8,
-          "ciFrom": "2026-03-26",
-          "ciTo": "2026-08-31",
-          "deals": [
-            {
-              "name": "당일",
-              "nameEn": "Same-day",
-              "value": "30.0%",
-              "room": "Deluxe Duplex",
-              "ciFrom": "2026-03-26",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "당월",
-              "nameEn": "This-month",
-              "value": "15.0%",
-              "room": "Deluxe Duplex",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "얼리버드(20%)",
-              "nameEn": "Early Bird(20%)",
-              "value": "20.0%",
-              "room": "Deluxe Duplex",
-              "ciFrom": "2026-06-11",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "얼리버드",
-              "nameEn": "Early Bird",
-              "value": "20.0%",
-              "room": "Deluxe Twin",
-              "ciFrom": "2026-06-11",
-              "ciTo": "2026-08-31"
-            }
-          ]
-        },
-        {
-          "code": "1001703",
-          "legacyCode": "",
-          "hotel": "Y Collection Haeundae Beach",
-          "city": "Busan",
-          "maxPct": 30,
-          "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 4,
-          "ciFrom": "2026-05-06",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "Deluxe Family City View",
-              "ciFrom": "2026-05-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "30일 얼리",
-              "nameEn": "30d Early Bird",
-              "value": "16.0%",
-              "room": "Deluxe Family City View",
-              "ciFrom": "2026-05-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "3일 전 라스트",
-              "nameEn": "3d advance Last Minute",
-              "value": "17.0%",
-              "room": "Deluxe Family City View",
-              "ciFrom": "2026-05-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "[여름 기획전]상시",
-              "nameEn": "[Summer Sale]Standard",
-              "value": "30.0%",
-              "room": "Deluxe Family City View",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-11-30"
-            }
-          ]
-        },
-        {
-          "code": "1001704",
-          "legacyCode": "",
-          "hotel": "Y Collection by Unboundi Gyeongju",
-          "city": "Gyeongju",
-          "maxPct": 30,
-          "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 3,
-          "ciFrom": "2026-03-06",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "Connecting",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "30일 얼리",
-              "nameEn": "30d Early Bird",
-              "value": "16.0%",
-              "room": "Connecting",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "3일 전 라스트",
-              "nameEn": "3d advance Last Minute",
-              "value": "17.0%",
-              "room": "Connecting",
-              "ciFrom": "2026-03-06",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "[여름 기획전]상시",
-              "nameEn": "[Summer Sale]Standard",
-              "value": "30.0%",
-              "room": "Connecting",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-11-30"
-            }
-          ]
-        },
-        {
-          "code": "1001707",
-          "legacyCode": "",
-          "hotel": "Restia Stay Gangneung Station",
-          "city": "Gangneung",
-          "maxPct": 30,
-          "hasFixed": false,
-          "promoCount": 4,
-          "roomCount": 4,
-          "ciFrom": "2026-03-11",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "Deluxe",
-              "ciFrom": "2026-03-11",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "30일 얼리버드",
-              "nameEn": "30d Early Bird",
-              "value": "16.0%",
-              "room": "Deluxe",
-              "ciFrom": "2026-03-11",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "3일 전 라스트",
-              "nameEn": "3d advance Last Minute",
-              "value": "17.0%",
-              "room": "Deluxe",
-              "ciFrom": "2026-03-11",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "[여름 기획전]상시",
-              "nameEn": "[Summer Sale]Standard",
-              "value": "30.0%",
-              "room": "Deluxe",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-11-30"
             }
           ]
         },
@@ -34386,6 +34188,170 @@
               "room": "Family Ocean Suite",
               "ciFrom": "2026-04-28",
               "ciTo": "2026-12-30"
+            }
+          ]
+        },
+        {
+          "code": "1001703",
+          "legacyCode": "",
+          "hotel": "Y Collection Haeundae Beach",
+          "city": "Busan",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-07-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[기획전]상시",
+              "nameEn": "[Sale]Standard",
+              "value": "30.0%",
+              "room": "Deluxe Family City View",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001704",
+          "legacyCode": "",
+          "hotel": "Y Collection by Unboundi Gyeongju",
+          "city": "Gyeongju",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 3,
+          "ciFrom": "2026-07-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[기획전]상시",
+              "nameEn": "[Sale]Standard",
+              "value": "30.0%",
+              "room": "Connecting",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001705",
+          "legacyCode": "",
+          "hotel": "Restia Incheon Bay Hotel",
+          "city": "Incheon",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-07-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[기획전]상시",
+              "nameEn": "[Sale]Standard",
+              "value": "30.0%",
+              "room": "Deluxe Double City View",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001706",
+          "legacyCode": "",
+          "hotel": "Restia Stay Suwon Station",
+          "city": "Suwon",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 6,
+          "ciFrom": "2026-07-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[기획전]상시",
+              "nameEn": "[Sale]Standard",
+              "value": "30.0%",
+              "room": "City View Deluxe Family Twin",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001707",
+          "legacyCode": "",
+          "hotel": "Restia Stay Gangneung Station",
+          "city": "Gangneung",
+          "maxPct": 30,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-07-29",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "[기획전]상시",
+              "nameEn": "[Sale]Standard",
+              "value": "30.0%",
+              "room": "Deluxe",
+              "ciFrom": "2026-07-29",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "560953",
+          "legacyCode": "KR002219",
+          "hotel": "Ramada By Wyndham Seoul Dongdaemun",
+          "city": "Seoul",
+          "maxPct": 29,
+          "hasFixed": false,
+          "promoCount": 5,
+          "roomCount": 12,
+          "ciFrom": "2026-06-01",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "상시 할인",
+              "nameEn": "Standard Discount",
+              "value": "15.0%",
+              "room": "Deluxe Double Twin",
+              "ciFrom": "2026-06-01",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "5연박",
+              "nameEn": "5-Night Stay",
+              "value": "20.0%",
+              "room": "Deluxe Double Twin",
+              "ciFrom": "2026-06-01",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "18.0%",
+              "room": "Deluxe Double Twin",
+              "ciFrom": "2026-06-01",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "7-8월 SPOT - 3연박 27%",
+              "nameEn": "7-8(month) SPOT - 3-Night Stay 27%",
+              "value": "27.0%",
+              "room": "Deluxe Double Twin",
+              "ciFrom": "2026-07-30",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "7-8월 SPOT - 5연박 29%",
+              "nameEn": "7-8(month) SPOT - 5-Night Stay 29%",
+              "value": "29.0%",
+              "room": "Deluxe Double Twin",
+              "ciFrom": "2026-07-30",
+              "ciTo": "2026-08-31"
             }
           ]
         },
@@ -34558,24 +34524,56 @@
           ]
         },
         {
-          "code": "859098",
-          "legacyCode": "KR000302",
-          "hotel": "Solaria Nishitetsu Hotel Seoul Myeongdong",
-          "city": "Seoul",
-          "maxPct": 26,
+          "code": "736316",
+          "legacyCode": "KR002267",
+          "hotel": "Griffin Bay Hotel",
+          "city": "Busan",
+          "maxPct": 25,
           "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 3,
-          "ciFrom": "2026-06-30",
-          "ciTo": "2026-12-31",
+          "promoCount": 5,
+          "roomCount": 7,
+          "ciFrom": "2025-09-02",
+          "ciTo": "2099-12-31",
           "deals": [
+            {
+              "name": "[여름 기획전]상2연박",
+              "nameEn": "[Summer Sale]상2-Night Stay",
+              "value": "25.0%",
+              "room": "Deluxe Double Ocean View",
+              "ciFrom": "2026-07-28",
+              "ciTo": "2026-09-30"
+            },
+            {
+              "name": "3일 전 라스트",
+              "nameEn": "3d advance Last Minute",
+              "value": "17.0%",
+              "room": "Deluxe Double Ocean View",
+              "ciFrom": "2025-09-12",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "14.0%",
+              "room": "Deluxe Double Ocean View",
+              "ciFrom": "2025-09-02",
+              "ciTo": "2099-12-31"
+            },
             {
               "name": "2연박",
               "nameEn": "2-Night Stay",
-              "value": "26.0%",
-              "room": "Standard Double",
-              "ciFrom": "2026-06-30",
-              "ciTo": "2026-12-31"
+              "value": "13.0%",
+              "room": "Deluxe Double Ocean View",
+              "ciFrom": "2025-09-02",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "60일 얼리버드",
+              "nameEn": "60d Early Bird",
+              "value": "15.0%",
+              "room": "Deluxe Double Ocean View",
+              "ciFrom": "2025-09-02",
+              "ciTo": "2099-12-31"
             }
           ]
         },
@@ -34974,9 +34972,17 @@
           "ciTo": "2026-12-31",
           "deals": [
             {
-              "name": "Min 3N",
-              "nameEn": "Min 3N",
+              "name": "2일 전 라스트미닛",
+              "nameEn": "2d advance Last Minute",
               "value": "18.0%",
+              "room": "A-Deluxe Twin Mountain View",
+              "ciFrom": "2026-07-16",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "30일 얼리버드",
+              "nameEn": "30d Early Bird",
+              "value": "20.0%",
               "room": "A-Deluxe Twin Mountain View",
               "ciFrom": "2026-07-16",
               "ciTo": "2026-12-31"
@@ -34990,8 +34996,8 @@
               "ciTo": "2026-12-31"
             },
             {
-              "name": "2일 전 라스트미닛",
-              "nameEn": "2d advance Last Minute",
+              "name": "Min 3N",
+              "nameEn": "Min 3N",
               "value": "18.0%",
               "room": "A-Deluxe Twin Mountain View",
               "ciFrom": "2026-07-16",
@@ -35009,14 +35015,6 @@
               "name": "Basic Promotion",
               "nameEn": "Basic Promotion",
               "value": "15.0%",
-              "room": "A-Deluxe Twin Mountain View",
-              "ciFrom": "2026-07-16",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "30일 얼리버드",
-              "nameEn": "30d Early Bird",
-              "value": "20.0%",
               "room": "A-Deluxe Twin Mountain View",
               "ciFrom": "2026-07-16",
               "ciTo": "2026-12-31"
@@ -35094,60 +35092,6 @@
           ]
         },
         {
-          "code": "736316",
-          "legacyCode": "KR002267",
-          "hotel": "Griffin Bay Hotel",
-          "city": "Busan",
-          "maxPct": 20,
-          "hasFixed": false,
-          "promoCount": 5,
-          "roomCount": 7,
-          "ciFrom": "2025-09-02",
-          "ciTo": "2099-12-31",
-          "deals": [
-            {
-              "name": "[여름 기획전] 상시",
-              "nameEn": "[Summer Sale] Standard",
-              "value": "20.0%",
-              "room": "Deluxe Double Ocean View",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-09-30"
-            },
-            {
-              "name": "3일 전 라스트",
-              "nameEn": "3d advance Last Minute",
-              "value": "17.0%",
-              "room": "Deluxe Double Ocean View",
-              "ciFrom": "2025-09-12",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "3연박",
-              "nameEn": "3-Night Stay",
-              "value": "14.0%",
-              "room": "Deluxe Double Ocean View",
-              "ciFrom": "2025-09-02",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "2연박",
-              "nameEn": "2-Night Stay",
-              "value": "13.0%",
-              "room": "Deluxe Double Ocean View",
-              "ciFrom": "2025-09-02",
-              "ciTo": "2099-12-31"
-            },
-            {
-              "name": "60일 얼리버드",
-              "nameEn": "60d Early Bird",
-              "value": "15.0%",
-              "room": "Deluxe Double Ocean View",
-              "ciFrom": "2025-09-02",
-              "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
           "code": "761405",
           "legacyCode": "KR002022",
           "hotel": "Hotel Bridge Seogwipo",
@@ -35190,90 +35134,6 @@
               "room": "[No Parking] Deluxe Partial Double",
               "ciFrom": "2026-05-21",
               "ciTo": "2027-05-31"
-            }
-          ]
-        },
-        {
-          "code": "155227",
-          "legacyCode": "KR001769",
-          "hotel": "Hyundai Soo Resort Sokcho",
-          "city": "Sokcho",
-          "maxPct": 20,
-          "hasFixed": false,
-          "promoCount": 3,
-          "roomCount": 3,
-          "ciFrom": "2026-07-17",
-          "ciTo": "2026-08-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "10.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-18",
-              "ciTo": "2026-08-22"
-            },
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "20.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-17",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "7월 여름 기획전",
-              "nameEn": "7(month) Summer Sale",
-              "value": "15.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-24",
-              "ciTo": "2026-07-29"
-            },
-            {
-              "name": "라스트마닛 특가",
-              "nameEn": "Last Minute Deal",
-              "value": "20.0%",
-              "room": "23PY Two Bedroom Mountain View",
-              "ciFrom": "2026-07-24",
-              "ciTo": "2026-07-28"
-            }
-          ]
-        },
-        {
-          "code": "560953",
-          "legacyCode": "KR002219",
-          "hotel": "Ramada By Wyndham Seoul Dongdaemun",
-          "city": "Seoul",
-          "maxPct": 20,
-          "hasFixed": false,
-          "promoCount": 3,
-          "roomCount": 12,
-          "ciFrom": "2026-06-01",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "상시 할인",
-              "nameEn": "Standard Discount",
-              "value": "15.0%",
-              "room": "Deluxe Double Twin",
-              "ciFrom": "2026-06-01",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "5연박",
-              "nameEn": "5-Night Stay",
-              "value": "20.0%",
-              "room": "Deluxe Double Twin",
-              "ciFrom": "2026-06-01",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "3연박",
-              "nameEn": "3-Night Stay",
-              "value": "18.0%",
-              "room": "Deluxe Double Twin",
-              "ciFrom": "2026-06-01",
-              "ciTo": "2026-12-31"
             }
           ]
         },
@@ -35436,6 +35296,36 @@
           ]
         },
         {
+          "code": "155227",
+          "legacyCode": "KR001769",
+          "hotel": "Hyundai Soo Resort Sokcho",
+          "city": "Sokcho",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 3,
+          "ciFrom": "2026-07-17",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "10.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-18",
+              "ciTo": "2026-08-22"
+            },
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "20.0%",
+              "room": "23PY Two Bedroom Mountain View",
+              "ciFrom": "2026-07-17",
+              "ciTo": "2026-08-31"
+            }
+          ]
+        },
+        {
           "code": "478764",
           "legacyCode": "KR001282",
           "hotel": "Avani Central Busan Hotel",
@@ -35454,6 +35344,28 @@
               "room": "Avani Deluxe Family (Non-smoking)",
               "ciFrom": "2026-05-27",
               "ciTo": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "code": "499296",
+          "legacyCode": "KR002401",
+          "hotel": "Hotel Hyundai by Lahan Ulsan",
+          "city": "Ulsan",
+          "maxPct": 20,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-07-27",
+          "ciTo": "2027-06-30",
+          "deals": [
+            {
+              "name": "Basic 20%",
+              "nameEn": "Basic 20%",
+              "value": "20.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-07-27",
+              "ciTo": "2027-06-30"
             }
           ]
         },
@@ -35618,6 +35530,180 @@
               "room": "Deluxe Double City Ocean View",
               "ciFrom": "2026-02-04",
               "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
+          "code": "289398",
+          "legacyCode": "KR005612",
+          "hotel": "Nam Han River Ilsung Resort",
+          "city": "Yeoju",
+          "maxPct": 17,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 4,
+          "ciFrom": "2026-04-24",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "15.0%",
+              "room": "Gold Suite A",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "2연박_주중",
+              "nameEn": "2-Night Stay_Weekday",
+              "value": "17.0%",
+              "room": "Gold Suite A",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            },
+            {
+              "name": "2연박_주말",
+              "nameEn": "2-Night Stay_Weekend",
+              "value": "16.0%",
+              "room": "Gold Suite A",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "code": "290000",
+          "legacyCode": "KR005609",
+          "hotel": "Jiri Mountain Ilsung Resort",
+          "city": "Namwon",
+          "maxPct": 17,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 2,
+          "ciFrom": "2026-04-24",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "15.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "2연박_주중",
+              "nameEn": "2-Night Stay_Weekday",
+              "value": "17.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            },
+            {
+              "name": "2연박_주말",
+              "nameEn": "2-Night Stay_Weekend",
+              "value": "16.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "code": "348407",
+          "legacyCode": "KR005608",
+          "hotel": "Jeju Ilsung Resort",
+          "city": "Jeju City",
+          "maxPct": 17,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 3,
+          "ciFrom": "2026-04-24",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "15.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "2연박_주중",
+              "nameEn": "2-Night Stay_Weekday",
+              "value": "17.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            },
+            {
+              "name": "2연박_주말",
+              "nameEn": "2-Night Stay_Weekend",
+              "value": "16.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "code": "681112",
+          "legacyCode": "KR005606",
+          "hotel": "Sulak Ilsung Resort",
+          "city": "Goseong",
+          "maxPct": 17,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 3,
+          "ciFrom": "2026-04-24",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "15.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-04-24",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "2연박_주중",
+              "nameEn": "2-Night Stay_Weekday",
+              "value": "17.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            },
+            {
+              "name": "2연박_주말",
+              "nameEn": "2-Night Stay_Weekend",
+              "value": "16.0%",
+              "room": "Gold Suite",
+              "ciFrom": "2026-08-17",
+              "ciTo": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "code": "995718",
+          "legacyCode": "KR005456",
+          "hotel": "The Prima Jongno",
+          "city": "Seoul",
+          "maxPct": 17,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-07-31",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "EB 30DAYS + 2 Min. Nights",
+              "nameEn": "EB 30DAYS + 2 Min. Nights",
+              "value": "17.0%",
+              "room": "Deluxe Twin",
+              "ciFrom": "2026-07-31",
+              "ciTo": "2026-09-30"
             }
           ]
         },
@@ -36364,68 +36450,6 @@
           ]
         },
         {
-          "code": "1001612",
-          "legacyCode": "",
-          "hotel": "D.A.L Premium Capsule Hotel",
-          "city": "Seoul",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 5,
-          "roomCount": 4,
-          "ciFrom": "2026-01-12",
-          "ciTo": "2027-07-31",
-          "deals": [
-            {
-              "name": "라스트미닛",
-              "nameEn": "Last Minute",
-              "value": "5.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
-              "ciFrom": "2026-02-05",
-              "ciTo": "2026-07-31"
-            },
-            {
-              "name": "10 early bird",
-              "nameEn": "10 early bird",
-              "value": "5.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
-              "ciFrom": "2026-02-05",
-              "ciTo": "2026-08-31"
-            },
-            {
-              "name": "30일전 얼리버드",
-              "nameEn": "30d advance Early Bird",
-              "value": "15.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
-              "ciFrom": "2026-01-12",
-              "ciTo": "2027-07-31"
-            },
-            {
-              "name": "20일전 얼리버드",
-              "nameEn": "20d advance Early Bird",
-              "value": "10.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
-              "ciFrom": "2026-01-12",
-              "ciTo": "2027-07-31"
-            },
-            {
-              "name": "10일전 얼리버드",
-              "nameEn": "10d advance Early Bird",
-              "value": "5.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
-              "ciFrom": "2026-01-12",
-              "ciTo": "2027-07-31"
-            },
-            {
-              "name": "20일전 얼리버드",
-              "nameEn": "20d advance Early Bird",
-              "value": "5.0%",
-              "room": "[Dormitory Bunk Bed] Man Capsule Upper Floor",
-              "ciFrom": "2026-01-12",
-              "ciTo": "2027-02-28"
-            }
-          ]
-        },
-        {
           "code": "1001743",
           "legacyCode": "",
           "hotel": "Phoenix Pyeongchang Hotel",
@@ -36818,6 +36842,60 @@
           ]
         },
         {
+          "code": "1001612",
+          "legacyCode": "",
+          "hotel": "D.A.L Premium Capsule Hotel",
+          "city": "Seoul",
+          "maxPct": 15,
+          "hasFixed": false,
+          "promoCount": 4,
+          "roomCount": 4,
+          "ciFrom": "2026-01-12",
+          "ciTo": "2027-07-31",
+          "deals": [
+            {
+              "name": "10 early bird",
+              "nameEn": "10 early bird",
+              "value": "5.0%",
+              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
+              "ciFrom": "2026-02-05",
+              "ciTo": "2026-08-31"
+            },
+            {
+              "name": "30일전 얼리버드",
+              "nameEn": "30d advance Early Bird",
+              "value": "15.0%",
+              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
+              "ciFrom": "2026-01-12",
+              "ciTo": "2027-07-31"
+            },
+            {
+              "name": "20일전 얼리버드",
+              "nameEn": "20d advance Early Bird",
+              "value": "10.0%",
+              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
+              "ciFrom": "2026-01-12",
+              "ciTo": "2027-07-31"
+            },
+            {
+              "name": "10일전 얼리버드",
+              "nameEn": "10d advance Early Bird",
+              "value": "5.0%",
+              "room": "[Dormitory Bunk Bed] Man Capsule Lower Floor",
+              "ciFrom": "2026-01-12",
+              "ciTo": "2027-07-31"
+            },
+            {
+              "name": "20일전 얼리버드",
+              "nameEn": "20d advance Early Bird",
+              "value": "5.0%",
+              "room": "[Dormitory Bunk Bed] Man Capsule Upper Floor",
+              "ciFrom": "2026-01-12",
+              "ciTo": "2027-02-28"
+            }
+          ]
+        },
+        {
           "code": "160465",
           "legacyCode": "KR000264",
           "hotel": "Sotetsu Hotels The Splaisir Seoul Myeongdong",
@@ -36830,11 +36908,11 @@
           "ciTo": "2026-11-30",
           "deals": [
             {
-              "name": "썸머픽! 지금 예약이 가장 저렴",
-              "nameEn": "Summer Pick! Book now for best price",
-              "value": "10.0%",
+              "name": "Last Minute 5 Days",
+              "nameEn": "Last Minute 5 Days",
+              "value": "15.0%",
               "room": "Deluxe Double",
-              "ciFrom": "2026-07-01",
+              "ciFrom": "2026-08-01",
               "ciTo": "2026-08-31"
             },
             {
@@ -36846,12 +36924,12 @@
               "ciTo": "2026-11-30"
             },
             {
-              "name": "당일 특가!",
-              "nameEn": "Same-day Deal!",
-              "value": "15.0%",
+              "name": "썸머픽! 지금 예약이 가장 저렴",
+              "nameEn": "Summer Pick! Book now for best price",
+              "value": "10.0%",
               "room": "Deluxe Double",
               "ciFrom": "2026-07-01",
-              "ciTo": "2026-07-31"
+              "ciTo": "2026-08-31"
             }
           ]
         },
@@ -37178,50 +37256,6 @@
           ]
         },
         {
-          "code": "289398",
-          "legacyCode": "KR005612",
-          "hotel": "Nam Han River Ilsung Resort",
-          "city": "Yeoju",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 4,
-          "ciFrom": "2026-04-24",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "15.0%",
-              "room": "Gold Suite A",
-              "ciFrom": "2026-04-24",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
-          "code": "290000",
-          "legacyCode": "KR005609",
-          "hotel": "Jiri Mountain Ilsung Resort",
-          "city": "Namwon",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 2,
-          "ciFrom": "2026-04-24",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "15.0%",
-              "room": "Gold Suite",
-              "ciFrom": "2026-04-24",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
           "code": "290050",
           "legacyCode": "KR005611",
           "hotel": "Muju Ilsung Resort",
@@ -37238,28 +37272,6 @@
               "nameEn": "Standard",
               "value": "15.0%",
               "room": "Gold Suite A",
-              "ciFrom": "2026-04-24",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
-          "code": "348407",
-          "legacyCode": "KR005608",
-          "hotel": "Jeju Ilsung Resort",
-          "city": "Jeju City",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 3,
-          "ciFrom": "2026-04-24",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "15.0%",
-              "room": "Gold Suite",
               "ciFrom": "2026-04-24",
               "ciTo": "2026-12-31"
             }
@@ -37327,28 +37339,6 @@
               "value": "15.0%",
               "room": "17-Pyeong Room Double Double",
               "ciFrom": "2025-11-07",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
-          "code": "681112",
-          "legacyCode": "KR005606",
-          "hotel": "Sulak Ilsung Resort",
-          "city": "Goseong",
-          "maxPct": 15,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 3,
-          "ciFrom": "2026-04-24",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "15.0%",
-              "room": "Gold Suite",
-              "ciFrom": "2026-04-24",
               "ciTo": "2026-12-31"
             }
           ]
@@ -37650,6 +37640,14 @@
               "nameEn": "15d Early Bird",
               "value": "13.0%",
               "room": "Corner Suite",
+              "ciFrom": "2026-07-14",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "Last Minute 3 days ago",
+              "nameEn": "Last Minute 3 days ago",
+              "value": "10.0%",
+              "room": "Standard Family Twin",
               "ciFrom": "2026-07-14",
               "ciTo": "2026-12-31"
             }
@@ -38684,6 +38682,82 @@
           ]
         },
         {
+          "code": "153383",
+          "legacyCode": "KR001608",
+          "hotel": "Jeju Central City Hotel",
+          "city": "Jeju City",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 3,
+          "ciFrom": "2026-06-17",
+          "ciTo": "2027-06-30",
+          "deals": [
+            {
+              "name": "Min 2N Promotion",
+              "nameEn": "Min 2N Promotion",
+              "value": "10.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-06-17",
+              "ciTo": "2027-06-30"
+            },
+            {
+              "name": "7days Early bird Promotion",
+              "nameEn": "7days Early bird Promotion",
+              "value": "10.0%",
+              "room": "Family Twin",
+              "ciFrom": "2026-06-17",
+              "ciTo": "2027-06-30"
+            },
+            {
+              "name": "RO Non-Refundable",
+              "nameEn": "RO Non-Refundable",
+              "value": "5.0%",
+              "room": "Superior Double",
+              "ciFrom": "2026-06-17",
+              "ciTo": "2027-06-30"
+            }
+          ]
+        },
+        {
+          "code": "197242",
+          "legacyCode": "KR000833",
+          "hotel": "Hotel Shalom Jeju",
+          "city": "Jeju City",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 3,
+          "roomCount": 5,
+          "ciFrom": "2026-06-18",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "라스트미닛 1일전+2연박",
+              "nameEn": "Last Minute 1d advance+2-Night Stay",
+              "value": "10.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-30",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "얼리버드 15일전",
+              "nameEn": "Early Bird 15d advance",
+              "value": "10.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-30",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "상시",
+              "nameEn": "Standard",
+              "value": "6.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-06-30",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
           "code": "846894",
           "legacyCode": "",
           "hotel": "Jeonju Signature Hotel",
@@ -38748,36 +38822,6 @@
               "room": "Double Ondol",
               "ciFrom": "2025-05-30",
               "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
-          "code": "153383",
-          "legacyCode": "KR001608",
-          "hotel": "Jeju Central City Hotel",
-          "city": "Jeju City",
-          "maxPct": 10,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 3,
-          "ciFrom": "2026-06-17",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "Min 2N Promotion",
-              "nameEn": "Min 2N Promotion",
-              "value": "10.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-06-17",
-              "ciTo": "2026-12-31"
-            },
-            {
-              "name": "7days Early bird Promotion",
-              "nameEn": "7days Early bird Promotion",
-              "value": "10.0%",
-              "room": "Family Twin",
-              "ciFrom": "2026-06-17",
-              "ciTo": "2026-12-31"
             }
           ]
         },
@@ -39162,28 +39206,6 @@
           ]
         },
         {
-          "code": "379991",
-          "legacyCode": "KR002371",
-          "hotel": "La Terrace Boutique Resort & Spa",
-          "city": "Yeosu",
-          "maxPct": 10,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 17,
-          "ciFrom": "2026-06-11",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "얼리버드 21일 전 NRF",
-              "nameEn": "Early Bird 21d advance NRF",
-              "value": "10.0%",
-              "room": "Bali Beach Villa",
-              "ciFrom": "2026-06-11",
-              "ciTo": "2026-12-31"
-            }
-          ]
-        },
-        {
           "code": "556613",
           "legacyCode": "KR005477",
           "hotel": "Busan Seomyeon Yuna Hotel Business",
@@ -39202,6 +39224,28 @@
               "room": "Deluxe Double",
               "ciFrom": "2024-12-05",
               "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "635102",
+          "legacyCode": "",
+          "hotel": "Stubborn Hotel",
+          "city": "Geoje",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 6,
+          "ciFrom": "2026-08-05",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "여름휴가기획전",
+              "nameEn": "여름휴가Sale",
+              "value": "10.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-08-05",
+              "ciTo": "2026-09-30"
             }
           ]
         },
@@ -39294,6 +39338,28 @@
           ]
         },
         {
+          "code": "709175",
+          "legacyCode": "",
+          "hotel": "Yeonhwamoon Hotel Eulwang",
+          "city": "Incheon",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 6,
+          "ciFrom": "2026-08-05",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "여름휴가 기획전",
+              "nameEn": "여름휴가 Sale",
+              "value": "10.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-08-05",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
           "code": "711876",
           "legacyCode": "KR001736",
           "hotel": "Hotel ZINC",
@@ -39338,6 +39404,28 @@
           ]
         },
         {
+          "code": "786358",
+          "legacyCode": "",
+          "hotel": "Yeonhwamun Hotel Yeongdeok",
+          "city": "Yeongdeok",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 4,
+          "ciFrom": "2026-08-05",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "여름 휴가 기획전",
+              "nameEn": "여름 휴가 Sale",
+              "value": "10.0%",
+              "room": "Family Suite Twin",
+              "ciFrom": "2026-08-05",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
           "code": "823211",
           "legacyCode": "KR003259",
           "hotel": "Haeundae Blue Story Hotel",
@@ -39378,28 +39466,6 @@
               "room": "Deluxe Double Sea View",
               "ciFrom": "2026-06-08",
               "ciTo": "2099-12-31"
-            }
-          ]
-        },
-        {
-          "code": "886597",
-          "legacyCode": "KR003522",
-          "hotel": "Calacatta Hotel & Resort",
-          "city": "Yeosu",
-          "maxPct": 10,
-          "hasFixed": false,
-          "promoCount": 1,
-          "roomCount": 5,
-          "ciFrom": "2026-06-11",
-          "ciTo": "2026-12-31",
-          "deals": [
-            {
-              "name": "21일 전 얼리버드 NRF",
-              "nameEn": "21d advance Early Bird NRF",
-              "value": "10.0%",
-              "room": "Premier Suite",
-              "ciFrom": "2026-06-11",
-              "ciTo": "2026-12-31"
             }
           ]
         },
@@ -39552,6 +39618,28 @@
           ]
         },
         {
+          "code": "1001627",
+          "legacyCode": "",
+          "hotel": "Dignity Hotel Yangyang",
+          "city": "Yangyang",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 10,
+          "ciFrom": "2026-08-05",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "여름득가 할인",
+              "nameEn": "여름득가 Discount",
+              "value": "10.0%",
+              "room": "Luxury Spa",
+              "ciFrom": "2026-08-05",
+              "ciTo": "2026-09-30"
+            }
+          ]
+        },
+        {
           "code": "1001634",
           "legacyCode": "",
           "hotel": "Magnum Nampo Hotel",
@@ -39592,6 +39680,28 @@
               "room": "(Spa) Deokso Villa",
               "ciFrom": "2026-01-14",
               "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "1001751",
+          "legacyCode": "",
+          "hotel": "Yeonhwamoon Hotel Byeonsan",
+          "city": "Buan",
+          "maxPct": 10,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 8,
+          "ciFrom": "2026-08-05",
+          "ciTo": "2026-09-30",
+          "deals": [
+            {
+              "name": "여름휴가기획전",
+              "nameEn": "여름휴가Sale",
+              "value": "10.0%",
+              "room": "Corner Suite Double",
+              "ciFrom": "2026-08-05",
+              "ciTo": "2026-09-30"
             }
           ]
         },
@@ -39838,52 +39948,6 @@
               "room": "Deluxe Double",
               "ciFrom": "2026-01-28",
               "ciTo": "2099-01-01"
-            }
-          ]
-        },
-        {
-          "code": "197242",
-          "legacyCode": "KR000833",
-          "hotel": "Hotel Shalom Jeju",
-          "city": "Jeju City",
-          "maxPct": 8,
-          "hasFixed": true,
-          "promoCount": 4,
-          "roomCount": 5,
-          "ciFrom": "2026-06-18",
-          "ciTo": "2026-09-30",
-          "deals": [
-            {
-              "name": "라스트미닛 1일전+2연박",
-              "nameEn": "Last Minute 1d advance+2-Night Stay",
-              "value": "8.0%",
-              "room": "Deluxe Double",
-              "ciFrom": "2026-06-30",
-              "ciTo": "2026-07-31"
-            },
-            {
-              "name": "얼리버드 15일전",
-              "nameEn": "Early Bird 15d advance",
-              "value": "8.0%",
-              "room": "Deluxe Double",
-              "ciFrom": "2026-06-30",
-              "ciTo": "2026-07-31"
-            },
-            {
-              "name": "상시",
-              "nameEn": "Standard",
-              "value": "6.0%",
-              "room": "Deluxe Double",
-              "ciFrom": "2026-06-30",
-              "ciTo": "2026-09-30"
-            },
-            {
-              "name": "썸머 프로모션",
-              "nameEn": "Summer Promotion",
-              "value": "KRW 10000.0",
-              "room": "Deluxe Junior Double",
-              "ciFrom": "2026-06-18",
-              "ciTo": "2026-07-31"
             }
           ]
         },
@@ -40414,32 +40478,32 @@
           ]
         },
         {
-          "code": "176653",
-          "legacyCode": "KR002281",
-          "hotel": "Kolon Seacloud Hotel",
-          "city": "Busan",
+          "code": "679081",
+          "legacyCode": "KR003933",
+          "hotel": "Tamara Jeju",
+          "city": "Seogwipo",
           "maxPct": 6,
           "hasFixed": false,
           "promoCount": 2,
-          "roomCount": 9,
-          "ciFrom": "2025-10-16",
-          "ciTo": "2099-12-31",
+          "roomCount": 8,
+          "ciFrom": "2026-07-31",
+          "ciTo": "2026-09-10",
           "deals": [
             {
-              "name": "3연박",
-              "nameEn": "3-Night Stay",
-              "value": "6.0%",
-              "room": "Superior Suite Room City View -Duplex.",
-              "ciFrom": "2026-02-27",
-              "ciTo": "2026-12-31"
+              "name": "2nights Promotion",
+              "nameEn": "2nights Promotion",
+              "value": "5.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-07-31",
+              "ciTo": "2026-09-10"
             },
             {
-              "name": "2연박",
-              "nameEn": "2-Night Stay",
-              "value": "3.0%",
-              "room": "Superior Suite Room City View -Duplex.",
-              "ciFrom": "2026-01-22",
-              "ciTo": "2099-12-31"
+              "name": "Early Bird 14days",
+              "nameEn": "Early Bird 14days",
+              "value": "6.0%",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-07-31",
+              "ciTo": "2026-09-10"
             }
           ]
         },
@@ -40626,6 +40690,66 @@
           ]
         },
         {
+          "code": "176653",
+          "legacyCode": "KR002281",
+          "hotel": "Kolon Seacloud Hotel",
+          "city": "Busan",
+          "maxPct": 5,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 9,
+          "ciFrom": "2026-07-31",
+          "ciTo": "2027-02-28",
+          "deals": [
+            {
+              "name": "3연박",
+              "nameEn": "3-Night Stay",
+              "value": "5.0%",
+              "room": "Superior Suite Room City View -Duplex.",
+              "ciFrom": "2026-07-31",
+              "ciTo": "2027-02-28"
+            },
+            {
+              "name": "2연박",
+              "nameEn": "2-Night Stay",
+              "value": "3.0%",
+              "room": "Superior Suite Room City View -Duplex.",
+              "ciFrom": "2026-07-31",
+              "ciTo": "2027-02-28"
+            }
+          ]
+        },
+        {
+          "code": "226462",
+          "legacyCode": "",
+          "hotel": "Galmea First Hotel",
+          "city": "Guri",
+          "maxPct": 5,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 5,
+          "ciFrom": "2026-07-27",
+          "ciTo": "2026-12-31",
+          "deals": [
+            {
+              "name": "3연박 프로모션",
+              "nameEn": "3-Night Stay Promotion",
+              "value": "5.0%",
+              "room": "Junior Suite Double",
+              "ciFrom": "2026-07-27",
+              "ciTo": "2026-12-31"
+            },
+            {
+              "name": "상시 할인 5%",
+              "nameEn": "Standard Discount 5%",
+              "value": "5.0%",
+              "room": "Junior Suite Double",
+              "ciFrom": "2026-07-27",
+              "ciTo": "2026-12-31"
+            }
+          ]
+        },
+        {
           "code": "298993",
           "legacyCode": "KR001559",
           "hotel": "Hotel Haven",
@@ -40742,6 +40866,36 @@
               "room": "1. City View Business Single",
               "ciFrom": "2026-07-01",
               "ciTo": "2026-08-31"
+            }
+          ]
+        },
+        {
+          "code": "886479",
+          "legacyCode": "KR003364",
+          "hotel": "The Stay Classic Myeongdong",
+          "city": "Seoul",
+          "maxPct": 5,
+          "hasFixed": false,
+          "promoCount": 2,
+          "roomCount": 6,
+          "ciFrom": "2026-07-30",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "30-Day Early Bird",
+              "nameEn": "30-Day Early Bird",
+              "value": "5.0%",
+              "room": "Deluxe Suite Double No Parking",
+              "ciFrom": "2026-07-30",
+              "ciTo": "2099-12-31"
+            },
+            {
+              "name": "Min 2 Nights",
+              "nameEn": "Min 2 Nights",
+              "value": "5.0%",
+              "room": "Deluxe Suite Double No Parking",
+              "ciFrom": "2026-07-30",
+              "ciTo": "2099-12-31"
             }
           ]
         },
@@ -41944,36 +42098,6 @@
           ]
         },
         {
-          "code": "293893",
-          "legacyCode": "",
-          "hotel": "Jungheung Gold Spa & Resort",
-          "city": "Naju",
-          "maxPct": null,
-          "hasFixed": false,
-          "promoCount": 2,
-          "roomCount": 3,
-          "ciFrom": "2026-07-01",
-          "ciTo": "2026-08-31",
-          "deals": [
-            {
-              "name": "26년 7월",
-              "nameEn": "2026-7",
-              "value": "",
-              "room": "19-pyeong (2People)",
-              "ciFrom": "2026-07-01",
-              "ciTo": "2026-07-31"
-            },
-            {
-              "name": "26년 8월",
-              "nameEn": "2026-8",
-              "value": "",
-              "room": "19-pyeong (2People)",
-              "ciFrom": "2026-08-01",
-              "ciTo": "2026-08-31"
-            }
-          ]
-        },
-        {
           "code": "681577",
           "legacyCode": "KR002107",
           "hotel": "Tops 10 Villa de Aewol",
@@ -42050,7 +42174,7 @@
               "nameEn": "No Multi-night",
               "value": "",
               "room": "[6 PM Check-in] [2Pax BF] Healing Superior Double",
-              "ciFrom": "2026-06-29",
+              "ciFrom": "2026-07-27",
               "ciTo": "2099-12-31"
             },
             {
@@ -42370,6 +42494,28 @@
           ]
         },
         {
+          "code": "293893",
+          "legacyCode": "",
+          "hotel": "Jungheung Gold Spa & Resort",
+          "city": "Naju",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 3,
+          "ciFrom": "2026-08-01",
+          "ciTo": "2026-08-31",
+          "deals": [
+            {
+              "name": "26년 8월",
+              "nameEn": "2026-8",
+              "value": "",
+              "room": "19-pyeong (2People)",
+              "ciFrom": "2026-08-01",
+              "ciTo": "2026-08-31"
+            }
+          ]
+        },
+        {
           "code": "334016",
           "legacyCode": "KR003566",
           "hotel": "Gimpo Pentastar Hotel",
@@ -42453,6 +42599,28 @@
               "value": "",
               "room": "Deluxe Double",
               "ciFrom": "2025-03-10",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
+          "code": "507760",
+          "legacyCode": "",
+          "hotel": "Brown Dot Deokcheon Branch, Busan",
+          "city": "Busan",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 12,
+          "ciFrom": "2026-07-30",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "단박",
+              "nameEn": "1-Night",
+              "value": "",
+              "room": "Deluxe - No Parking",
+              "ciFrom": "2026-07-30",
               "ciTo": "2099-12-31"
             }
           ]
@@ -43074,6 +43242,28 @@
           ]
         },
         {
+          "code": "1001699",
+          "legacyCode": "",
+          "hotel": "Jongno 247 Hostel",
+          "city": "Seoul",
+          "maxPct": null,
+          "hasFixed": false,
+          "promoCount": 1,
+          "roomCount": 5,
+          "ciFrom": "2026-07-30",
+          "ciTo": "2099-12-31",
+          "deals": [
+            {
+              "name": "단박",
+              "nameEn": "1-Night",
+              "value": "",
+              "room": "Deluxe Double",
+              "ciFrom": "2026-07-30",
+              "ciTo": "2099-12-31"
+            }
+          ]
+        },
+        {
           "code": "1001717",
           "legacyCode": "",
           "hotel": "No.25 Doksan Intersection Branch",
@@ -43081,7 +43271,7 @@
           "maxPct": null,
           "hasFixed": false,
           "promoCount": 1,
-          "roomCount": 8,
+          "roomCount": 10,
           "ciFrom": "2026-05-20",
           "ciTo": "2099-12-31",
           "deals": [
@@ -43409,6 +43599,7 @@
         "Anyang",
         "Asan",
         "Boryeong",
+        "Buan",
         "Bucheon",
         "Busan",
         "Changnyeong-gun",
@@ -43425,6 +43616,7 @@
         "Goseong",
         "Goyang",
         "Gunsan",
+        "Guri",
         "Gyeongju",
         "Haenam",
         "Hoengseong",
@@ -43456,11 +43648,12 @@
         "Yangju",
         "Yangyang",
         "Yeoju",
+        "Yeongdeok",
         "Yeosu",
         "Yongin"
       ],
       "promoSummary": {
-        "hotels": 334,
+        "hotels": 343,
         "maxPct": 72,
         "avgPct": 18
       },
