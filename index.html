@@ -157,24 +157,24 @@
   thead th.code { white-space:nowrap; }
   .topglow td.rank { color: var(--accent); }
 
-  /* ── Ad / Announcement banner (image + 3-line copy) ── */
-  #bannerZone { margin-bottom: 14px; }
-  .ad-banner { display:flex; align-items:stretch; gap:16px; background:linear-gradient(100deg, rgba(240,133,31,.13), rgba(240,133,31,.02)); border:1px solid rgba(240,133,31,.4); border-left:4px solid #F0851F; border-radius:14px; padding:14px; margin-bottom:10px; }
-  .ad-banner .ab-img { flex:0 0 210px; width:210px; min-height:128px; border-radius:10px; background-size:cover; background-position:center; background-repeat:no-repeat; }
-  .ad-banner .ab-img.ph { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; background:linear-gradient(135deg,#1E2761,#0E1735); color:#fff; }
-  .ad-banner .ab-img.ph span { font-size:34px; }
-  .ad-banner .ab-img.ph b { font-size:15px; letter-spacing:.02em; }
-  .ad-banner .ab-body { flex:1; min-width:0; display:flex; flex-direction:column; justify-content:center; }
-  .ad-banner .ab-tag { align-self:flex-start; background:#F0851F; color:#fff; font-size:10.5px; font-weight:800; padding:3px 9px; border-radius:20px; margin-bottom:8px; letter-spacing:.03em; }
-  .ad-banner .ab-line { font-size:13.5px; color:var(--text); line-height:1.5; }
-  .ad-banner .ab-line.first { font-size:16px; font-weight:800; color:var(--text); margin-bottom:2px; }
-  .ad-banner .ab-hotel { margin-top:9px; display:inline-flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:12.5px; }
-  .ad-banner .ab-code { font-family:'SFMono-Regular',Consolas,monospace; font-weight:800; background:var(--bg2); border:1px solid var(--line); color:var(--accent); padding:2px 8px; border-radius:6px; }
+  /* ── Ad / Announcement banners (3-up grid, image + 3-line copy) ── */
+  #bannerZone { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:14px; }
+  .ad-banner { display:flex; flex-direction:column; background:linear-gradient(160deg, rgba(240,133,31,.13), rgba(240,133,31,.02)); border:1px solid rgba(240,133,31,.4); border-top:3px solid #F0851F; border-radius:12px; overflow:hidden; }
+  .ad-banner .ab-img { width:100%; height:130px; background-size:cover; background-position:center; background-repeat:no-repeat; }
+  .ad-banner .ab-img.ph { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; background:linear-gradient(135deg,#1E2761,#0E1735); color:#fff; }
+  .ad-banner .ab-img.ph span { font-size:30px; }
+  .ad-banner .ab-img.ph b { font-size:14px; letter-spacing:.02em; }
+  .ad-banner .ab-body { padding:12px 14px 13px; display:flex; flex-direction:column; flex:1; }
+  .ad-banner .ab-tag { align-self:flex-start; background:#F0851F; color:#fff; font-size:10px; font-weight:800; padding:2px 8px; border-radius:20px; margin-bottom:7px; letter-spacing:.03em; }
+  .ad-banner .ab-line { font-size:12px; color:var(--text); line-height:1.45; }
+  .ad-banner .ab-line.first { font-size:14px; font-weight:800; color:var(--text); margin-bottom:3px; }
+  .ad-banner .ab-hotel { margin-top:auto; padding-top:8px; display:flex; align-items:center; gap:7px; flex-wrap:wrap; font-size:11px; }
+  .ad-banner .ab-code { font-family:'SFMono-Regular',Consolas,monospace; font-weight:800; background:var(--bg2); border:1px solid var(--line); color:var(--accent); padding:2px 7px; border-radius:6px; }
   .ad-banner .ab-name { font-weight:700; color:var(--text); }
   .ad-banner .ab-city { color:var(--muted); }
-  @media(max-width:640px){ .ad-banner{flex-direction:column} .ad-banner .ab-img{width:100%;flex-basis:auto;height:150px} }
-  .ad-empty { border:1.5px dashed var(--line); border-radius:14px; padding:16px; text-align:center; color:var(--muted); font-size:13px; margin-bottom:10px; background:rgba(255,255,255,.01); }
+  .ad-empty { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; border:1.5px dashed var(--line); border-radius:12px; padding:18px 14px; color:var(--muted); font-size:13px; min-height:150px; background:rgba(255,255,255,.01); }
   .ad-empty b { color:var(--accent2); }
+  @media(max-width:900px){ #bannerZone{grid-template-columns:1fr} }
 
   .insight-card {
     background: linear-gradient(135deg, var(--card), var(--card2));
@@ -612,11 +612,7 @@ function renderBanner(){
   if(!el) return;
   const list = (DATA.banners && DATA.banners[country]) || [];
   const items = Array.isArray(list) ? list.filter(b => b && (b.lines || b.ko || b.en || b.zh)) : [];
-  if(!items.length){
-    el.innerHTML = '<div class="ad-empty">📢 <b>'+t('adEmpty')+'</b><br><span style="font-size:11.5px">'+t('adEmptyHint')+'</span></div>';
-    return;
-  }
-  el.innerHTML = items.map(b => {
+  const cards = items.map(b => {
     const L = b.lines || {};
     const lines = (L[lang] || L.ko || L.en || L.zh || []).slice(0, 3);
     const tagObj = b.tag || {};
@@ -635,7 +631,12 @@ function renderBanner(){
         + '</div>';
     }
     return '<div class="ad-banner">'+img+'<div class="ab-body">'+tag+lineHtml+hotel+'</div></div>';
-  }).join('');
+  });
+  // 3-up 그리드: 빈 슬롯은 "광고 받습니다"로 채움 (최소 3칸, 3의 배수로 정렬)
+  const empty = '<div class="ad-empty">📢 <b>'+t('adEmpty')+'</b><div style="font-size:11px;margin-top:5px">'+t('adEmptyHint')+'</div></div>';
+  const slots = Math.max(3, Math.ceil(cards.length / 3) * 3);
+  while (cards.length < slots) cards.push(empty);
+  el.innerHTML = cards.join('');
 }
 
 function insItem(label, icon, valHtml){
