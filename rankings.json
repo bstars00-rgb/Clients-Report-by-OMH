@@ -369908,5 +369908,43 @@
         "avgPct": 22
       }
     }
+  },
+  "banners": {
+    "_comment": "고객사 대시보드 국가별 광고/공지 배너. 각 배너: {tag:{ko,en,zh}, image, lines:{ko:[3문장], en:[...], zh:[...]}, code, hotel, city}. image = 이미지 URL 또는 상대경로(banners/<파일>); 비우면 도시명 플레이스홀더 표시. lines는 언어별 최대 3문장. 배열을 비우면 '광고 받습니다' 표시. 매주 이 파일만 수정 후 build-topselling.js 재실행.",
+    "Japan": [
+      {
+        "tag": {
+          "ko": "신규 등록",
+          "en": "NEW",
+          "zh": "新上线"
+        },
+        "image": "banners/tsushima.jpg",
+        "lines": {
+          "ko": [
+            "기다리시던 츠시마, 드디어 오픈했습니다.",
+            "메인 지역은 아니지만 첫 스타트 — 재고 준비 완료.",
+            "많은 홍보와 판매 부탁드립니다!"
+          ],
+          "en": [
+            "The long-awaited Tsushima is finally live.",
+            "A new frontier — fresh inventory, ready to sell.",
+            "Please promote and sell it actively!"
+          ],
+          "zh": [
+            "期待已久的对马岛正式上线。",
+            "全新区域，库存充足，即刻可售。",
+            "敬请大力推广与销售！"
+          ]
+        },
+        "code": "462943",
+        "hotel": "Toyoko Inn Tsushima Hitakatsu",
+        "city": "Tsushima"
+      }
+    ],
+    "Korea": [],
+    "Vietnam": [],
+    "Thailand": [],
+    "Hong Kong": [],
+    "Taiwan": []
   }
 }
