@@ -1071,6 +1071,7 @@
         },
         "risingCity": {
           "city": "Tokyo",
+          "count": 16,
           "up": 585
         },
         "climbCount": 57,
@@ -1080,7 +1081,7 @@
             "key": "recRisingCity",
             "p": {
               "city": "Tokyo",
-              "n": 585
+              "n": 16
             }
           },
           {
@@ -177625,8 +177626,9 @@
           "count": 20
         },
         "risingCity": {
-          "city": "Jeju City",
-          "up": 252
+          "city": "Seoul",
+          "count": 10,
+          "up": 237
         },
         "climbCount": 29,
         "fallCount": 17,
@@ -177634,8 +177636,8 @@
           {
             "key": "recRisingCity",
             "p": {
-              "city": "Jeju City",
-              "n": 252
+              "city": "Seoul",
+              "n": 10
             }
           },
           {
@@ -238561,8 +238563,9 @@
           "count": 10
         },
         "risingCity": {
-          "city": "Nha Trang",
-          "up": 470
+          "city": "Ho Chi Minh City",
+          "count": 9,
+          "up": 456
         },
         "climbCount": 36,
         "fallCount": 13,
@@ -238570,8 +238573,8 @@
           {
             "key": "recRisingCity",
             "p": {
-              "city": "Nha Trang",
-              "n": 470
+              "city": "Ho Chi Minh City",
+              "n": 9
             }
           },
           {
