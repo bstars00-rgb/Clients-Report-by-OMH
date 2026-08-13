@@ -12,6 +12,8 @@
     "Japan",
     "Korea",
     "Vietnam",
+    "Malaysia",
+    "Singapore",
     "Thailand",
     "Hong Kong",
     "Taiwan"
@@ -369915,6 +369917,352 @@
         "maxPct": 46,
         "avgPct": 22
       }
+    },
+    "Malaysia": {
+      "meta": {
+        "en": "Malaysia",
+        "ko": "말레이시아",
+        "zh": "马来西亚",
+        "flag": "🇲🇾"
+      },
+      "total": 0,
+      "cities": [],
+      "hotels": [],
+      "insights": null,
+      "cityRanking": [],
+      "seasonality": null,
+      "newMarket": true,
+      "showcase": {
+        "total": 500,
+        "capped": true,
+        "regionCount": 86,
+        "topRegions": [
+          {
+            "name": "Kuala Lumpur",
+            "n": 69
+          },
+          {
+            "name": "Langkawi",
+            "n": 44
+          },
+          {
+            "name": "George Town",
+            "n": 44
+          },
+          {
+            "name": "Malacca City",
+            "n": 40
+          },
+          {
+            "name": "Kota Kinabalu",
+            "n": 23
+          },
+          {
+            "name": "Ipoh",
+            "n": 17
+          },
+          {
+            "name": "Pangkor Island",
+            "n": 17
+          },
+          {
+            "name": "Petaling Jaya",
+            "n": 14
+          },
+          {
+            "name": "Johor Bahru",
+            "n": 14
+          },
+          {
+            "name": "Kuantan",
+            "n": 11
+          }
+        ],
+        "stars": [
+          {
+            "star": "5.0",
+            "n": 10
+          },
+          {
+            "star": "4.5",
+            "n": 4
+          },
+          {
+            "star": "4.0",
+            "n": 32
+          },
+          {
+            "star": "3.5",
+            "n": 54
+          },
+          {
+            "star": "3.0",
+            "n": 137
+          },
+          {
+            "star": "2.5",
+            "n": 166
+          },
+          {
+            "star": "2.0",
+            "n": 94
+          },
+          {
+            "star": "1.5",
+            "n": 2
+          },
+          {
+            "star": "1.0",
+            "n": 1
+          }
+        ],
+        "fiveStarCount": 10,
+        "featured": [
+          {
+            "code": 138301,
+            "en": "Lexis Suites Penang",
+            "ko": "렉시스 스위트 페낭",
+            "zh": "槟城丽昇华丽套房",
+            "region": "George Town",
+            "star": "5.0"
+          },
+          {
+            "code": 112819,
+            "en": "Hyatt Regency Kinabalu",
+            "ko": "하얏트 리젠시 키나발루",
+            "zh": "京那巴鲁君悦酒店",
+            "region": "Kota Kinabalu",
+            "star": "5.0"
+          },
+          {
+            "code": 138448,
+            "en": "Le Meridien Kota Kinabalu",
+            "ko": "르 메르디앙 코타키나발루",
+            "zh": "美丽殿哥打京那巴鲁酒店",
+            "region": "Kota Kinabalu",
+            "star": "5.0"
+          },
+          {
+            "code": 133222,
+            "en": "Hotel Istana Kuala Lumpur City Center",
+            "ko": "호텔 이스타나 쿠알라룸푸르 시티 센터",
+            "zh": null,
+            "region": "Kuala Lumpur",
+            "star": "5.0"
+          },
+          {
+            "code": 139501,
+            "en": "The Face Suites Kuala Lumpur",
+            "ko": "더 페이스 스위트 쿠알라룸푸르",
+            "zh": "吉隆坡费斯套房酒店",
+            "region": "Kuala Lumpur",
+            "star": "5.0"
+          },
+          {
+            "code": 117407,
+            "en": "Zenith Kuantan",
+            "ko": "제니스 콴탄",
+            "zh": "高峰关丹",
+            "region": "Kuantan",
+            "star": "5.0"
+          },
+          {
+            "code": 111883,
+            "en": "Four Seasons Resort Langkawi",
+            "ko": "포 시즌스 리조트 랑카위",
+            "zh": "兰卡威 Four Seasons 酒店",
+            "region": "Langkawi",
+            "star": "5.0"
+          },
+          {
+            "code": 137147,
+            "en": "The St. Regis Langkawi",
+            "ko": "더 세인트레기스 랑카위",
+            "zh": "兰卡威瑞吉酒店",
+            "region": "Langkawi",
+            "star": "5.0"
+          },
+          {
+            "code": 103224,
+            "en": "Mulu Marriott Resort",
+            "ko": "물루 메리어트 리조트",
+            "zh": "姆鲁万豪度假村",
+            "region": "Mulu",
+            "star": "5.0"
+          },
+          {
+            "code": 109318,
+            "en": "Pangkor Laut Resort",
+            "ko": "팡코르라웃 리조트",
+            "zh": "翡翠帝王岛度假村",
+            "region": "Pangkor Laut",
+            "star": "5.0"
+          }
+        ]
+      }
+    },
+    "Singapore": {
+      "meta": {
+        "en": "Singapore",
+        "ko": "싱가포르",
+        "zh": "新加坡",
+        "flag": "🇸🇬"
+      },
+      "total": 0,
+      "cities": [],
+      "hotels": [],
+      "insights": null,
+      "cityRanking": [],
+      "seasonality": null,
+      "newMarket": true,
+      "showcase": {
+        "total": 500,
+        "capped": true,
+        "regionCount": 1,
+        "topRegions": [
+          {
+            "name": "Singapore",
+            "n": 500
+          }
+        ],
+        "stars": [
+          {
+            "star": "5.0",
+            "n": 52
+          },
+          {
+            "star": "4.5",
+            "n": 18
+          },
+          {
+            "star": "4.0",
+            "n": 68
+          },
+          {
+            "star": "3.5",
+            "n": 58
+          },
+          {
+            "star": "3.0",
+            "n": 104
+          },
+          {
+            "star": "2.5",
+            "n": 68
+          },
+          {
+            "star": "2.0",
+            "n": 117
+          },
+          {
+            "star": "1.5",
+            "n": 5
+          },
+          {
+            "star": "1.0",
+            "n": 8
+          }
+        ],
+        "fiveStarCount": 52,
+        "featured": [
+          {
+            "code": 206031,
+            "en": "Amara Sanctuary Resort Sentosa",
+            "ko": "아마라 생추어리 리조트 센토사(SG Clean)",
+            "zh": "圣淘沙安曼纳圣殿度假酒店 (SG Clean)",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 204395,
+            "en": "Andaz Singapore - a concept by Hyatt",
+            "ko": "안다즈 싱가포르 - 어 컨셉트 바이 하얏트",
+            "zh": "安达仕新加坡酒店 - 凯悦旗下酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 171946,
+            "en": "Ascott Orchard Singapore",
+            "ko": "애스콧 오차드 싱가포르",
+            "zh": "新加坡乌节雅诗阁酒店式公寓",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 299238,
+            "en": "Capella Singapore",
+            "ko": "카펠라 싱가포르",
+            "zh": "新加坡嘉佩乐酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 685681,
+            "en": "Carlton City Hotel Singapore",
+            "ko": "칼튼 시티 호텔 싱가포르",
+            "zh": "新加坡卡尔登城市酒店 (SG Clean)",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 523967,
+            "en": "Conrad Centennial Singapore",
+            "ko": "콘래드 센테니얼 싱가포르",
+            "zh": "新加坡康莱德酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 235823,
+            "en": "Crowne Plaza Changi Airport, an IHG Hotel",
+            "ko": "크라운 플라자 창이 에어포트,  IHG 호텔",
+            "zh": "樟宜机场皇冠假日酒店 - IHG 旗下酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 247864,
+            "en": "Four Seasons Hotel Singapore",
+            "ko": "포시즌스 호텔 싱가포르",
+            "zh": "新加坡四季酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 667046,
+            "en": "Grand Copthorne Waterfront",
+            "ko": "그랜드 콥톤 워터프런트",
+            "zh": "国敦河畔大酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 113367,
+            "en": "Grand Hyatt Singapore",
+            "ko": "그랜드 하얏트 싱가포르",
+            "zh": "新加坡君悦酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 209863,
+            "en": "Hilton Singapore Orchard",
+            "ko": "힐튼 싱가포르 오차드",
+            "zh": "新加坡乌节路希尔顿酒店",
+            "region": "Singapore",
+            "star": "5.0"
+          },
+          {
+            "code": 491054,
+            "en": "Hotel Fort Canning",
+            "ko": "호텔 포트 캐닝(SG Clean)",
+            "zh": "福康宁酒店 (SG Clean)",
+            "region": "Singapore",
+            "star": "5.0"
+          }
+        ]
+      }
     }
   },
   "banners": {
@@ -369953,6 +370301,37 @@
     "Vietnam": [],
     "Thailand": [],
     "Hong Kong": [],
-    "Taiwan": []
+    "Taiwan": [],
+    "Malaysia": [
+      {
+        "tag": {
+          "ko": "신규 · 랑카위 대표 리조트",
+          "en": "NEW · Langkawi Flagship",
+          "zh": "新上线 · 兰卡威旗舰"
+        },
+        "image": "",
+        "lines": {
+          "ko": [
+            "랑카위 판타이 체낭 해변의 5성 비치프론트 리조트가 열렸습니다.",
+            "열대 정원·프라이빗 비치·스파를 갖춘 프리미엄 휴양지.",
+            "말레이시아 신규 시장의 대표 리조트, 지금 판매하세요!"
+          ],
+          "en": [
+            "A 5-star beachfront resort on Langkawi's Pantai Cenang is now live.",
+            "Tropical gardens, a private beach and full spa — a premium island escape.",
+            "The flagship of our new Malaysia market — start selling it today!"
+          ],
+          "zh": [
+            "兰卡威珍南海滩的五星海滨度假村现已上线。",
+            "热带花园、私人海滩与水疗中心，尊享海岛度假。",
+            "马来西亚新市场的旗舰度假村，即刻开售！"
+          ]
+        },
+        "code": "652234",
+        "hotel": "Pelangi Beach Resort & Spa, Langkawi",
+        "city": "Langkawi"
+      }
+    ],
+    "Singapore": []
   }
 }
