@@ -174,7 +174,15 @@
   .ad-banner .ab-city { color:var(--muted); }
   .ad-empty { display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; border:1.5px dashed var(--line); border-radius:12px; padding:18px 14px; color:var(--muted); font-size:13px; min-height:150px; background:rgba(255,255,255,.01); }
   .ad-empty b { color:var(--accent2); }
-  @media(max-width:900px){ #bannerZone{grid-template-columns:1fr} }
+  /* 단독 광고: 전체폭 가로형 히어로 (사진 대형 좌측 + 문구 우측) */
+  .ad-banner.wide { flex-direction:row; align-items:stretch; }
+  .ad-banner.wide .ab-img { width:54%; aspect-ratio:auto; height:auto; min-height:320px; }
+  .ad-banner.wide .ab-body { flex:1; justify-content:center; padding:24px 30px; }
+  .ad-banner.wide .ab-tag { font-size:12px; padding:3px 11px; margin-bottom:12px; }
+  .ad-banner.wide .ab-line { font-size:15px; line-height:1.5; }
+  .ad-banner.wide .ab-line.first { font-size:22px; margin-bottom:8px; line-height:1.3; }
+  .ad-banner.wide .ab-hotel { padding-top:14px; font-size:12px; }
+  @media(max-width:900px){ #bannerZone{grid-template-columns:1fr} .ad-banner.wide{flex-direction:column} .ad-banner.wide .ab-img{width:100%;min-height:200px} }
 
   /* ── New-market supply showcase ── */
   .sc-hero { background:linear-gradient(135deg, rgba(59,130,246,.14), rgba(99,102,241,.04)); border:1px solid rgba(99,102,241,.35); border-left:4px solid var(--accent); border-radius:14px; padding:18px 20px; margin-bottom:14px; }
@@ -651,37 +659,23 @@ function render(){
   renderInsight();
 }
 
-function renderBanner(){
-  const el = document.getElementById('bannerZone');
+function emptyCardHtml(){
+  return '<div class="ad-empty">📢 <b>'+t('adEmpty')+'</b><div style="font-size:11px;margin-top:5px">'+t('adEmptyHint')+'</div></div>';
+}
+// 광고 수에 따른 동적 레이아웃: 1개=전체폭 가로형(사진 대형), 2개=2열, 3개+=3열, 0개=빈 3칸
+function fillBannerZone(el){
   if(!el) return;
-  const list = (DATA.banners && DATA.banners[country]) || [];
-  const items = Array.isArray(list) ? list.filter(b => b && (b.lines || b.ko || b.en || b.zh)) : [];
-  const cards = items.map(b => {
-    const L = b.lines || {};
-    const lines = (L[lang] || L.ko || L.en || L.zh || []).slice(0, 3);
-    const tagObj = b.tag || {};
-    const tagTxt = typeof tagObj === 'string' ? tagObj : (tagObj[lang] || tagObj.ko || tagObj.en || tagObj.zh || '');
-    const tag = tagTxt ? '<span class="ab-tag">'+escapeHtml(tagTxt)+'</span>' : '';
-    const img = b.image
-      ? '<div class="ab-img" style="background-image:url(\''+encodeURI(b.image)+'\')"></div>'
-      : '<div class="ab-img ph"><span>🏨</span><b>'+escapeHtml(b.city || b.hotel || '') +'</b></div>';
-    const lineHtml = lines.map((s, i) => '<div class="ab-line'+(i===0?' first':'')+'">'+escapeHtml(s)+'</div>').join('');
-    let hotel = '';
-    if(b.code || b.hotel){
-      hotel = '<div class="ab-hotel">'
-        + (b.code ? '<span class="ab-code">'+escapeHtml(b.code)+'</span>' : '')
-        + (b.hotel ? '<span class="ab-name">'+escapeHtml(b.hotel)+'</span>' : '')
-        + (b.city ? '<span class="ab-city">· '+escapeHtml(b.city)+'</span>' : '')
-        + '</div>';
-    }
-    return '<div class="ad-banner">'+img+'<div class="ab-body">'+tag+lineHtml+hotel+'</div></div>';
-  });
-  // 3-up 그리드: 빈 슬롯은 "광고 받습니다"로 채움 (최소 3칸, 3의 배수로 정렬)
-  const empty = '<div class="ad-empty">📢 <b>'+t('adEmpty')+'</b><div style="font-size:11px;margin-top:5px">'+t('adEmptyHint')+'</div></div>';
-  const slots = Math.max(3, Math.ceil(cards.length / 3) * 3);
-  while (cards.length < slots) cards.push(empty);
+  let cards = bannerCardsHtml();
+  const n = cards.length;
+  if(n === 0){ el.style.gridTemplateColumns='repeat(3,1fr)'; el.innerHTML = emptyCardHtml()+emptyCardHtml()+emptyCardHtml(); return; }
+  if(n === 1){ el.style.gridTemplateColumns='1fr'; el.innerHTML = cards[0].replace('class="ad-banner"','class="ad-banner wide"'); return; }
+  if(n === 2){ el.style.gridTemplateColumns='repeat(2,1fr)'; el.innerHTML = cards.join(''); return; }
+  el.style.gridTemplateColumns='repeat(3,1fr)';
+  const slots = Math.ceil(cards.length / 3) * 3;
+  while (cards.length < slots) cards.push(emptyCardHtml());
   el.innerHTML = cards.join('');
 }
+function renderBanner(){ fillBannerZone(document.getElementById('bannerZone')); }
 
 // ── 신규 시장 공급 쇼케이스 ──
 function bannerCardsHtml(){
@@ -718,12 +712,8 @@ function renderShowcase(){
   h += '<div class="sc-hero"><span class="sc-badge">🆕 '+t('scBadge')+'</span>'
      + '<h2>'+c.meta.flag+' '+escapeHtml(name)+' — '+t('scTitle')+'</h2>'
      + '<p>'+t('scSub')+'</p></div>';
-  // ad banner (Pelangi 등)
-  const banners = bannerCardsHtml();
-  const emptyB = '<div class="ad-empty">📢 <b>'+t('adEmpty')+'</b><div style="font-size:11px;margin-top:5px">'+t('adEmptyHint')+'</div></div>';
-  const slots = Math.max(3, Math.ceil(banners.length/3)*3);
-  while (banners.length < slots) banners.push(emptyB);
-  h += '<div class="sc-banners">'+banners.join('')+'</div>';
+  // ad banner (Pelangi 등) — 동적 레이아웃은 렌더 후 fillBannerZone()에서 채움
+  h += '<div class="sc-banners" id="scBannerZone"></div>';
   // KPI stats
   h += '<div class="sc-kpis">'
      + '<div class="sc-kpi"><div class="v">'+totalTxt+'</div><div class="l">'+t('scKpiHotels')+'</div></div>'
@@ -759,6 +749,7 @@ function renderShowcase(){
   }
   h += '<div class="sc-foot">'+t('scFoot')+'</div>';
   el.innerHTML = h;
+  fillBannerZone(document.getElementById('scBannerZone'));
 }
 
 function insItem(label, icon, valHtml){
