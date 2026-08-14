@@ -676,7 +676,7 @@ function bannerCardsHtml(){
     const tagTxt = typeof tagObj === 'string' ? tagObj : (tagObj[lang] || tagObj.ko || tagObj.en || tagObj.zh || '');
     const tag = tagTxt ? '<span class="ab-tag">'+escapeHtml(tagTxt)+'</span>' : '';
     const img = b.image
-      ? '<img class="ab-img" src="'+encodeURI(b.image)+'" alt="'+escapeHtml(b.hotel || '')+'" loading="lazy">'
+      ? '<img class="ab-img" src="'+encodeURI(b.image)+'" alt="'+escapeHtml(b.hotel || '')+'">'
       : '<div class="ab-img ph"><span>🏨</span><b>'+escapeHtml(b.city || b.hotel || '')+'</b></div>';
     const lineHtml = lines.map((s, i) => '<div class="ab-line'+(i===0?' first':'')+'">'+escapeHtml(s)+'</div>').join('');
     let hotel = '';
