@@ -345058,7 +345058,92 @@
       }
     ],
     "Korea": [],
-    "Vietnam": [],
+    "Vietnam": [
+      {
+        "tag": {
+          "ko": "신규 호텔",
+          "en": "New Hotel",
+          "zh": "新酒店"
+        },
+        "image": "banners/vn-mvillage.jpg",
+        "lines": {
+          "ko": [
+            "아름다움과 로맨스를 찾는 이들을 위한 안식처.",
+            "쑤언흐엉 호수를 한눈에 담는 보기 드문 전망.",
+            "안 상 공원과 달랏 대성당 바로 곁."
+          ],
+          "en": [
+            "A haven for those drawn to beauty and romance.",
+            "Rare sweeping views over Xuan Huong Lake.",
+            "By Anh Sang Park & the iconic Da Lat Cathedral."
+          ],
+          "zh": [
+            "为向往美与浪漫的旅人打造的世外桃源。",
+            "尽览春香湖，达拉特稀有美景。",
+            "紧邻安光公园与达拉特大教堂。"
+          ]
+        },
+        "code": "1002007",
+        "hotel": "M Village Premier Hotel Xuan Huong Lakeside",
+        "city": "Da Lat"
+      },
+      {
+        "tag": {
+          "ko": "베스트셀러",
+          "en": "Top Selling",
+          "zh": "热销"
+        },
+        "image": "banners/vn-grandoceanbay.jpg",
+        "lines": {
+          "ko": [
+            "여느 숙박을 넘어서는 맞춤형 안식처.",
+            "영혼을 위한 온전한 휴식의 여정.",
+            "절제된 럭셔리, 일상 속 평온."
+          ],
+          "en": [
+            "Bespoke sanctuaries beyond conventional stays.",
+            "A holistic journey of the soul.",
+            "Understated luxury, everyday tranquility."
+          ],
+          "zh": [
+            "超越传统住宿的定制静谧空间。",
+            "一场身心合一的心灵之旅。",
+            "低调奢华，日常宁静。"
+          ]
+        },
+        "code": "985239",
+        "hotel": "Grand Ocean Bay Phu Quoc",
+        "city": "Phu Quoc"
+      },
+      {
+        "tag": {
+          "ko": "베스트셀러",
+          "en": "Top Selling",
+          "zh": "热销"
+        },
+        "image": "banners/vn-seaesta.jpg",
+        "lines": {
+          "ko": [
+            "냐짱에서 만나는 서프라이즈와 창의의 공간.",
+            "고객 만족을 최우선으로.",
+            "베트남 여행의 잊지 못할 추억."
+          ],
+          "en": [
+            "A world of surprise and creativity in Nha Trang.",
+            "Guest satisfaction is our top priority.",
+            "Unforgettable memories for your Vietnam trip."
+          ],
+          "zh": [
+            "在芽庄，遇见惊喜与创意的世界。",
+            "宾客满意，始终至上。",
+            "为您的越南之旅留下难忘回忆。"
+          ]
+        },
+        "code": "886622",
+        "hotel": "Seaesta Nha Trang Hotel",
+        "city": "Nha Trang"
+      }
+    ],
     "Thailand": [],
     "Hong Kong": [],
     "Taiwan": [],
