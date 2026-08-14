@@ -343635,6 +343635,72 @@
       },
       "hardblock": [
         {
+          "hotel": "Wyndham Garden Legend Halong",
+          "code": "1001375",
+          "city": "Ha Long",
+          "roomTypes": [
+            "Deluxe Ocean Twin"
+          ]
+        },
+        {
+          "hotel": "Hotel du Parc Hanoi",
+          "code": "649716",
+          "city": "Ha Noi",
+          "roomTypes": [
+            "Deluxe King Room",
+            "Deluxe Twin Room"
+          ]
+        },
+        {
+          "hotel": "Rex Hotel Saigon",
+          "code": "606114",
+          "city": "Ho Chi Minh",
+          "roomTypes": [
+            "Deluxe Double Room",
+            "Premium Double Room",
+            "Premium Twin Room",
+            "Rex Suite (King)",
+            "Rex Suite (Twin)"
+          ]
+        },
+        {
+          "hotel": "Annova Nha Trang Hotel",
+          "code": "897734",
+          "city": "Nha Trang",
+          "roomTypes": [
+            "Deluxe Double",
+            "Superior Double"
+          ]
+        },
+        {
+          "hotel": "InterContinental Nha Trang, an IHG Hotel",
+          "code": "654455",
+          "city": "Nha Trang",
+          "roomTypes": [
+            "Classic Ocean View Double",
+            "Classic Ocean View Twin"
+          ]
+        },
+        {
+          "hotel": "Maple Hotel & Apartment",
+          "code": "215829",
+          "city": "Nha Trang",
+          "roomTypes": [
+            "Deluxe Twin",
+            "Superior Room"
+          ]
+        },
+        {
+          "hotel": "Nagar Hotel Nha Trang",
+          "code": "288294",
+          "city": "Nha Trang",
+          "roomTypes": [
+            "Deluxe Double City View",
+            "Senior Deluxe Double City View",
+            "Senior Deluxe Twin City View"
+          ]
+        },
+        {
           "hotel": "Seaesta Hotel Nha Trang",
           "code": "886622",
           "city": "Nha Trang",
@@ -343642,14 +343708,51 @@
             "Deluxe Double City View - ALTM",
             "Deluxe Twin City View - ALTM"
           ]
+        },
+        {
+          "hotel": "Pandanus Resort",
+          "code": "179835",
+          "city": "Phan Thiet",
+          "roomTypes": [
+            "Bungalow Garden View",
+            "Executive Suite",
+            "Family Suite",
+            "Signature Suite",
+            "Superior Comfort Double",
+            "Superior Comfort Twin"
+          ]
+        },
+        {
+          "hotel": "Grand Ocean Bay Resort Phu Quoc",
+          "code": "985239",
+          "city": "Phu Quoc",
+          "roomTypes": [
+            "Premium Bungalow with Balcony",
+            "Premium Bungalow with Garden View"
+          ]
+        },
+        {
+          "hotel": "Grand Hyams Hotel - Quy Nhon Beach",
+          "code": "815935",
+          "city": "Quy Nhon",
+          "roomTypes": [
+            "Premium Ocean View Double",
+            "Premium Ocean View Twin"
+          ]
         }
       ],
       "hbCities": [
-        "Nha Trang"
+        "Ha Long",
+        "Ha Noi",
+        "Ho Chi Minh",
+        "Nha Trang",
+        "Phan Thiet",
+        "Phu Quoc",
+        "Quy Nhon"
       ],
       "hbSummary": {
-        "hotels": 1,
-        "roomTypes": 2
+        "hotels": 11,
+        "roomTypes": 29
       },
       "monthly": {
         "topHotels": [
