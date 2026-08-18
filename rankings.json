@@ -345049,7 +345049,36 @@
         "city": "Tsushima"
       }
     ],
-    "Korea": [],
+    "Korea": [
+      {
+        "tag": {
+          "ko": "신규 · 홍대 신상 호텔",
+          "en": "NEW · Hongdae Opening",
+          "zh": "新开业 · 弘大新酒店"
+        },
+        "image": "banners/myme.jpg",
+        "lines": {
+          "ko": [
+            "홍대·합정·마포, 2026년 7월 오픈한 신상 부티크 호텔.",
+            "트윈룸 재고가 넉넉해 인바운드·단체 유치에 최적.",
+            "9월 신규 하드블록 진행 — 지금 판매·홍보 부탁드립니다!"
+          ],
+          "en": [
+            "A brand-new boutique hotel in Hongdae-Hapjeong (Mapo), opened July 2026.",
+            "Ample twin-room availability — ideal for inbound & groups.",
+            "New hardblock from September — start selling & promoting now!"
+          ],
+          "zh": [
+            "弘大·合井·麻浦，2026年7月新开业的精品酒店。",
+            "双床房库存充足——最适合入境游与团队。",
+            "9月起新增 Hardblock——即刻开售推广！"
+          ]
+        },
+        "code": "1001793",
+        "hotel": "MYME Hotel",
+        "city": "Seoul (Hongdae)"
+      }
+    ],
     "Vietnam": [
       {
         "tag": {
