@@ -345082,31 +345082,31 @@
     "Vietnam": [
       {
         "tag": {
-          "ko": "신규 호텔",
-          "en": "New Hotel",
-          "zh": "新酒店"
+          "ko": "신규 등록",
+          "en": "New Registration",
+          "zh": "新登录"
         },
-        "image": "banners/vn-mvillage.jpg",
+        "image": "banners/vn-lasong.jpg",
         "lines": {
           "ko": [
-            "아름다움과 로맨스를 찾는 이들을 위한 안식처.",
-            "쑤언흐엉 호수를 한눈에 담는 보기 드문 전망.",
-            "안 상 공원과 달랏 대성당 바로 곁."
+            "베트남 중부 삼손의 신상 휴양 호텔.",
+            "오션·시티뷰 190실 규모.",
+            "프리미엄 웰니스와 미식 경험까지."
           ],
           "en": [
-            "A haven for those drawn to beauty and romance.",
-            "Rare sweeping views over Xuan Huong Lake.",
-            "By Anh Sang Park & the iconic Da Lat Cathedral."
+            "Central Vietnam's new vacation destination in Sam Son.",
+            "190 rooms with ocean & city views.",
+            "Exclusive wellness experiences and exquisite cuisine."
           ],
           "zh": [
-            "为向往美与浪漫的旅人打造的世外桃源。",
-            "尽览春香湖，达拉特稀有美景。",
-            "紧邻安光公园与达拉特大教堂。"
+            "越南中部三潭全新度假目的地。",
+            "190间客房，坐拥海景与城市景。",
+            "专属康养体验与精致美食。"
           ]
         },
-        "code": "1002007",
-        "hotel": "M Village Premier Hotel Xuan Huong Lakeside",
-        "city": "Da Lat"
+        "code": "1002030",
+        "hotel": "Lasong Hotel & Villas Sam Son",
+        "city": "Thanh Hoa (Sam Son)"
       },
       {
         "tag": {
@@ -345114,55 +345114,55 @@
           "en": "Top Selling",
           "zh": "热销"
         },
-        "image": "banners/vn-grandoceanbay.jpg",
+        "image": "banners/vn-nagar.jpg",
         "lines": {
           "ko": [
-            "여느 숙박을 넘어서는 맞춤형 안식처.",
-            "영혼을 위한 온전한 휴식의 여정.",
-            "절제된 럭셔리, 일상 속 평온."
+            "냐짱 웨스턴 쿼터의 모던 4성 호텔.",
+            "171실 + 오션뷰 루프탑 인피니티 풀.",
+            "미팅·피트니스·사우나, 레저·비즈니스 모두."
           ],
           "en": [
-            "Bespoke sanctuaries beyond conventional stays.",
-            "A holistic journey of the soul.",
-            "Understated luxury, everyday tranquility."
+            "Modern 4-star in Nha Trang's Western Quarter.",
+            "171 rooms + rooftop infinity pool with sea views.",
+            "Meetings, fitness, sauna & steam — leisure or business."
           ],
           "zh": [
-            "超越传统住宿的定制静谧空间。",
-            "一场身心合一的心灵之旅。",
-            "低调奢华，日常宁静。"
+            "芽庄西区现代四星酒店。",
+            "171间客房 + 海景楼顶无边泳池。",
+            "会议·健身·桑拿，商旅休闲皆宜。"
           ]
         },
-        "code": "985239",
-        "hotel": "Grand Ocean Bay Phu Quoc",
-        "city": "Phu Quoc"
-      },
-      {
-        "tag": {
-          "ko": "베스트셀러",
-          "en": "Top Selling",
-          "zh": "热销"
-        },
-        "image": "banners/vn-seaesta.jpg",
-        "lines": {
-          "ko": [
-            "냐짱에서 만나는 서프라이즈와 창의의 공간.",
-            "고객 만족을 최우선으로.",
-            "베트남 여행의 잊지 못할 추억."
-          ],
-          "en": [
-            "A world of surprise and creativity in Nha Trang.",
-            "Guest satisfaction is our top priority.",
-            "Unforgettable memories for your Vietnam trip."
-          ],
-          "zh": [
-            "在芽庄，遇见惊喜与创意的世界。",
-            "宾客满意，始终至上。",
-            "为您的越南之旅留下难忘回忆。"
-          ]
-        },
-        "code": "886622",
-        "hotel": "Seaesta Nha Trang Hotel",
+        "code": "288294",
+        "hotel": "Nagar Hotel Nha Trang",
         "city": "Nha Trang"
+      },
+      {
+        "tag": {
+          "ko": "특가 프로모션",
+          "en": "Good Promotion",
+          "zh": "超值促销"
+        },
+        "image": "banners/vn-reu.jpg",
+        "lines": {
+          "ko": [
+            "호이안 논밭 곁 4성 웰니스 리트리트.",
+            "구시가지(올드타운)에서 단 1.4km.",
+            "자연·재활용 소재의 독창적 건축미."
+          ],
+          "en": [
+            "A 4-star wellness retreat by Hoi An's rice fields.",
+            "Just 1.4 km from the Ancient Town.",
+            "Unique architecture from nature & recycled materials."
+          ],
+          "zh": [
+            "会安稻田旁的四星康养度假地。",
+            "距会安古镇仅1.4公里。",
+            "融合自然与再生材料的独特建筑。"
+          ]
+        },
+        "code": "999166",
+        "hotel": "Reu Boutique Hotel",
+        "city": "Hoi An"
       }
     ],
     "Thailand": [],
