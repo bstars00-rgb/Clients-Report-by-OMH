@@ -345181,7 +345181,92 @@
         "city": "Hoi An"
       }
     ],
-    "Thailand": [],
+    "Thailand": [
+      {
+        "tag": {
+          "ko": "신규 등록",
+          "en": "NEW",
+          "zh": "新上线"
+        },
+        "image": "banners/th-vela.jpg",
+        "lines": {
+          "ko": [
+            "방콕 라차테위 중심, BTS·시암 쇼핑가 도보권.",
+            "세련된 디자인과 편안함을 갖춘 도심 속 휴식처.",
+            "신규 등록 — 많은 홍보·판매 부탁드립니다!"
+          ],
+          "en": [
+            "In the heart of Bangkok, steps from BTS Ratchathewi.",
+            "A cozy urban escape with modern, thoughtful design.",
+            "Newly listed — please promote and sell!"
+          ],
+          "zh": [
+            "位于曼谷市中心，紧邻 BTS 与暹罗商圈。",
+            "设计现代舒适的都市休憩之所。",
+            "全新上线，敬请大力推广销售！"
+          ]
+        },
+        "code": "239237",
+        "hotel": "VELA be Bangkok Ratchathewi",
+        "city": "Bangkok"
+      },
+      {
+        "tag": {
+          "ko": "신규 등록",
+          "en": "NEW",
+          "zh": "新上线"
+        },
+        "image": "banners/th-irene.jpg",
+        "lines": {
+          "ko": [
+            "꼬리뻬 청정 해변의 럭셔리 풀빌라 리조트.",
+            "고요한 우아함과 프라이빗한 휴식.",
+            "신규 등록 — 프리미엄 리조트 수요 공략!"
+          ],
+          "en": [
+            "Luxury pool villa resort on pristine Koh Lipe.",
+            "Serene elegance, tranquility, refined comfort.",
+            "Newly listed — capture premium resort demand!"
+          ],
+          "zh": [
+            "丽贝岛纯净海滩上的奢华泳池别墅度假村。",
+            "静谧优雅，尊享私密休憩。",
+            "全新上线，主攻高端度假需求！"
+          ]
+        },
+        "code": "1001976",
+        "hotel": "Irene Resort Koh Lipe",
+        "city": "Koh Lipe"
+      },
+      {
+        "tag": {
+          "ko": "신규 등록",
+          "en": "NEW",
+          "zh": "新上线"
+        },
+        "image": "banners/th-grandhoward.jpg",
+        "lines": {
+          "ko": [
+            "우아함과 세심한 서비스의 방콕 호텔.",
+            "정제된 공간과 개인 맞춤 응대.",
+            "신규 등록 — 방콕 수요에 적극 판매 부탁!"
+          ],
+          "en": [
+            "A Bangkok hotel defined by elegance and service.",
+            "Refined spaces with personalized attention.",
+            "Newly listed — sell actively for Bangkok demand!"
+          ],
+          "zh": [
+            "以优雅与贴心服务著称的曼谷酒店。",
+            "精致空间，专属个性化关怀。",
+            "全新上线，敬请积极销售曼谷需求！"
+          ]
+        },
+        "code": "652060",
+        "hotel": "Grand Howard Hotel Bangkok",
+        "city": "Bangkok"
+      }
+    ],
     "Hong Kong": [],
     "Taiwan": [],
     "Malaysia": [
