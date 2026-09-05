@@ -345092,87 +345092,87 @@
     "Vietnam": [
       {
         "tag": {
-          "ko": "신규 등록",
-          "en": "New Registration",
-          "zh": "新登录"
+          "ko": "프로모션",
+          "en": "PROMO",
+          "zh": "促销"
         },
-        "image": "banners/vn-lasong.jpg",
+        "image": "banners/vn-mvillage.jpg",
         "lines": {
           "ko": [
-            "베트남 중부 삼손의 신상 휴양 호텔.",
-            "오션·시티뷰 190실 규모.",
-            "프리미엄 웰니스와 미식 경험까지."
+            "호이안 최초 리버·비치사이드 모던빌리지 리조트.",
+            "열대 정원과 야외 수영장, 다목적 공간.",
+            "프로모션 진행 — 많은 판매 부탁드립니다!"
           ],
           "en": [
-            "Central Vietnam's new vacation destination in Sam Son.",
-            "190 rooms with ocean & city views.",
-            "Exclusive wellness experiences and exquisite cuisine."
+            "Hoi An's first river & beachside Modern Village resort.",
+            "Tropical greenery, outdoor pool, versatile spaces.",
+            "On promotion — please sell actively!"
           ],
           "zh": [
-            "越南中部三潭全新度假目的地。",
-            "190间客房，坐拥海景与城市景。",
-            "专属康养体验与精致美食。"
+            "会安首家河畔海滨现代村生活方式度假村。",
+            "热带绿意、户外泳池与多功能空间。",
+            "促销进行中，敬请积极销售！"
           ]
         },
-        "code": "1002030",
-        "hotel": "Lasong Hotel & Villas Sam Son",
-        "city": "Thanh Hoa (Sam Son)"
+        "code": "1002008",
+        "hotel": "M Village Resort Riverbeach Hoian",
+        "city": "Hoi An"
       },
       {
         "tag": {
-          "ko": "베스트셀러",
-          "en": "Top Selling",
-          "zh": "热销"
+          "ko": "프로모션",
+          "en": "PROMO",
+          "zh": "促销"
         },
-        "image": "banners/vn-nagar.jpg",
+        "image": "",
         "lines": {
           "ko": [
-            "냐짱 웨스턴 쿼터의 모던 4성 호텔.",
-            "171실 + 오션뷰 루프탑 인피니티 풀.",
-            "미팅·피트니스·사우나, 레저·비즈니스 모두."
+            "나트랑 중심, 해변 도보 2~3분 4성급 호텔.",
+            "모던한 편의시설과 편안한 분위기.",
+            "프로모션 진행 — 단기·장기 모두 적합!"
           ],
           "en": [
-            "Modern 4-star in Nha Trang's Western Quarter.",
-            "171 rooms + rooftop infinity pool with sea views.",
-            "Meetings, fitness, sauna & steam — leisure or business."
+            "Refined 4-star in the heart of Nha Trang.",
+            "2–3 min walk to the beach, modern comforts.",
+            "On promotion — great for short & long stays!"
           ],
           "zh": [
-            "芽庄西区现代四星酒店。",
-            "171间客房 + 海景楼顶无边泳池。",
-            "会议·健身·桑拿，商旅休闲皆宜。"
+            "芽庄市中心的精致四星酒店。",
+            "步行2~3分钟到海滩，设施现代。",
+            "促销进行中，短住长住皆宜！"
           ]
         },
-        "code": "288294",
-        "hotel": "Nagar Hotel Nha Trang",
+        "code": "738625",
+        "hotel": "Green World Hotel Nha Trang",
         "city": "Nha Trang"
       },
       {
         "tag": {
-          "ko": "특가 프로모션",
-          "en": "Good Promotion",
-          "zh": "超值促销"
+          "ko": "프로모션",
+          "en": "PROMO",
+          "zh": "促销"
         },
-        "image": "banners/vn-reu.jpg",
+        "image": "banners/vn-intercont.jpg",
         "lines": {
           "ko": [
-            "호이안 논밭 곁 4성 웰니스 리트리트.",
-            "구시가지(올드타운)에서 단 1.4km.",
-            "자연·재활용 소재의 독창적 건축미."
+            "나트랑 해변의 럭셔리 인터컨티넨탈.",
+            "277실 · 다이닝·스파, 만(灣) 전망.",
+            "프로모션 진행 — 프리미엄 수요 공략!"
           ],
           "en": [
-            "A 4-star wellness retreat by Hoi An's rice fields.",
-            "Just 1.4 km from the Ancient Town.",
-            "Unique architecture from nature & recycled materials."
+            "Luxury beachfront InterContinental in Nha Trang.",
+            "277 rooms/suites, fine dining & spa on the bay.",
+            "On promotion — capture premium demand!"
           ],
           "zh": [
-            "会安稻田旁的四星康养度假地。",
-            "距会安古镇仅1.4公里。",
-            "融合自然与再生材料的独特建筑。"
+            "芽庄海滨奢华洲际酒店。",
+            "277间客房套房，海湾美食与水疗。",
+            "促销进行中，主攻高端需求！"
           ]
         },
-        "code": "999166",
-        "hotel": "Reu Boutique Hotel",
-        "city": "Hoi An"
+        "code": "654455",
+        "hotel": "InterContinental Nha Trang, an IHG Hotel",
+        "city": "Nha Trang"
       }
     ],
     "Thailand": [
