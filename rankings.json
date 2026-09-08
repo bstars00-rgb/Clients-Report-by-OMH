@@ -345291,36 +345291,7 @@
     ],
     "Hong Kong": [],
     "Taiwan": [],
-    "Malaysia": [
-      {
-        "tag": {
-          "ko": "신규 · 랑카위 대표 리조트",
-          "en": "NEW · Langkawi Flagship",
-          "zh": "新上线 · 兰卡威旗舰"
-        },
-        "image": "banners/pelangi.jpg",
-        "lines": {
-          "ko": [
-            "랑카위 판타이 체낭 해변의 5성 비치프론트 리조트가 열렸습니다.",
-            "열대 정원·프라이빗 비치·스파를 갖춘 프리미엄 휴양지.",
-            "말레이시아 신규 시장의 대표 리조트, 지금 판매하세요!"
-          ],
-          "en": [
-            "A 5-star beachfront resort on Langkawi's Pantai Cenang is now live.",
-            "Tropical gardens, a private beach and full spa — a premium island escape.",
-            "The flagship of our new Malaysia market — start selling it today!"
-          ],
-          "zh": [
-            "兰卡威珍南海滩的五星海滨度假村现已上线。",
-            "热带花园、私人海滩与水疗中心，尊享海岛度假。",
-            "马来西亚新市场的旗舰度假村，即刻开售！"
-          ]
-        },
-        "code": "652234",
-        "hotel": "Pelangi Beach Resort & Spa, Langkawi",
-        "city": "Langkawi"
-      }
-    ],
+    "Malaysia": [],
     "Singapore": []
   }
 }
