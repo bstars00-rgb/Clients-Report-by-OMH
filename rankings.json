@@ -176431,7 +176431,10 @@
           "code": "713510",
           "city": "Beppu",
           "roomTypes": [
-            "Standard King Non Smoking"
+            {
+              "name": "Standard King Non Smoking",
+              "roomCode": "111200"
+            }
           ]
         },
         {
@@ -176439,7 +176442,10 @@
           "code": "163030",
           "city": "Fukuoka",
           "roomTypes": [
-            "Run of House"
+            {
+              "name": "Run of House",
+              "roomCode": "107655"
+            }
           ]
         },
         {
@@ -176447,8 +176453,14 @@
           "code": "552124",
           "city": "Fukuoka",
           "roomTypes": [
-            "Superior Twin (Non Smoking)",
-            "Moderate Twin (Non Smoking)"
+            {
+              "name": "Superior Twin (Non Smoking)",
+              "roomCode": "126536"
+            },
+            {
+              "name": "Moderate Twin (Non Smoking)",
+              "roomCode": "D_126455"
+            }
           ]
         },
         {
@@ -176456,7 +176468,10 @@
           "code": "169327",
           "city": "Fukuoka",
           "roomTypes": [
-            "Standard Semi Double (Non Smoking)"
+            {
+              "name": "Standard Semi Double (Non Smoking)",
+              "roomCode": "1277434"
+            }
           ]
         },
         {
@@ -176464,7 +176479,10 @@
           "code": "687288",
           "city": "Fukuoka",
           "roomTypes": [
-            "Standard Double (Non-Smoking)"
+            {
+              "name": "Standard Double (Non-Smoking)",
+              "roomCode": "117849"
+            }
           ]
         },
         {
@@ -176472,7 +176490,10 @@
           "code": "693407",
           "city": "Fukuoka",
           "roomTypes": [
-            "Standard Double (Non-Smoking)"
+            {
+              "name": "Standard Double (Non-Smoking)",
+              "roomCode": "117847"
+            }
           ]
         },
         {
@@ -176480,8 +176501,14 @@
           "code": "399985",
           "city": "Fukuoka",
           "roomTypes": [
-            "Standard Double (Non-Smoking)",
-            "Moderate Twin (Non-Smoking)"
+            {
+              "name": "Standard Double (Non-Smoking)",
+              "roomCode": "117846"
+            },
+            {
+              "name": "Moderate Twin (Non-Smoking)",
+              "roomCode": "117845"
+            }
           ]
         },
         {
@@ -176489,8 +176516,14 @@
           "code": "279206",
           "city": "Fukuoka",
           "roomTypes": [
-            "Semi Double (Non Smoking)",
-            "Connecting Room (Non Smoking)"
+            {
+              "name": "Semi Double (Non Smoking)",
+              "roomCode": "2211958"
+            },
+            {
+              "name": "Connecting Room (Non Smoking)",
+              "roomCode": "101423899"
+            }
           ]
         },
         {
@@ -176498,8 +176531,14 @@
           "code": "1001620",
           "city": "Naha",
           "roomTypes": [
-            "King Double Non Smoking",
-            "Standard Twin Room Non Smoking"
+            {
+              "name": "King Double Non Smoking",
+              "roomCode": "4877052"
+            },
+            {
+              "name": "Standard Twin Room Non Smoking",
+              "roomCode": "4310766"
+            }
           ]
         },
         {
@@ -176507,8 +176546,14 @@
           "code": "725693",
           "city": "Osaka",
           "roomTypes": [
-            "Moderate Double Non Smoking",
-            "Moderate Twin Non Smoking"
+            {
+              "name": "Moderate Double Non Smoking",
+              "roomCode": "129092"
+            },
+            {
+              "name": "Moderate Twin Non Smoking",
+              "roomCode": "129093"
+            }
           ]
         },
         {
@@ -176516,7 +176561,21 @@
           "code": "453378",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Double Non Smoking"
+            {
+              "name": "Standard Double Non Smoking",
+              "roomCode": "D_1710767"
+            }
+          ]
+        },
+        {
+          "hotel": "DEL style Osaka - Shinsaibashi by Daiwa Roynet Hotel",
+          "code": "398300",
+          "city": "Osaka",
+          "roomTypes": [
+            {
+              "name": "Moderate Double Non Smoking",
+              "roomCode": ""
+            }
           ]
         },
         {
@@ -176524,8 +176583,14 @@
           "code": "1001586",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Double (Non Smoking)",
-            "Superior Twin (Non Smoking)"
+            {
+              "name": "Standard Double (Non Smoking)",
+              "roomCode": "4640751"
+            },
+            {
+              "name": "Superior Twin (Non Smoking)",
+              "roomCode": "4640752"
+            }
           ]
         },
         {
@@ -176533,7 +176598,10 @@
           "code": "1001365",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Twin Non Smoking (MAIN)"
+            {
+              "name": "Standard Twin Non Smoking (MAIN)",
+              "roomCode": "1277566"
+            }
           ]
         },
         {
@@ -176541,8 +176609,14 @@
           "code": "768491",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Double (Non Smoking)",
-            "Moderate Queen (Non Smoking)"
+            {
+              "name": "Standard Double (Non Smoking)",
+              "roomCode": "1032017"
+            },
+            {
+              "name": "Moderate Queen (Non Smoking)",
+              "roomCode": "1032018"
+            }
           ]
         },
         {
@@ -176550,7 +176624,10 @@
           "code": "551313",
           "city": "Osaka",
           "roomTypes": [
-            "(A)Semi Double Room Non Smoking"
+            {
+              "name": "(A)Semi Double Room Non Smoking",
+              "roomCode": "4345108"
+            }
           ]
         },
         {
@@ -176558,7 +176635,10 @@
           "code": "763368",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Double Non Smoking"
+            {
+              "name": "Standard Double Non Smoking",
+              "roomCode": "113114"
+            }
           ]
         },
         {
@@ -176566,8 +176646,14 @@
           "code": "285030",
           "city": "Osaka",
           "roomTypes": [
-            "Standard Double (Non Smoking)",
-            "Standard Twin (Non Smoking)"
+            {
+              "name": "Standard Double (Non Smoking)",
+              "roomCode": "121921"
+            },
+            {
+              "name": "Standard Twin (Non Smoking)",
+              "roomCode": "121920"
+            }
           ]
         },
         {
@@ -176575,7 +176661,10 @@
           "code": "1001587",
           "city": "Tokyo",
           "roomTypes": [
-            "Standard Double Non Smoking"
+            {
+              "name": "Standard Double Non Smoking",
+              "roomCode": "4237572"
+            }
           ]
         },
         {
@@ -176583,7 +176672,10 @@
           "code": "834452",
           "city": "Tokyo",
           "roomTypes": [
-            "Standard Queen Non Smoking"
+            {
+              "name": "Standard Queen Non Smoking",
+              "roomCode": "119200"
+            }
           ]
         },
         {
@@ -176591,7 +176683,10 @@
           "code": "167121",
           "city": "Tokyo",
           "roomTypes": [
-            "Standard Double Non Smoking"
+            {
+              "name": "Standard Double Non Smoking",
+              "roomCode": "101339"
+            }
           ]
         },
         {
@@ -176599,7 +176694,10 @@
           "code": "155719",
           "city": "Tokyo",
           "roomTypes": [
-            "Standard Double Non Smoking"
+            {
+              "name": "Standard Double Non Smoking",
+              "roomCode": "130582"
+            }
           ]
         },
         {
@@ -176607,7 +176705,10 @@
           "code": "177974",
           "city": "Tokyo",
           "roomTypes": [
-            "Semi Double Non Smoking"
+            {
+              "name": "Semi Double Non Smoking",
+              "roomCode": "101344"
+            }
           ]
         },
         {
@@ -176615,8 +176716,14 @@
           "code": "181491",
           "city": "Tokyo",
           "roomTypes": [
-            "Economy Double Non Smoking",
-            "Standard Twin Non Smoking"
+            {
+              "name": "Economy Double Non Smoking",
+              "roomCode": "100901"
+            },
+            {
+              "name": "Standard Twin Non Smoking",
+              "roomCode": "100903"
+            }
           ]
         },
         {
@@ -176624,7 +176731,10 @@
           "code": "350682",
           "city": "Tokyo",
           "roomTypes": [
-            "Semi Double Room Non Smoking"
+            {
+              "name": "Semi Double Room Non Smoking",
+              "roomCode": "120942"
+            }
           ]
         },
         {
@@ -176632,7 +176742,10 @@
           "code": "158197",
           "city": "Tokyo",
           "roomTypes": [
-            "Comfort Double Non Smoking"
+            {
+              "name": "Comfort Double Non Smoking",
+              "roomCode": "117979"
+            }
           ]
         },
         {
@@ -176640,7 +176753,10 @@
           "code": "204439",
           "city": "Tokyo",
           "roomTypes": [
-            "Double Non Smoking"
+            {
+              "name": "Double Non Smoking",
+              "roomCode": "126638"
+            }
           ]
         }
       ],
@@ -176652,8 +176768,8 @@
         "Tokyo"
       ],
       "hbSummary": {
-        "hotels": 26,
-        "roomTypes": 35
+        "hotels": 27,
+        "roomTypes": 36
       },
       "monthly": {
         "topHotels": [
@@ -237534,8 +237650,14 @@
           "code": "665136",
           "city": "Busan",
           "roomTypes": [
-            "Studio Loft Deluxe (Non-smoking)",
-            "Family Loft Suite (Non-smoking)"
+            {
+              "name": "Studio Loft Deluxe (Non-smoking)",
+              "roomCode": "102458627"
+            },
+            {
+              "name": "Family Loft Suite (Non-smoking)",
+              "roomCode": "102458628"
+            }
           ]
         },
         {
@@ -237543,7 +237665,10 @@
           "code": "241059",
           "city": "Gangneung",
           "roomTypes": [
-            "Lake view Deluxe Double (Non Smoking)"
+            {
+              "name": "Lake view Deluxe Double (Non Smoking)",
+              "roomCode": "117273"
+            }
           ]
         },
         {
@@ -237551,7 +237676,10 @@
           "code": "725676",
           "city": "Seoul",
           "roomTypes": [
-            "Superior Double (Non-smoking)"
+            {
+              "name": "Superior Double (Non-smoking)",
+              "roomCode": "121217"
+            }
           ]
         },
         {
@@ -237559,7 +237687,10 @@
           "code": "812953",
           "city": "Seoul",
           "roomTypes": [
-            "DOUBLE A (H2)"
+            {
+              "name": "DOUBLE A (H2)",
+              "roomCode": "4740522"
+            }
           ]
         },
         {
@@ -237567,9 +237698,18 @@
           "code": "741474",
           "city": "Seoul",
           "roomTypes": [
-            "Standard Twin(Non Smoking)",
-            "Standard Double (Non Smoking)",
-            "Deluxe Twin (Non Smoking)"
+            {
+              "name": "Standard Twin(Non Smoking)",
+              "roomCode": "120874"
+            },
+            {
+              "name": "Standard Double (Non Smoking)",
+              "roomCode": "120873"
+            },
+            {
+              "name": "Deluxe Twin (Non Smoking)",
+              "roomCode": "120875"
+            }
           ]
         },
         {
@@ -237577,7 +237717,10 @@
           "code": "886479",
           "city": "Seoul",
           "roomTypes": [
-            "Deluxe Twin (H) No Parking"
+            {
+              "name": "Deluxe Twin (H) No Parking",
+              "roomCode": "119660"
+            }
           ]
         }
       ],
@@ -343632,7 +343775,10 @@
           "code": "1001375",
           "city": "Ha Long",
           "roomTypes": [
-            "Deluxe Ocean Twin"
+            {
+              "name": "Deluxe Ocean Twin",
+              "roomCode": "1277389"
+            }
           ]
         },
         {
@@ -343640,8 +343786,14 @@
           "code": "649716",
           "city": "Ha Noi",
           "roomTypes": [
-            "Deluxe King Room",
-            "Deluxe Twin Room"
+            {
+              "name": "Deluxe King Room",
+              "roomCode": "108597"
+            },
+            {
+              "name": "Deluxe Twin Room",
+              "roomCode": "108596"
+            }
           ]
         },
         {
@@ -343649,11 +343801,26 @@
           "code": "606114",
           "city": "Ho Chi Minh",
           "roomTypes": [
-            "Deluxe Double Room",
-            "Premium Double Room",
-            "Premium Twin Room",
-            "Rex Suite (King)",
-            "Rex Suite (Twin)"
+            {
+              "name": "Deluxe Double Room",
+              "roomCode": "116749"
+            },
+            {
+              "name": "Premium Double Room",
+              "roomCode": "116750"
+            },
+            {
+              "name": "Premium Twin Room",
+              "roomCode": ""
+            },
+            {
+              "name": "Rex Suite (King)",
+              "roomCode": "132370"
+            },
+            {
+              "name": "Rex Suite (Twin)",
+              "roomCode": "132369"
+            }
           ]
         },
         {
@@ -343661,8 +343828,14 @@
           "code": "897734",
           "city": "Nha Trang",
           "roomTypes": [
-            "Deluxe Double",
-            "Superior Double"
+            {
+              "name": "Deluxe Double",
+              "roomCode": "122196"
+            },
+            {
+              "name": "Superior Double",
+              "roomCode": "122198"
+            }
           ]
         },
         {
@@ -343670,8 +343843,14 @@
           "code": "654455",
           "city": "Nha Trang",
           "roomTypes": [
-            "Classic Ocean View Double",
-            "Classic Ocean View Twin"
+            {
+              "name": "Classic Ocean View Double",
+              "roomCode": "127096"
+            },
+            {
+              "name": "Classic Ocean View Twin",
+              "roomCode": "127097"
+            }
           ]
         },
         {
@@ -343679,8 +343858,14 @@
           "code": "215829",
           "city": "Nha Trang",
           "roomTypes": [
-            "Deluxe Twin",
-            "Superior Room"
+            {
+              "name": "Deluxe Twin",
+              "roomCode": "114710"
+            },
+            {
+              "name": "Superior Room",
+              "roomCode": "130570"
+            }
           ]
         },
         {
@@ -343688,9 +343873,18 @@
           "code": "288294",
           "city": "Nha Trang",
           "roomTypes": [
-            "Deluxe Double City View",
-            "Senior Deluxe Double City View",
-            "Senior Deluxe Twin City View"
+            {
+              "name": "Deluxe Double City View",
+              "roomCode": "113315"
+            },
+            {
+              "name": "Senior Deluxe Double City View",
+              "roomCode": "113314"
+            },
+            {
+              "name": "Senior Deluxe Twin City View",
+              "roomCode": "113313"
+            }
           ]
         },
         {
@@ -343698,8 +343892,14 @@
           "code": "886622",
           "city": "Nha Trang",
           "roomTypes": [
-            "Deluxe Double City View - ALTM",
-            "Deluxe Twin City View - ALTM"
+            {
+              "name": "Deluxe Double City View - ALTM",
+              "roomCode": "1269008"
+            },
+            {
+              "name": "Deluxe Twin City View - ALTM",
+              "roomCode": "1269009"
+            }
           ]
         },
         {
@@ -343707,12 +343907,30 @@
           "code": "179835",
           "city": "Phan Thiet",
           "roomTypes": [
-            "Bungalow Garden View",
-            "Executive Suite",
-            "Family Suite",
-            "Signature Suite",
-            "Superior Comfort Double",
-            "Superior Comfort Twin"
+            {
+              "name": "Bungalow Garden View",
+              "roomCode": "124643"
+            },
+            {
+              "name": "Executive Suite",
+              "roomCode": "119273"
+            },
+            {
+              "name": "Family Suite",
+              "roomCode": "119272"
+            },
+            {
+              "name": "Signature Suite",
+              "roomCode": "119274"
+            },
+            {
+              "name": "Superior Comfort Double",
+              "roomCode": "124432"
+            },
+            {
+              "name": "Superior Comfort Twin",
+              "roomCode": ""
+            }
           ]
         },
         {
@@ -343720,8 +343938,14 @@
           "code": "985239",
           "city": "Phu Quoc",
           "roomTypes": [
-            "Premium Bungalow with Balcony",
-            "Premium Bungalow with Garden View"
+            {
+              "name": "Premium Bungalow with Balcony",
+              "roomCode": "130769"
+            },
+            {
+              "name": "Premium Bungalow with Garden View",
+              "roomCode": "130770"
+            }
           ]
         },
         {
@@ -343729,8 +343953,14 @@
           "code": "815935",
           "city": "Quy Nhon",
           "roomTypes": [
-            "Premium Ocean View Double",
-            "Premium Ocean View Twin"
+            {
+              "name": "Premium Ocean View Double",
+              "roomCode": "118130"
+            },
+            {
+              "name": "Premium Ocean View Twin",
+              "roomCode": "119541"
+            }
           ]
         }
       ],
