@@ -176433,7 +176433,7 @@
           "roomTypes": [
             {
               "name": "Standard King Non Smoking",
-              "roomCode": "111200"
+              "roomCode": ""
             }
           ]
         },
@@ -176444,7 +176444,7 @@
           "roomTypes": [
             {
               "name": "Run of House",
-              "roomCode": "107655"
+              "roomCode": ""
             }
           ]
         },
@@ -176455,11 +176455,11 @@
           "roomTypes": [
             {
               "name": "Superior Twin (Non Smoking)",
-              "roomCode": "126536"
+              "roomCode": ""
             },
             {
               "name": "Moderate Twin (Non Smoking)",
-              "roomCode": "D_126455"
+              "roomCode": ""
             }
           ]
         },
@@ -176470,7 +176470,7 @@
           "roomTypes": [
             {
               "name": "Standard Semi Double (Non Smoking)",
-              "roomCode": "1277434"
+              "roomCode": ""
             }
           ]
         },
@@ -176481,7 +176481,7 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non-Smoking)",
-              "roomCode": "117849"
+              "roomCode": ""
             }
           ]
         },
@@ -176492,7 +176492,7 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non-Smoking)",
-              "roomCode": "117847"
+              "roomCode": ""
             }
           ]
         },
@@ -176503,11 +176503,11 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non-Smoking)",
-              "roomCode": "117846"
+              "roomCode": ""
             },
             {
               "name": "Moderate Twin (Non-Smoking)",
-              "roomCode": "117845"
+              "roomCode": ""
             }
           ]
         },
@@ -176518,11 +176518,11 @@
           "roomTypes": [
             {
               "name": "Semi Double (Non Smoking)",
-              "roomCode": "2211958"
+              "roomCode": ""
             },
             {
               "name": "Connecting Room (Non Smoking)",
-              "roomCode": "101423899"
+              "roomCode": ""
             }
           ]
         },
@@ -176533,11 +176533,11 @@
           "roomTypes": [
             {
               "name": "King Double Non Smoking",
-              "roomCode": "4877052"
+              "roomCode": ""
             },
             {
               "name": "Standard Twin Room Non Smoking",
-              "roomCode": "4310766"
+              "roomCode": ""
             }
           ]
         },
@@ -176548,11 +176548,11 @@
           "roomTypes": [
             {
               "name": "Moderate Double Non Smoking",
-              "roomCode": "129092"
+              "roomCode": ""
             },
             {
               "name": "Moderate Twin Non Smoking",
-              "roomCode": "129093"
+              "roomCode": ""
             }
           ]
         },
@@ -176563,7 +176563,7 @@
           "roomTypes": [
             {
               "name": "Standard Double Non Smoking",
-              "roomCode": "D_1710767"
+              "roomCode": ""
             }
           ]
         },
@@ -176585,11 +176585,11 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non Smoking)",
-              "roomCode": "4640751"
+              "roomCode": ""
             },
             {
               "name": "Superior Twin (Non Smoking)",
-              "roomCode": "4640752"
+              "roomCode": ""
             }
           ]
         },
@@ -176600,7 +176600,7 @@
           "roomTypes": [
             {
               "name": "Standard Twin Non Smoking (MAIN)",
-              "roomCode": "1277566"
+              "roomCode": ""
             }
           ]
         },
@@ -176611,11 +176611,11 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non Smoking)",
-              "roomCode": "1032017"
+              "roomCode": ""
             },
             {
               "name": "Moderate Queen (Non Smoking)",
-              "roomCode": "1032018"
+              "roomCode": ""
             }
           ]
         },
@@ -176626,7 +176626,7 @@
           "roomTypes": [
             {
               "name": "(A)Semi Double Room Non Smoking",
-              "roomCode": "4345108"
+              "roomCode": ""
             }
           ]
         },
@@ -176637,7 +176637,7 @@
           "roomTypes": [
             {
               "name": "Standard Double Non Smoking",
-              "roomCode": "113114"
+              "roomCode": ""
             }
           ]
         },
@@ -176648,11 +176648,11 @@
           "roomTypes": [
             {
               "name": "Standard Double (Non Smoking)",
-              "roomCode": "121921"
+              "roomCode": ""
             },
             {
               "name": "Standard Twin (Non Smoking)",
-              "roomCode": "121920"
+              "roomCode": ""
             }
           ]
         },
@@ -176663,7 +176663,7 @@
           "roomTypes": [
             {
               "name": "Standard Double Non Smoking",
-              "roomCode": "4237572"
+              "roomCode": ""
             }
           ]
         },
@@ -176674,7 +176674,7 @@
           "roomTypes": [
             {
               "name": "Standard Queen Non Smoking",
-              "roomCode": "119200"
+              "roomCode": ""
             }
           ]
         },
@@ -176685,7 +176685,7 @@
           "roomTypes": [
             {
               "name": "Standard Double Non Smoking",
-              "roomCode": "101339"
+              "roomCode": ""
             }
           ]
         },
@@ -176696,7 +176696,7 @@
           "roomTypes": [
             {
               "name": "Standard Double Non Smoking",
-              "roomCode": "130582"
+              "roomCode": ""
             }
           ]
         },
@@ -176707,7 +176707,7 @@
           "roomTypes": [
             {
               "name": "Semi Double Non Smoking",
-              "roomCode": "101344"
+              "roomCode": ""
             }
           ]
         },
@@ -176718,11 +176718,11 @@
           "roomTypes": [
             {
               "name": "Economy Double Non Smoking",
-              "roomCode": "100901"
+              "roomCode": ""
             },
             {
               "name": "Standard Twin Non Smoking",
-              "roomCode": "100903"
+              "roomCode": ""
             }
           ]
         },
@@ -176733,7 +176733,7 @@
           "roomTypes": [
             {
               "name": "Semi Double Room Non Smoking",
-              "roomCode": "120942"
+              "roomCode": ""
             }
           ]
         },
@@ -176744,7 +176744,7 @@
           "roomTypes": [
             {
               "name": "Comfort Double Non Smoking",
-              "roomCode": "117979"
+              "roomCode": ""
             }
           ]
         },
@@ -176755,7 +176755,7 @@
           "roomTypes": [
             {
               "name": "Double Non Smoking",
-              "roomCode": "126638"
+              "roomCode": ""
             }
           ]
         }
@@ -237652,11 +237652,11 @@
           "roomTypes": [
             {
               "name": "Studio Loft Deluxe (Non-smoking)",
-              "roomCode": "102458627"
+              "roomCode": ""
             },
             {
               "name": "Family Loft Suite (Non-smoking)",
-              "roomCode": "102458628"
+              "roomCode": ""
             }
           ]
         },
@@ -237667,7 +237667,7 @@
           "roomTypes": [
             {
               "name": "Lake view Deluxe Double (Non Smoking)",
-              "roomCode": "117273"
+              "roomCode": ""
             }
           ]
         },
@@ -237678,7 +237678,7 @@
           "roomTypes": [
             {
               "name": "Superior Double (Non-smoking)",
-              "roomCode": "121217"
+              "roomCode": ""
             }
           ]
         },
@@ -237689,7 +237689,7 @@
           "roomTypes": [
             {
               "name": "DOUBLE A (H2)",
-              "roomCode": "4740522"
+              "roomCode": ""
             }
           ]
         },
@@ -237700,15 +237700,15 @@
           "roomTypes": [
             {
               "name": "Standard Twin(Non Smoking)",
-              "roomCode": "120874"
+              "roomCode": ""
             },
             {
               "name": "Standard Double (Non Smoking)",
-              "roomCode": "120873"
+              "roomCode": ""
             },
             {
               "name": "Deluxe Twin (Non Smoking)",
-              "roomCode": "120875"
+              "roomCode": ""
             }
           ]
         },
@@ -237719,7 +237719,7 @@
           "roomTypes": [
             {
               "name": "Deluxe Twin (H) No Parking",
-              "roomCode": "119660"
+              "roomCode": ""
             }
           ]
         }
@@ -343777,7 +343777,7 @@
           "roomTypes": [
             {
               "name": "Deluxe Ocean Twin",
-              "roomCode": "1277389"
+              "roomCode": ""
             }
           ]
         },
@@ -343788,11 +343788,11 @@
           "roomTypes": [
             {
               "name": "Deluxe King Room",
-              "roomCode": "108597"
+              "roomCode": ""
             },
             {
               "name": "Deluxe Twin Room",
-              "roomCode": "108596"
+              "roomCode": ""
             }
           ]
         },
@@ -343803,11 +343803,11 @@
           "roomTypes": [
             {
               "name": "Deluxe Double Room",
-              "roomCode": "116749"
+              "roomCode": ""
             },
             {
               "name": "Premium Double Room",
-              "roomCode": "116750"
+              "roomCode": ""
             },
             {
               "name": "Premium Twin Room",
@@ -343815,11 +343815,11 @@
             },
             {
               "name": "Rex Suite (King)",
-              "roomCode": "132370"
+              "roomCode": ""
             },
             {
               "name": "Rex Suite (Twin)",
-              "roomCode": "132369"
+              "roomCode": ""
             }
           ]
         },
@@ -343830,11 +343830,11 @@
           "roomTypes": [
             {
               "name": "Deluxe Double",
-              "roomCode": "122196"
+              "roomCode": ""
             },
             {
               "name": "Superior Double",
-              "roomCode": "122198"
+              "roomCode": ""
             }
           ]
         },
@@ -343845,11 +343845,11 @@
           "roomTypes": [
             {
               "name": "Classic Ocean View Double",
-              "roomCode": "127096"
+              "roomCode": ""
             },
             {
               "name": "Classic Ocean View Twin",
-              "roomCode": "127097"
+              "roomCode": ""
             }
           ]
         },
@@ -343860,11 +343860,11 @@
           "roomTypes": [
             {
               "name": "Deluxe Twin",
-              "roomCode": "114710"
+              "roomCode": ""
             },
             {
               "name": "Superior Room",
-              "roomCode": "130570"
+              "roomCode": ""
             }
           ]
         },
@@ -343875,15 +343875,15 @@
           "roomTypes": [
             {
               "name": "Deluxe Double City View",
-              "roomCode": "113315"
+              "roomCode": ""
             },
             {
               "name": "Senior Deluxe Double City View",
-              "roomCode": "113314"
+              "roomCode": ""
             },
             {
               "name": "Senior Deluxe Twin City View",
-              "roomCode": "113313"
+              "roomCode": ""
             }
           ]
         },
@@ -343894,11 +343894,11 @@
           "roomTypes": [
             {
               "name": "Deluxe Double City View - ALTM",
-              "roomCode": "1269008"
+              "roomCode": ""
             },
             {
               "name": "Deluxe Twin City View - ALTM",
-              "roomCode": "1269009"
+              "roomCode": ""
             }
           ]
         },
@@ -343909,23 +343909,23 @@
           "roomTypes": [
             {
               "name": "Bungalow Garden View",
-              "roomCode": "124643"
+              "roomCode": ""
             },
             {
               "name": "Executive Suite",
-              "roomCode": "119273"
+              "roomCode": ""
             },
             {
               "name": "Family Suite",
-              "roomCode": "119272"
+              "roomCode": ""
             },
             {
               "name": "Signature Suite",
-              "roomCode": "119274"
+              "roomCode": ""
             },
             {
               "name": "Superior Comfort Double",
-              "roomCode": "124432"
+              "roomCode": ""
             },
             {
               "name": "Superior Comfort Twin",
@@ -343940,11 +343940,11 @@
           "roomTypes": [
             {
               "name": "Premium Bungalow with Balcony",
-              "roomCode": "130769"
+              "roomCode": ""
             },
             {
               "name": "Premium Bungalow with Garden View",
-              "roomCode": "130770"
+              "roomCode": ""
             }
           ]
         },
@@ -343955,11 +343955,11 @@
           "roomTypes": [
             {
               "name": "Premium Ocean View Double",
-              "roomCode": "118130"
+              "roomCode": ""
             },
             {
               "name": "Premium Ocean View Twin",
-              "roomCode": "119541"
+              "roomCode": ""
             }
           ]
         }
@@ -345487,27 +345487,27 @@
           "en": "NEW",
           "zh": "新上线"
         },
-        "image": "banners/th-irene.jpg",
+        "image": "banners/th-gems.jpg",
         "lines": {
           "ko": [
-            "꼬리뻬 청정 해변의 럭셔리 풀빌라 리조트.",
-            "고요한 우아함과 프라이빗한 휴식.",
-            "신규 등록 — 프리미엄 리조트 수요 공략!"
+            "파타야의 보석 테마 패밀리 풀빌라 리조트.",
+            "아프리카 광산 유산과 지중해 감성이 어우러진 공간.",
+            "신규 등록 — 많은 홍보·판매 부탁드립니다!"
           ],
           "en": [
-            "Luxury pool villa resort on pristine Koh Lipe.",
-            "Serene elegance, tranquility, refined comfort.",
-            "Newly listed — capture premium resort demand!"
+            "Gem-inspired family pool villa resort in Pattaya.",
+            "African mining heritage meets Mediterranean warmth.",
+            "Newly listed — please promote and sell!"
           ],
           "zh": [
-            "丽贝岛纯净海滩上的奢华泳池别墅度假村。",
-            "静谧优雅，尊享私密休憩。",
-            "全新上线，主攻高端度假需求！"
+            "芭堤雅宝石主题家庭泳池别墅度假村。",
+            "融合非洲矿业传承与地中海风情。",
+            "全新上线，敬请大力推广销售！"
           ]
         },
-        "code": "1001976",
-        "hotel": "Irene Resort Koh Lipe",
-        "city": "Koh Lipe"
+        "code": "665814",
+        "hotel": "The Gems Mining Pool Villas Pattaya",
+        "city": "Pattaya"
       },
       {
         "tag": {
