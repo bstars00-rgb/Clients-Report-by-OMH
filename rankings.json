@@ -345356,27 +345356,27 @@
           "en": "PROMO",
           "zh": "促销"
         },
-        "image": "banners/kr-bridge-seogwipo.jpg",
+        "image": "banners/kr-aewol.jpg",
         "lines": {
           "ko": [
-            "서귀포 매일올레시장·이중섭 문화거리 인근, 전통과 예술의 중심.",
-            "한라산 조망의 깨끗한 산책로가 둘러싼 호텔.",
-            "프로모션 진행 — 많은 판매 부탁드립니다!"
+            "제주 애월, 자연과 여유로움을 즐기는 스테이.",
+            "애월 해안도로·카페거리·한담해변 인근.",
+            "프로모션 진행 중 — 많은 판매 부탁드립니다!"
           ],
           "en": [
-            "Near Seogwipo Maeil Olle Market & Lee Jung-seop Culture Street.",
-            "Scenic walking paths with clean Hallasan Mountain views.",
-            "On promotion — please sell actively!"
+            "A relaxed stay amid Jeju Aewol’s nature.",
+            "Near the coastal road, cafe streets & Handam Beach.",
+            "Promotion on now — please promote and sell!"
           ],
           "zh": [
-            "邻近西归浦每日偶来市场与李仲燮文化街。",
-            "环绕汉拿山景观的洁净步道。",
-            "促销进行中，敬请积极销售！"
+            "济州涯月，尽享自然与悠闲的住宿。",
+            "临近涯月海岸路、咖啡街与涵潭海滩。",
+            "促销进行中，敬请大力推广销售！"
           ]
         },
-        "code": "761405",
-        "hotel": "Hotel Bridge Seogwipo",
-        "city": "Seogwipo"
+        "code": "672798",
+        "hotel": "Aewol Stay In Jeju",
+        "city": "Jeju"
       }
     ],
     "Vietnam": [
