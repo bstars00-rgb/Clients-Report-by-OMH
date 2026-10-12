@@ -54,6 +54,8 @@
   .period-bar .tag { font-size:11px; padding:3px 8px; border-radius:999px; background:var(--accent); color:#fff; font-weight:700; }
 
   .controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin: 14px 0 8px; }
+  .dlbtn { margin-left:auto; display:inline-flex; align-items:center; gap:5px; background:#107c41; color:#fff; border:0; border-radius:8px; padding:8px 14px; font-size:13px; font-weight:700; cursor:pointer; transition:background .15s; }
+  .dlbtn:hover { background:#0b5f31; }
   .country-pills { display:flex; gap:8px; flex-wrap:wrap; }
   .country-pills button {
     background: var(--card); border:1px solid var(--line); color:var(--muted); border-radius:999px;
@@ -235,6 +237,7 @@
     .brand h1 { font-size:16px; }
   }
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -288,6 +291,7 @@
       <option value="down" data-i18n="fltDown">▼ Down only</option>
       <option value="new" data-i18n="fltNew">NEW only</option>
     </select>
+    <button id="dlBtn" class="dlbtn" onclick="downloadExcel()" title="Excel"><span style="font-size:14px">⬇</span> <span data-i18n="dlExcel">Download Excel</span></button>
   </div>
 
   <div class="legend">
@@ -348,6 +352,7 @@ const I18N = {
     title:'Weekly Top-Selling Hotels', subtitle:'by OhMyHotel · Booking-based weekly ranking',
     weekTag:'This Week', basis:'Booking date basis · updated weekly', dark:'Dark', light:'Light',
     fltAll:'All movements', fltUp:'▲ Up only', fltDown:'▼ Down only', fltNew:'NEW only',
+    dlExcel:'Download Excel', colRank:'Rank',
     legUp:'up N ranks', legDown:'down N ranks', legNew:'new entry', legSame:'no change',
     thChange:'Change', thHotel:'Hotel', thCode:'Code', thLegacy:'Legacy Code', thCity:'City', noResult:'No hotels match your filter.',
     allCities:'All cities', search:'Search hotel...',
@@ -396,6 +401,7 @@ const I18N = {
     title:'주간 인기 호텔 랭킹', subtitle:'by OhMyHotel · 부킹 기준 주간 순위',
     weekTag:'이번 주', basis:'부킹데이트 기준 · 매주 업데이트', dark:'다크', light:'라이트',
     fltAll:'전체 변동', fltUp:'▲ 상승만', fltDown:'▼ 하락만', fltNew:'신규만',
+    dlExcel:'엑셀 다운로드', colRank:'순위',
     legUp:'N계단 상승', legDown:'N계단 하락', legNew:'신규 진입', legSame:'변동 없음',
     thChange:'변동', thHotel:'호텔', thCode:'코드', thLegacy:'레거시 코드', thCity:'도시', noResult:'조건에 맞는 호텔이 없습니다.',
     allCities:'전체 도시', search:'호텔 검색...',
@@ -444,6 +450,7 @@ const I18N = {
     title:'每周热销酒店排行榜', subtitle:'by OhMyHotel · 基于预订的每周排名',
     weekTag:'本周', basis:'预订日期基准 · 每周更新', dark:'深色', light:'浅色',
     fltAll:'全部变动', fltUp:'▲ 仅上升', fltDown:'▼ 仅下降', fltNew:'仅新进榜',
+    dlExcel:'下载 Excel', colRank:'排名',
     legUp:'上升N位', legDown:'下降N位', legNew:'新进榜', legSame:'无变动',
     thChange:'变动', thHotel:'酒店', thCode:'编号', thLegacy:'旧编号', thCity:'城市', noResult:'没有符合条件的酒店。',
     allCities:'全部城市', search:'搜索酒店...',
@@ -651,6 +658,33 @@ function render(){
     t('showing')+' '+rows.length+' '+t('of')+' '+c.total+' '+t('hotels');
   renderBanner();
   renderInsight();
+}
+
+// 현재 국가 톱리스트를 엑셀(.xlsx)로 다운로드 — 화면에 적용된 필터 그대로
+function downloadExcel(){
+  const c = DATA.countries[country]; if(!c || !c.hotels) return;
+  const cityF = document.getElementById('cityFilter').value;
+  const q = (document.getElementById('searchBox').value||'').trim().toLowerCase();
+  const chF = document.getElementById('changeFilter').value;
+  const rows = c.hotels.filter(h => {
+    if (cityF && h.city !== cityF) return false;
+    if (q && !h.hotel.toLowerCase().includes(q)) return false;
+    if (chF === 'up' && !(h.change > 0)) return false;
+    if (chF === 'down' && !(h.change < 0)) return false;
+    if (chF === 'new' && !h.isNew) return false;
+    return true;
+  });
+  const chTxt = (h) => h.isNew ? t('newTxt') : (h.change > 0 ? '▲'+h.change : (h.change < 0 ? '▼'+Math.abs(h.change) : '='));
+  const header = [t('colRank'), t('thChange'), t('thHotel'), t('thCode'), t('thCity')];
+  const aoa = [header].concat(rows.map(h => [h.rank, chTxt(h), h.hotel, (h.code||''), h.city]));
+  if (typeof XLSX === 'undefined'){ alert('Excel 모듈을 불러오지 못했습니다. 잠시 후 다시 시도하세요.'); return; }
+  const ws = XLSX.utils.aoa_to_sheet(aoa);
+  ws['!cols'] = [{wch:6},{wch:8},{wch:40},{wch:12},{wch:16}];
+  const wb = XLSX.utils.book_new();
+  const cn = (c.meta && (c.meta.en || c.meta.name)) ? (c.meta.en || c.meta.name) : country;
+  XLSX.utils.book_append_sheet(wb, ws, String(cn).slice(0,28));
+  const period = (DATA.period && DATA.period.end) ? DATA.period.end : '';
+  XLSX.writeFile(wb, 'OMH_TopHotels_'+String(cn).replace(/[^A-Za-z0-9]/g,'')+'_'+period+'.xlsx');
 }
 
 function emptyCardHtml(){
