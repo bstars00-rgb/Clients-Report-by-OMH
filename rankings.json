@@ -345551,7 +345551,36 @@
         "city": "Bangkok"
       }
     ],
-    "Hong Kong": [],
+    "Hong Kong": [
+      {
+        "tag": {
+          "ko": "프로모션",
+          "en": "PROMO",
+          "zh": "促销"
+        },
+        "image": "banners/hk-harbourview.jpg",
+        "lines": {
+          "ko": [
+            "홍콩 중심, 빅토리아 하버 전망의 호텔.",
+            "완차이·센트럴 비즈니스·관광지 인근.",
+            "프로모션 진행 중 — 많은 판매 부탁드립니다!"
+          ],
+          "en": [
+            "In central Hong Kong with Victoria Harbour views.",
+            "Near Wan Chai & Central business and tourist hubs.",
+            "Promotion on now — please promote and sell!"
+          ],
+          "zh": [
+            "位于香港市中心，坐拥维多利亚港景。",
+            "临近湾仔与中环商务及旅游区。",
+            "促销进行中，敬请大力推广销售！"
+          ]
+        },
+        "code": "599412",
+        "hotel": "The Harbourview",
+        "city": "Kowloon"
+      }
+    ],
     "Taiwan": [],
     "Malaysia": [],
     "Singapore": []
