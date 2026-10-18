@@ -1,7 +1,7 @@
 {
   "period": {
-    "start": "2026-10-03",
-    "end": "2026-10-09"
+    "start": "2026-10-10",
+    "end": "2026-10-16"
   },
   "generated": "2026-06-27",
   "promoFolder": "2026-08-03",
@@ -30,9 +30,6 @@
       "cities": [
         "Chatan",
         "Fukuoka",
-        "Kagoshima",
-        "Kanazawa",
-        "Kashiwa",
         "Kobe",
         "Kurashiki",
         "Kyoto",
@@ -40,6 +37,7 @@
         "Naha",
         "Onna",
         "Osaka",
+        "Sakai",
         "Sapporo",
         "Takayama",
         "Tokyo"
@@ -47,43 +45,43 @@
       "hotels": [
         {
           "rank": 1,
-          "hotel": "Sotetsu Fresa Inn Higashi Shinjuku",
-          "code": "249494",
-          "city": "Tokyo",
-          "prevRank": 2,
-          "change": 1,
+          "hotel": "KOKO HOTEL Sapporo Susukino 2nd",
+          "code": "1001925",
+          "city": "Sapporo",
+          "prevRank": 22,
+          "change": 21,
           "isNew": false,
-          "promoPct": 32
+          "promoPct": 30
         },
         {
           "rank": 2,
           "hotel": "Smile Hotel Premium Osaka Higashi Shinsaibashi",
           "code": "285030",
           "city": "Osaka",
-          "prevRank": 7,
-          "change": 5,
+          "prevRank": 2,
+          "change": 0,
           "isNew": false,
           "promoPct": 5
         },
         {
           "rank": 3,
-          "hotel": "Vessel Hotel Campana Kyoto Gojo",
-          "code": "108838",
-          "city": "Kyoto",
-          "prevRank": 1,
-          "change": -2,
+          "hotel": "Sotetsu Fresa Inn Osaka-Namba",
+          "code": "450433",
+          "city": "Osaka",
+          "prevRank": 9,
+          "change": 6,
           "isNew": false,
-          "promoPct": 40
+          "promoPct": 35
         },
         {
           "rank": 4,
-          "hotel": "Hotel AMANEK Osaka Namba",
-          "code": "1001586",
-          "city": "Osaka",
-          "prevRank": 10,
-          "change": 6,
+          "hotel": "Sotetsu Fresa Inn Daimon",
+          "code": "728878",
+          "city": "Tokyo",
+          "prevRank": 23,
+          "change": 19,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 32
         },
         {
           "rank": 5,
@@ -97,1011 +95,1011 @@
         },
         {
           "rank": 6,
-          "hotel": "Hotel Monterey Fukuoka",
-          "code": "552124",
-          "city": "Fukuoka",
-          "prevRank": 6,
-          "change": 0,
+          "hotel": "Sotetsu Fresa Inn Higashi Shinjuku",
+          "code": "249494",
+          "city": "Tokyo",
+          "prevRank": 1,
+          "change": -5,
           "isNew": false,
-          "promoPct": 18
+          "promoPct": 32
         },
         {
           "rank": 7,
-          "hotel": "Pearl Hotel Shinjuku Akebonobashi",
-          "code": "350682",
-          "city": "Tokyo",
-          "prevRank": 26,
-          "change": 19,
-          "isNew": false,
-          "promoPct": 25
-        },
-        {
-          "rank": 8,
           "hotel": "The OneFive Osaka Shinsekai",
           "code": "1001675",
           "city": "Osaka",
-          "prevRank": 9,
+          "prevRank": 8,
           "change": 1,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 8,
+          "hotel": "The OneFive Osaka Namba Kuromon",
+          "code": "1001578",
+          "city": "Osaka",
+          "prevRank": 10,
+          "change": 2,
           "isNew": false,
           "promoPct": 10
         },
         {
           "rank": 9,
-          "hotel": "Sotetsu Fresa Inn Osaka-Namba",
-          "code": "450433",
-          "city": "Osaka",
-          "prevRank": 4,
-          "change": -5,
-          "isNew": false,
-          "promoPct": 35
-        },
-        {
-          "rank": 10,
-          "hotel": "The OneFive Osaka Namba Kuromon",
-          "code": "1001578",
-          "city": "Osaka",
-          "prevRank": 43,
-          "change": 33,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 11,
           "hotel": "Sotetsu Fresa Inn Tokyo Kinshicho",
           "code": "221292",
           "city": "Tokyo",
-          "prevRank": 8,
-          "change": -3,
+          "prevRank": 11,
+          "change": 2,
           "isNew": false,
           "promoPct": 27
         },
         {
-          "rank": 12,
-          "hotel": "Sotetsu Fresa Inn Tokyo Tamachi",
-          "code": "667092",
+          "rank": 10,
+          "hotel": "Sotetsu Grand Fresa Tokyo - Bay Ariake",
+          "code": "327376",
           "city": "Tokyo",
-          "prevRank": 35,
-          "change": 23,
+          "prevRank": 31,
+          "change": 21,
           "isNew": false,
-          "promoPct": 32
+          "promoPct": 25
+        },
+        {
+          "rank": 11,
+          "hotel": "Hotel Monterey Fukuoka",
+          "code": "552124",
+          "city": "Fukuoka",
+          "prevRank": 6,
+          "change": -5,
+          "isNew": false,
+          "promoPct": 18
+        },
+        {
+          "rank": 12,
+          "hotel": "Smile Hotel PREMIUM SAPPOROSUSUKINO",
+          "code": "235485",
+          "city": "Sapporo",
+          "prevRank": 218,
+          "change": 206,
+          "isNew": false,
+          "promoPct": 12
         },
         {
           "rank": 13,
-          "hotel": "Hotel Oriental Express Fukuoka Tenjin",
-          "code": "693407",
-          "city": "Fukuoka",
-          "prevRank": 27,
-          "change": 14,
+          "hotel": "The OneFive Osaka Sakaisuji",
+          "code": "713373",
+          "city": "Osaka",
+          "prevRank": 34,
+          "change": 21,
           "isNew": false,
           "promoPct": 10
         },
         {
           "rank": 14,
-          "hotel": "Tokyu Stay Kanazawa",
-          "code": "495849",
-          "city": "Kanazawa",
-          "prevRank": 164,
-          "change": 150,
-          "isNew": false,
-          "promoPct": 40
-        },
-        {
-          "rank": 15,
-          "hotel": "Hotel Monte Hermana Tokyo",
-          "code": "746262",
-          "city": "Tokyo",
-          "prevRank": 42,
-          "change": 27,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 16,
-          "hotel": "Hakata Excel Hotel Tokyu",
-          "code": "560808",
-          "city": "Fukuoka",
-          "prevRank": 16,
-          "change": 0,
-          "isNew": false,
-          "promoPct": 30
-        },
-        {
-          "rank": 17,
-          "hotel": "Shinjuku Washington Hotel Main",
-          "code": "614653",
-          "city": "Tokyo",
-          "prevRank": 31,
-          "change": 14,
-          "isNew": false,
-          "promoPct": 2
-        },
-        {
-          "rank": 18,
           "hotel": "The OneFive Garden Kurashiki",
           "code": "735572",
           "city": "Kurashiki",
-          "prevRank": 21,
-          "change": 3,
+          "prevRank": 18,
+          "change": 4,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 19,
+          "rank": 15,
+          "hotel": "Smile Hotel Premium Osaka Hommachi",
+          "code": "229742",
+          "city": "Osaka",
+          "prevRank": 28,
+          "change": 13,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 16,
+          "hotel": "KOKO HOTEL Osaka Namba Sennichimae",
+          "code": "1001365",
+          "city": "Osaka",
+          "prevRank": 53,
+          "change": 37,
+          "isNew": false,
+          "promoPct": 15
+        },
+        {
+          "rank": 17,
           "hotel": "Sotetsu Fresa Inn Nagoya-Shinkansenguchi",
           "code": "712350",
           "city": "Nagoya",
-          "prevRank": 34,
-          "change": 15,
+          "prevRank": 19,
+          "change": 2,
           "isNew": false,
           "promoPct": 5
         },
         {
+          "rank": 18,
+          "hotel": "Shinjuku Granbell Hotel",
+          "code": "764481",
+          "city": "Tokyo",
+          "prevRank": 41,
+          "change": 23,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 19,
+          "hotel": "Sotetsu Fresa Inn Tokyo Tamachi",
+          "code": "667092",
+          "city": "Tokyo",
+          "prevRank": 12,
+          "change": -7,
+          "isNew": false,
+          "promoPct": 32
+        },
+        {
           "rank": 20,
-          "hotel": "Best Western Plus Nagoya Sakae",
-          "code": "995717",
-          "city": "Nagoya",
-          "prevRank": 14,
-          "change": -6,
+          "hotel": "Hotel Metropolitan Tokyo Ikebukuro",
+          "code": "141069",
+          "city": "Tokyo",
+          "prevRank": 27,
+          "change": 7,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 21,
-          "hotel": "Shin Osaka Washington Hotel Plaza",
-          "code": "551313",
+          "hotel": "KOKO HOTEL Osaka Shinsaibashi",
+          "code": "768491",
           "city": "Osaka",
-          "prevRank": 13,
-          "change": -8,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 22,
-          "hotel": "KOKO HOTEL Sapporo Susukino 2nd",
-          "code": "1001925",
-          "city": "Sapporo",
-          "prevRank": 89,
-          "change": 67,
+          "prevRank": 47,
+          "change": 26,
           "isNew": false,
           "promoPct": 30
         },
         {
-          "rank": 23,
-          "hotel": "Sotetsu Fresa Inn Daimon",
-          "code": "728878",
+          "rank": 22,
+          "hotel": "Tokyu Stay Shibuya Shin-minamiguchi",
+          "code": "530646",
           "city": "Tokyo",
-          "prevRank": 19,
-          "change": -4,
+          "prevRank": 30,
+          "change": 8,
           "isNew": false,
-          "promoPct": 32
+          "promoPct": 31
+        },
+        {
+          "rank": 23,
+          "hotel": "Pearl Hotel Shinjuku Akebonobashi",
+          "code": "350682",
+          "city": "Tokyo",
+          "prevRank": 7,
+          "change": -16,
+          "isNew": false,
+          "promoPct": 25
         },
         {
           "rank": 24,
-          "hotel": "Oriental Hotel Tokyo Bay",
-          "code": "103913",
-          "city": "Tokyo",
-          "prevRank": 20,
-          "change": -4,
+          "hotel": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
+          "code": "732266",
+          "city": "Kyoto",
+          "prevRank": 40,
+          "change": 16,
           "isNew": false,
-          "promoPct": 43
+          "promoPct": 25
         },
         {
           "rank": 25,
-          "hotel": "Hotel Monterey La Soeur Ginza",
-          "code": "177974",
-          "city": "Tokyo",
-          "prevRank": 17,
-          "change": -8,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 26,
           "hotel": "SAPPORO STREAM HOTEL",
           "code": "931585",
           "city": "Sapporo",
-          "prevRank": 307,
-          "change": 281,
+          "prevRank": 26,
+          "change": 1,
           "isNew": false,
           "promoPct": 10
         },
         {
-          "rank": 27,
-          "hotel": "Hotel Metropolitan Tokyo Ikebukuro",
-          "code": "141069",
-          "city": "Tokyo",
-          "prevRank": 23,
-          "change": -4,
+          "rank": 26,
+          "hotel": "Best Western Plus Nagoya Sakae",
+          "code": "995717",
+          "city": "Nagoya",
+          "prevRank": 20,
+          "change": -6,
           "isNew": false,
           "promoPct": null
         },
         {
+          "rank": 27,
+          "hotel": "Shinjuku Washington Hotel Main",
+          "code": "614653",
+          "city": "Tokyo",
+          "prevRank": 17,
+          "change": -10,
+          "isNew": false,
+          "promoPct": 2
+        },
+        {
           "rank": 28,
-          "hotel": "Smile Hotel Premium Osaka Hommachi",
-          "code": "229742",
+          "hotel": "Shin Osaka Washington Hotel Plaza",
+          "code": "551313",
           "city": "Osaka",
-          "prevRank": 33,
-          "change": 5,
+          "prevRank": 21,
+          "change": -7,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 29,
-          "hotel": "THE POCKET HOTEL Kyoto-Karasumagojo",
-          "code": "642814",
-          "city": "Kyoto",
-          "prevRank": 64,
-          "change": 35,
+          "hotel": "Sotetsu Fresa Inn Kanda Otemachi",
+          "code": "669994",
+          "city": "Tokyo",
+          "prevRank": 135,
+          "change": 106,
           "isNew": false,
-          "promoPct": 25
+          "promoPct": 17
         },
         {
           "rank": 30,
-          "hotel": "Sotetsu Grand Fresa Tokyo - Bay Ariake",
-          "code": "327376",
+          "hotel": "Sotetsu Fresa Inn Tokyo Roppongi",
+          "code": "204439",
           "city": "Tokyo",
-          "prevRank": 36,
-          "change": 6,
+          "prevRank": 59,
+          "change": 29,
           "isNew": false,
-          "promoPct": 25
+          "promoPct": 27
         },
         {
           "rank": 31,
-          "hotel": "Tokyu Stay Shibuya Shin-minamiguchi",
-          "code": "530646",
-          "city": "Tokyo",
-          "prevRank": 25,
-          "change": -6,
+          "hotel": "Sotetsu Grand Fresa Osaka - Namba",
+          "code": "130959",
+          "city": "Osaka",
+          "prevRank": 80,
+          "change": 49,
           "isNew": false,
-          "promoPct": 31
+          "promoPct": 35
         },
         {
           "rank": 32,
-          "hotel": "Living Inn Asahibashi Ekimae Premier",
-          "code": "182883",
-          "city": "Naha",
-          "prevRank": 52,
-          "change": 20,
+          "hotel": "New Otani Inn Tokyo",
+          "code": "662338",
+          "city": "Tokyo",
+          "prevRank": 42,
+          "change": 10,
           "isNew": false,
-          "promoPct": 40
+          "promoPct": null
         },
         {
           "rank": 33,
-          "hotel": "Oriental Hotel Fukuoka Hakata Station",
-          "code": "399985",
-          "city": "Fukuoka",
-          "prevRank": 32,
-          "change": -1,
+          "hotel": "Sotetsu Fresa Inn Nihombashi Kayabacho",
+          "code": "667093",
+          "city": "Tokyo",
+          "prevRank": 104,
+          "change": 71,
           "isNew": false,
-          "promoPct": 21
+          "promoPct": 27
         },
         {
           "rank": 34,
-          "hotel": "Hotel Monterey Ginza",
-          "code": "116633",
-          "city": "Tokyo",
-          "prevRank": 45,
-          "change": 11,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 35,
-          "hotel": "The OneFive Osaka Sakaisuji",
-          "code": "713373",
-          "city": "Osaka",
-          "prevRank": 18,
-          "change": -17,
+          "hotel": "Hotel Oriental Express Fukuoka Tenjin",
+          "code": "693407",
+          "city": "Fukuoka",
+          "prevRank": 13,
+          "change": -21,
           "isNew": false,
           "promoPct": 10
         },
         {
+          "rank": 35,
+          "hotel": "Oriental Hotel Fukuoka Hakata Station",
+          "code": "399985",
+          "city": "Fukuoka",
+          "prevRank": 33,
+          "change": -2,
+          "isNew": false,
+          "promoPct": 21
+        },
+        {
           "rank": 36,
-          "hotel": "KOKO HOTEL Kobe Sannomiya",
-          "code": "768541",
-          "city": "Kobe",
-          "prevRank": 65,
-          "change": 29,
+          "hotel": "Sotetsu Fresa Inn Tokyo-Kanda",
+          "code": "245359",
+          "city": "Tokyo",
+          "prevRank": 197,
+          "change": 161,
           "isNew": false,
           "promoPct": 17
         },
         {
           "rank": 37,
-          "hotel": "Hida Takayama Washington Hotel Plaza",
-          "code": "499250",
-          "city": "Takayama",
-          "prevRank": 22,
-          "change": -15,
+          "hotel": "THE LIVELY FUKUOKA HAKATA",
+          "code": "410100",
+          "city": "Fukuoka",
+          "prevRank": 49,
+          "change": 12,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 40
         },
         {
           "rank": 38,
-          "hotel": "Hotel Granvia Osaka",
-          "code": "584277",
-          "city": "Osaka",
-          "prevRank": 74,
-          "change": 36,
-          "isNew": false,
-          "promoPct": 31
-        },
-        {
-          "rank": 39,
-          "hotel": "Best Western Hotel Fino Osaka Shinsaibashi",
-          "code": "471157",
-          "city": "Osaka",
-          "prevRank": 24,
-          "change": -15,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 40,
-          "hotel": "Shinjuku Granbell Hotel",
-          "code": "764481",
-          "city": "Tokyo",
-          "prevRank": 30,
-          "change": -10,
+          "hotel": "Hotel Oriental Express Fukuoka Nakasu Kawabata",
+          "code": "687288",
+          "city": "Fukuoka",
+          "prevRank": 52,
+          "change": 14,
           "isNew": false,
           "promoPct": 10
         },
         {
-          "rank": 41,
-          "hotel": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
-          "code": "732266",
-          "city": "Kyoto",
-          "prevRank": 15,
+          "rank": 39,
+          "hotel": "Sotetsu Fresa Inn Ueno Okachimachi",
+          "code": "208576",
+          "city": "Tokyo",
+          "prevRank": 99,
+          "change": 60,
+          "isNew": false,
+          "promoPct": 27
+        },
+        {
+          "rank": 40,
+          "hotel": "Hotel Monte Hermana Tokyo",
+          "code": "746262",
+          "city": "Tokyo",
+          "prevRank": 14,
           "change": -26,
           "isNew": false,
-          "promoPct": 25
+          "promoPct": 20
+        },
+        {
+          "rank": 41,
+          "hotel": "Hotel Monterey Edelhof Sapporo",
+          "code": "170079",
+          "city": "Sapporo",
+          "prevRank": 73,
+          "change": 32,
+          "isNew": false,
+          "promoPct": 30
         },
         {
           "rank": 42,
-          "hotel": "New Otani Inn Tokyo",
-          "code": "662338",
+          "hotel": "Sotetsu Fresa Inn Tokyo Toyocho",
+          "code": "663510",
           "city": "Tokyo",
-          "prevRank": 93,
-          "change": 51,
+          "prevRank": 71,
+          "change": 29,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 35
         },
         {
           "rank": 43,
-          "hotel": "Hotel IL Cuore Namba",
-          "code": "164418",
-          "city": "Osaka",
-          "prevRank": 66,
-          "change": 23,
+          "hotel": "Hotel Monterey La Soeur Ginza",
+          "code": "177974",
+          "city": "Tokyo",
+          "prevRank": 25,
+          "change": -18,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 20
         },
         {
           "rank": 44,
-          "hotel": "Hiyori Ocean Resort Okinawa",
-          "code": "645897",
-          "city": "Onna",
-          "prevRank": 44,
-          "change": 0,
-          "isNew": false,
-          "promoPct": 45
-        },
-        {
-          "rank": 45,
-          "hotel": "Hotel Gracery Shinjuku",
-          "code": "845586",
-          "city": "Tokyo",
-          "prevRank": 46,
-          "change": 1,
-          "isNew": false,
-          "promoPct": 15
-        },
-        {
-          "rank": 46,
-          "hotel": "Washington R&B Hotel Hakataekimae Dai 2",
-          "code": "279206",
-          "city": "Fukuoka",
-          "prevRank": 47,
-          "change": 1,
+          "hotel": "Vessel Hotel Campana Okinawa",
+          "code": "607761",
+          "city": "Chatan",
+          "prevRank": 58,
+          "change": 14,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 47,
-          "hotel": "KOKO HOTEL Osaka Shinsaibashi",
-          "code": "768491",
+          "rank": 45,
+          "hotel": "Hotel AMANEK Osaka Namba",
+          "code": "1001586",
           "city": "Osaka",
-          "prevRank": 12,
-          "change": -35,
+          "prevRank": 4,
+          "change": -41,
           "isNew": false,
-          "promoPct": 30
+          "promoPct": null
+        },
+        {
+          "rank": 46,
+          "hotel": "Hotel Resol Trinity Sapporo",
+          "code": "551528",
+          "city": "Sapporo",
+          "prevRank": 76,
+          "change": 30,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 47,
+          "hotel": "Hakata Nakasu Washington Hotel Plaza",
+          "code": "560918",
+          "city": "Fukuoka",
+          "prevRank": 50,
+          "change": 3,
+          "isNew": false,
+          "promoPct": null
         },
         {
           "rank": 48,
           "hotel": "Hotel Palm Royal Resort Kokusai Street",
           "code": "629843",
           "city": "Naha",
-          "prevRank": 73,
-          "change": 25,
+          "prevRank": 48,
+          "change": 0,
           "isNew": false,
           "promoPct": 28
         },
         {
           "rank": 49,
-          "hotel": "THE LIVELY FUKUOKA HAKATA",
-          "code": "410100",
+          "hotel": "Hakata Excel Hotel Tokyu",
+          "code": "560808",
           "city": "Fukuoka",
-          "prevRank": 72,
-          "change": 23,
+          "prevRank": 16,
+          "change": -33,
           "isNew": false,
-          "promoPct": 40
+          "promoPct": 30
         },
         {
           "rank": 50,
-          "hotel": "Pearl Hotel Ryogoku",
-          "code": "119842",
-          "city": "Tokyo",
-          "prevRank": 55,
-          "change": 5,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 51,
-          "hotel": "Hakata Nakasu Washington Hotel Plaza",
-          "code": "560918",
-          "city": "Fukuoka",
-          "prevRank": 86,
-          "change": 35,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 52,
-          "hotel": "Hotel Oriental Express Fukuoka Nakasu Kawabata",
-          "code": "687288",
-          "city": "Fukuoka",
-          "prevRank": 40,
-          "change": -12,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 53,
-          "hotel": "Miyako City Kintetsu Kyoto Station",
-          "code": "859473",
+          "hotel": "THE POCKET HOTEL Kyoto-Karasumagojo",
+          "code": "642814",
           "city": "Kyoto",
-          "prevRank": 39,
-          "change": -14,
-          "isNew": false,
-          "promoPct": 40
-        },
-        {
-          "rank": 54,
-          "hotel": "KOKO HOTEL Osaka Namba Sennichimae",
-          "code": "1001365",
-          "city": "Osaka",
-          "prevRank": 38,
-          "change": -16,
-          "isNew": false,
-          "promoPct": 15
-        },
-        {
-          "rank": 55,
-          "hotel": "Sotetsu Fresa Inn Tokyo-Akasaka",
-          "code": "168085",
-          "city": "Tokyo",
-          "prevRank": 37,
-          "change": -18,
-          "isNew": false,
-          "promoPct": 32
-        },
-        {
-          "rank": 56,
-          "hotel": "Y's Cabin Osaka Namba",
-          "code": "187645",
-          "city": "Osaka",
           "prevRank": 29,
-          "change": -27,
+          "change": -21,
           "isNew": false,
           "promoPct": 25
         },
         {
-          "rank": 57,
-          "hotel": "Vessel Hotel Campana Okinawa",
-          "code": "607761",
-          "city": "Chatan",
-          "prevRank": 41,
-          "change": -16,
+          "rank": 51,
+          "hotel": "Sotetsu Fresa Inn Kobe Sannomiya",
+          "code": "409119",
+          "city": "Kobe",
+          "prevRank": 65,
+          "change": 14,
+          "isNew": false,
+          "promoPct": 35
+        },
+        {
+          "rank": 52,
+          "hotel": "Hotel IL Cuore Namba",
+          "code": "164418",
+          "city": "Osaka",
+          "prevRank": 44,
+          "change": -8,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 58,
-          "hotel": "Hotel Monte Hermana Fukuoka",
-          "code": "163030",
-          "city": "Fukuoka",
-          "prevRank": 59,
+          "rank": 53,
+          "hotel": "Sotetsu Fresa Inn Osaka Shinsaibashi",
+          "code": "346945",
+          "city": "Osaka",
+          "prevRank": 62,
+          "change": 9,
+          "isNew": false,
+          "promoPct": 35
+        },
+        {
+          "rank": 54,
+          "hotel": "Miyako City Kintetsu Kyoto Station",
+          "code": "859473",
+          "city": "Kyoto",
+          "prevRank": 55,
           "change": 1,
           "isNew": false,
           "promoPct": 40
         },
         {
-          "rank": 59,
-          "hotel": "Sotetsu Fresa Inn Tokyo Roppongi",
-          "code": "204439",
+          "rank": 55,
+          "hotel": "Hotel Monterey Hanzomon",
+          "code": "155719",
           "city": "Tokyo",
-          "prevRank": 11,
-          "change": -48,
+          "prevRank": 66,
+          "change": 11,
           "isNew": false,
-          "promoPct": 27
+          "promoPct": 13
         },
         {
-          "rank": 60,
-          "hotel": "the b Kobe",
-          "code": "189791",
-          "city": "Kobe",
-          "prevRank": 95,
-          "change": 35,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 61,
-          "hotel": "Pearl Hotel Kayabachou",
-          "code": "119845",
+          "rank": 56,
+          "hotel": "Hotel Gracery Shinjuku",
+          "code": "845586",
           "city": "Tokyo",
-          "prevRank": 60,
-          "change": -1,
+          "prevRank": 45,
+          "change": -11,
           "isNew": false,
           "promoPct": 15
         },
         {
-          "rank": 62,
-          "hotel": "Sotetsu Fresa Inn Osaka Shinsaibashi",
-          "code": "346945",
-          "city": "Osaka",
-          "prevRank": 111,
-          "change": 49,
+          "rank": 57,
+          "hotel": "Hiyori Ocean Resort Okinawa",
+          "code": "645897",
+          "city": "Onna",
+          "prevRank": 43,
+          "change": -14,
           "isNew": false,
-          "promoPct": 35
+          "promoPct": 45
         },
         {
-          "rank": 63,
+          "rank": 58,
           "hotel": "hotel androoms Naha Port",
           "code": "746964",
           "city": "Naha",
-          "prevRank": 57,
-          "change": -6,
+          "prevRank": 63,
+          "change": 5,
           "isNew": false,
           "promoPct": 20
         },
         {
-          "rank": 64,
-          "hotel": "Vessel Hotel Campana Susukino",
-          "code": "417502",
-          "city": "Sapporo",
-          "prevRank": 28,
-          "change": -36,
+          "rank": 59,
+          "hotel": "Best Western Hotel Fino Osaka Shinsaibashi",
+          "code": "471157",
+          "city": "Osaka",
+          "prevRank": 39,
+          "change": -20,
+          "isNew": false,
+          "promoPct": 20
+        },
+        {
+          "rank": 60,
+          "hotel": "Toyoko Inn Okinawa Naha Asahibashi Ekimae",
+          "code": "185988",
+          "city": "Naha",
+          "prevRank": 67,
+          "change": 7,
+          "isNew": false,
+          "promoPct": 5
+        },
+        {
+          "rank": 61,
+          "hotel": "Hida Takayama Washington Hotel Plaza",
+          "code": "499250",
+          "city": "Takayama",
+          "prevRank": 37,
+          "change": -24,
           "isNew": false,
           "promoPct": null
         },
         {
+          "rank": 62,
+          "hotel": "Hotel Monte Hermana Fukuoka",
+          "code": "163030",
+          "city": "Fukuoka",
+          "prevRank": 57,
+          "change": -5,
+          "isNew": false,
+          "promoPct": 40
+        },
+        {
+          "rank": 63,
+          "hotel": "Sotetsu Fresa Inn Kitahama",
+          "code": "262604",
+          "city": "Osaka",
+          "prevRank": 68,
+          "change": 5,
+          "isNew": false,
+          "promoPct": 25
+        },
+        {
+          "rank": 64,
+          "hotel": "the b ginza",
+          "code": "683977",
+          "city": "Tokyo",
+          "prevRank": 186,
+          "change": 122,
+          "isNew": false,
+          "promoPct": 22
+        },
+        {
           "rank": 65,
-          "hotel": "Sotetsu Fresa Inn Kobe Sannomiya",
-          "code": "409119",
-          "city": "Kobe",
-          "prevRank": 48,
-          "change": -17,
+          "hotel": "Miyako Hotel Hakata",
+          "code": "101842",
+          "city": "Fukuoka",
+          "prevRank": 111,
+          "change": 46,
           "isNew": false,
           "promoPct": 35
         },
         {
           "rank": 66,
-          "hotel": "Hotel Monterey Hanzomon",
-          "code": "155719",
+          "hotel": "Sotetsu Fresa Inn Nihombashi Ningyocho",
+          "code": "664615",
           "city": "Tokyo",
-          "prevRank": 49,
-          "change": -17,
+          "prevRank": 214,
+          "change": 148,
           "isNew": false,
-          "promoPct": 13
+          "promoPct": 27
         },
         {
           "rank": 67,
-          "hotel": "Toyoko Inn Okinawa Naha Asahibashi Ekimae",
-          "code": "185988",
-          "city": "Naha",
-          "prevRank": 77,
-          "change": 10,
+          "hotel": "Sotetsu Fresa Inn Nagoya Sakuradoriguchi",
+          "code": "531806",
+          "city": "Nagoya",
+          "prevRank": 91,
+          "change": 24,
           "isNew": false,
           "promoPct": 5
         },
         {
           "rank": 68,
-          "hotel": "Sotetsu Fresa Inn Kitahama",
-          "code": "262604",
+          "hotel": "Vessel Hotel Campana Susukino",
+          "code": "417502",
+          "city": "Sapporo",
+          "prevRank": 64,
+          "change": -4,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 69,
+          "hotel": "Oriental Hotel Tokyo Bay",
+          "code": "103913",
+          "city": "Tokyo",
+          "prevRank": 24,
+          "change": -45,
+          "isNew": false,
+          "promoPct": 43
+        },
+        {
+          "rank": 70,
+          "hotel": "Holiday Inn Osaka Namba",
+          "code": "344271",
           "city": "Osaka",
-          "prevRank": 97,
-          "change": 29,
+          "prevRank": 98,
+          "change": 28,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 71,
+          "hotel": "Hotel Shin Imamiya",
+          "code": "828977",
+          "city": "Osaka",
+          "prevRank": 101,
+          "change": 30,
+          "isNew": false,
+          "promoPct": 50
+        },
+        {
+          "rank": 72,
+          "hotel": "Sotetsu Fresa Inn Kyoto Hachijoguchi",
+          "code": "178910",
+          "city": "Kyoto",
+          "prevRank": 70,
+          "change": -2,
           "isNew": false,
           "promoPct": 25
         },
         {
-          "rank": 69,
-          "hotel": "Toyoko Inn Osaka Tenjimbashi-suji Rokuchome",
-          "code": "482588",
+          "rank": 73,
+          "hotel": "KOKO HOTEL Kobe Sannomiya",
+          "code": "768541",
+          "city": "Kobe",
+          "prevRank": 36,
+          "change": -37,
+          "isNew": false,
+          "promoPct": 17
+        },
+        {
+          "rank": 74,
+          "hotel": "Living Inn Asahibashi Ekimae Premier",
+          "code": "182883",
+          "city": "Naha",
+          "prevRank": 32,
+          "change": -42,
+          "isNew": false,
+          "promoPct": 40
+        },
+        {
+          "rank": 75,
+          "hotel": "Y's Cabin Osaka Namba",
+          "code": "187645",
           "city": "Osaka",
-          "prevRank": 91,
-          "change": 22,
+          "prevRank": 56,
+          "change": -19,
+          "isNew": false,
+          "promoPct": 25
+        },
+        {
+          "rank": 76,
+          "hotel": "KOKO HOTEL Osaka Namba Ebisucho",
+          "code": "731117",
+          "city": "Osaka",
+          "prevRank": 74,
+          "change": -2,
+          "isNew": false,
+          "promoPct": 20
+        },
+        {
+          "rank": 77,
+          "hotel": "Hotel Granvia Osaka",
+          "code": "584277",
+          "city": "Osaka",
+          "prevRank": 38,
+          "change": -39,
+          "isNew": false,
+          "promoPct": 31
+        },
+        {
+          "rank": 78,
+          "hotel": "Pearl Hotel Kayabachou",
+          "code": "119845",
+          "city": "Tokyo",
+          "prevRank": 61,
+          "change": -17,
           "isNew": false,
           "promoPct": 15
         },
         {
-          "rank": 70,
-          "hotel": "Sotetsu Fresa Inn Kyoto Hachijoguchi",
-          "code": "178910",
+          "rank": 79,
+          "hotel": "Sotetsu Fresa Inn Kyoto Shijokarasuma",
+          "code": "178912",
           "city": "Kyoto",
-          "prevRank": 62,
-          "change": -8,
+          "prevRank": 84,
+          "change": 5,
           "isNew": false,
           "promoPct": 25
         },
         {
-          "rank": 71,
-          "hotel": "Sotetsu Fresa Inn Tokyo Toyocho",
-          "code": "663510",
-          "city": "Tokyo",
-          "prevRank": 142,
+          "rank": 80,
+          "hotel": "Hotel Sunroute Sopra Kobe",
+          "code": "499226",
+          "city": "Kobe",
+          "prevRank": 86,
+          "change": 6,
+          "isNew": false,
+          "promoPct": 20
+        },
+        {
+          "rank": 81,
+          "hotel": "Smile Hotel Shinosaka",
+          "code": "693996",
+          "city": "Osaka",
+          "prevRank": 122,
+          "change": 41,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 82,
+          "hotel": "Osaka Port Hotel L'Espoir",
+          "code": "314470",
+          "city": "Osaka",
+          "prevRank": 153,
           "change": 71,
           "isNew": false,
           "promoPct": 35
         },
         {
-          "rank": 72,
-          "hotel": "Sotetsu Fresa Inn Chiba Kashiwa",
-          "code": "659629",
-          "city": "Kashiwa",
-          "prevRank": 56,
-          "change": -16,
-          "isNew": false,
-          "promoPct": 35
-        },
-        {
-          "rank": 73,
-          "hotel": "Hotel Monterey Edelhof Sapporo",
-          "code": "170079",
-          "city": "Sapporo",
-          "prevRank": 78,
-          "change": 5,
-          "isNew": false,
-          "promoPct": 30
-        },
-        {
-          "rank": 74,
-          "hotel": "KOKO HOTEL Osaka Namba Ebisucho",
-          "code": "731117",
-          "city": "Osaka",
-          "prevRank": 53,
-          "change": -21,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 75,
-          "hotel": "Hotel Monterey Akasaka",
-          "code": "167121",
-          "city": "Tokyo",
-          "prevRank": 67,
-          "change": -8,
-          "isNew": false,
-          "promoPct": 13
-        },
-        {
-          "rank": 76,
-          "hotel": "Hotel Resol Trinity Sapporo",
-          "code": "551528",
-          "city": "Sapporo",
-          "prevRank": 104,
-          "change": 28,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 77,
-          "hotel": "Red Roof Inn & Suites Osaka - Namba/Nippombashi",
-          "code": "206762",
-          "city": "Osaka",
-          "prevRank": 54,
-          "change": -23,
-          "isNew": false,
-          "promoPct": 40
-        },
-        {
-          "rank": 78,
-          "hotel": "Toyoko Inn Osaka Nippombashi Bunraku Gekijo Mae",
-          "code": "392257",
-          "city": "Osaka",
-          "prevRank": 124,
-          "change": 46,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 79,
-          "hotel": "Rembrandt Style Naha",
-          "code": "729045",
-          "city": "Naha",
-          "prevRank": 98,
-          "change": 19,
-          "isNew": false,
-          "promoPct": 33
-        },
-        {
-          "rank": 80,
-          "hotel": "Kagoshima Washington Hotel Plaza",
-          "code": "560921",
-          "city": "Kagoshima",
-          "prevRank": 220,
-          "change": 140,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 81,
-          "hotel": "Sotetsu Grand Fresa Osaka - Namba",
-          "code": "130959",
-          "city": "Osaka",
-          "prevRank": 3,
-          "change": -78,
-          "isNew": false,
-          "promoPct": 35
-        },
-        {
-          "rank": 82,
+          "rank": 83,
           "hotel": "La'gent Hotel Osaka Bay",
           "code": "167034",
           "city": "Osaka",
-          "prevRank": 76,
-          "change": -6,
+          "prevRank": 82,
+          "change": -1,
           "isNew": false,
           "promoPct": 35
         },
         {
-          "rank": 83,
+          "rank": 84,
+          "hotel": "HOTEL TRAD Replay",
+          "code": "527630",
+          "city": "Osaka",
+          "prevRank": 160,
+          "change": 76,
+          "isNew": false,
+          "promoPct": 20
+        },
+        {
+          "rank": 85,
           "hotel": "Oriental Hotel Universal City",
           "code": "717930",
           "city": "Osaka",
           "prevRank": 83,
-          "change": 0,
+          "change": -2,
           "isNew": false,
           "promoPct": 20
-        },
-        {
-          "rank": 84,
-          "hotel": "Sotetsu Fresa Inn Kyoto Shijokarasuma",
-          "code": "178912",
-          "city": "Kyoto",
-          "prevRank": 51,
-          "change": -33,
-          "isNew": false,
-          "promoPct": 25
-        },
-        {
-          "rank": 85,
-          "hotel": "Sotetsu Fresa Inn Ochanomizu Jimbocho",
-          "code": "848936",
-          "city": "Tokyo",
-          "prevRank": 127,
-          "change": 42,
-          "isNew": false,
-          "promoPct": 27
         },
         {
           "rank": 86,
-          "hotel": "Hotel Sunroute Sopra Kobe",
-          "code": "499226",
-          "city": "Kobe",
-          "prevRank": 80,
-          "change": -6,
+          "hotel": "Sotetsu Fresa Inn Hamamatsucho Daimon",
+          "code": "604432",
+          "city": "Tokyo",
+          "prevRank": 307,
+          "change": 221,
           "isNew": false,
-          "promoPct": 20
+          "promoPct": 32
         },
         {
           "rank": 87,
-          "hotel": "Cross Hotel Kyoto",
-          "code": "327807",
-          "city": "Kyoto",
-          "prevRank": 223,
-          "change": 136,
+          "hotel": "Red Roof Inn & Suites Osaka - Namba/Nippombashi",
+          "code": "206762",
+          "city": "Osaka",
+          "prevRank": 77,
+          "change": -10,
           "isNew": false,
-          "promoPct": 35
+          "promoPct": 40
         },
         {
           "rank": 88,
-          "hotel": "Daiwa Roynet Hotel Osaka Sakaisuji Honmachi PREMIER",
-          "code": "725693",
-          "city": "Osaka",
-          "prevRank": 68,
-          "change": -20,
+          "hotel": "Hotel Agora Regency Osaka Sakai",
+          "code": "557812",
+          "city": "Sakai",
+          "prevRank": 157,
+          "change": 69,
+          "isNew": false,
+          "promoPct": 45
+        },
+        {
+          "rank": 89,
+          "hotel": "Washington R&B Hotel Hakataekimae Dai 2",
+          "code": "279206",
+          "city": "Fukuoka",
+          "prevRank": 46,
+          "change": -43,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 89,
-          "hotel": "Hotel Amanek Shinjuku Kabukicho",
-          "code": "834452",
-          "city": "Tokyo",
-          "prevRank": 71,
-          "change": -18,
-          "isNew": false,
-          "promoPct": 30
-        },
-        {
           "rank": 90,
-          "hotel": "La'gent Hotel Shinjuku Kabukicho",
-          "code": "424714",
+          "hotel": "Hotel Sunroute Plaza Shinjuku",
+          "code": "181491",
           "city": "Tokyo",
-          "prevRank": 134,
-          "change": 44,
+          "prevRank": 126,
+          "change": 36,
           "isNew": false,
           "promoPct": 20
         },
         {
           "rank": 91,
-          "hotel": "Sotetsu Fresa Inn Nagoya Sakuradoriguchi",
-          "code": "531806",
-          "city": "Nagoya",
-          "prevRank": 63,
-          "change": -28,
+          "hotel": "Toyoko Inn Osaka Abeno Tennoji",
+          "code": "186048",
+          "city": "Osaka",
+          "prevRank": 123,
+          "change": 32,
           "isNew": false,
-          "promoPct": 5
+          "promoPct": null
         },
         {
           "rank": 92,
-          "hotel": "Sapporo Washington Hotel Plaza",
-          "code": "748760",
-          "city": "Sapporo",
-          "prevRank": 102,
-          "change": 10,
+          "hotel": "Toyoko Inn Osaka Hankyu Juso Station Nishi 2",
+          "code": "436572",
+          "city": "Osaka",
+          "prevRank": 145,
+          "change": 53,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 25
         },
         {
           "rank": 93,
-          "hotel": "Washington R&B Hotel Sapporo Kita3 Nishi2",
-          "code": "554180",
-          "city": "Sapporo",
-          "prevRank": 141,
-          "change": 48,
+          "hotel": "the b hakata",
+          "code": "350700",
+          "city": "Fukuoka",
+          "prevRank": 196,
+          "change": 103,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 20
         },
         {
           "rank": 94,
-          "hotel": "Lequ Okinawa Chatan Spa & Resort",
-          "code": "570012",
-          "city": "Chatan",
-          "prevRank": 84,
-          "change": -10,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 95,
-          "hotel": "Grand Cabin Hotel Naha Oroku",
-          "code": "391490",
-          "city": "Naha",
-          "prevRank": 117,
-          "change": 22,
-          "isNew": false,
-          "promoPct": 45
-        },
-        {
-          "rank": 96,
-          "hotel": "The BREAKFAST HOTEL Fukuoka Tenjin",
-          "code": "183901",
-          "city": "Fukuoka",
-          "prevRank": 90,
-          "change": -6,
+          "hotel": "Toyoko Inn Osaka Tenjimbashi-suji Rokuchome",
+          "code": "482588",
+          "city": "Osaka",
+          "prevRank": 69,
+          "change": -25,
           "isNew": false,
           "promoPct": 15
         },
         {
-          "rank": 97,
-          "hotel": "Comfort Hotel Hakata",
-          "code": "113300",
-          "city": "Fukuoka",
-          "prevRank": 101,
-          "change": 4,
+          "rank": 95,
+          "hotel": "Toyoko Inn Osaka Nippombashi Bunraku Gekijo Mae",
+          "code": "392257",
+          "city": "Osaka",
+          "prevRank": 78,
+          "change": -17,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 20
+        },
+        {
+          "rank": 96,
+          "hotel": "Hotel Monterey Ginza",
+          "code": "116633",
+          "city": "Tokyo",
+          "prevRank": 35,
+          "change": -61,
+          "isNew": false,
+          "promoPct": 20
+        },
+        {
+          "rank": 97,
+          "hotel": "Lequ Okinawa Chatan Spa & Resort",
+          "code": "570012",
+          "city": "Chatan",
+          "prevRank": 94,
+          "change": -3,
+          "isNew": false,
+          "promoPct": 10
         },
         {
           "rank": 98,
-          "hotel": "Holiday Inn Osaka Namba",
-          "code": "344271",
-          "city": "Osaka",
-          "prevRank": 109,
-          "change": 11,
+          "hotel": "Keio Plaza Hotel Tokyo",
+          "code": "155693",
+          "city": "Tokyo",
+          "prevRank": 127,
+          "change": 29,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 15
         },
         {
           "rank": 99,
-          "hotel": "Sotetsu Fresa Inn Ueno Okachimachi",
-          "code": "208576",
+          "hotel": "Hotel Monterey Akasaka",
+          "code": "167121",
           "city": "Tokyo",
-          "prevRank": 100,
-          "change": 1,
+          "prevRank": 75,
+          "change": -24,
           "isNew": false,
-          "promoPct": 27
+          "promoPct": 13
         },
         {
           "rank": 100,
-          "hotel": "Hotel Shin Imamiya",
-          "code": "828977",
-          "city": "Osaka",
-          "prevRank": 135,
-          "change": 35,
+          "hotel": "Tokyo Prince Hotel",
+          "code": "123220",
+          "city": "Tokyo",
+          "prevRank": 113,
+          "change": 13,
           "isNew": false,
-          "promoPct": 50
+          "promoPct": null
         }
       ],
       "insights": {
         "topHotel": {
-          "hotel": "Sotetsu Fresa Inn Higashi Shinjuku",
-          "city": "Tokyo"
+          "hotel": "KOKO HOTEL Sapporo Susukino 2nd",
+          "city": "Sapporo"
         },
         "topClimber": {
-          "hotel": "SAPPORO STREAM HOTEL",
-          "city": "Sapporo",
-          "change": 281
+          "hotel": "Sotetsu Fresa Inn Hamamatsucho Daimon",
+          "city": "Tokyo",
+          "change": 221
         },
         "topFaller": {
-          "hotel": "Sotetsu Grand Fresa Osaka - Namba",
-          "city": "Osaka",
-          "change": -78
+          "hotel": "Hotel Monterey Ginza",
+          "city": "Tokyo",
+          "change": -61
         },
         "newCount": 0,
         "newExample": null,
         "hotCity": {
           "city": "Tokyo",
-          "count": 28
+          "count": 32
         },
         "risingCity": {
           "city": "Tokyo",
-          "count": 14,
-          "up": 316
+          "count": 20,
+          "up": 1126
         },
-        "climbCount": 52,
-        "fallCount": 43,
+        "climbCount": 59,
+        "fallCount": 38,
         "actions": [
           {
             "key": "recRisingCity",
             "p": {
               "city": "Tokyo",
-              "n": 14
+              "n": 20
             }
           },
           {
             "key": "recClimber",
             "p": {
-              "hotel": "SAPPORO STREAM HOTEL",
-              "city": "Sapporo",
-              "n": 281
+              "hotel": "Sotetsu Fresa Inn Hamamatsucho Daimon",
+              "city": "Tokyo",
+              "n": 221
             }
           },
           {
             "key": "recHotCity",
             "p": {
               "city": "Tokyo",
-              "n": 28
+              "n": 32
             }
           },
           {
             "key": "recFaller",
             "p": {
-              "hotel": "Sotetsu Grand Fresa Osaka - Namba",
-              "n": 78
+              "hotel": "Hotel Monterey Ginza",
+              "n": 61
             }
           }
         ]
@@ -1113,8 +1111,8 @@
           "prevRank": 1,
           "change": 0,
           "isNew": false,
-          "share": 28.9,
-          "hotels": 28
+          "share": 30.5,
+          "hotels": 32
         },
         {
           "rank": 2,
@@ -1122,8 +1120,8 @@
           "prevRank": 2,
           "change": 0,
           "isNew": false,
-          "share": 25.7,
-          "hotels": 26
+          "share": 27.4,
+          "hotels": 30
         },
         {
           "rank": 3,
@@ -1131,26 +1129,26 @@
           "prevRank": 3,
           "change": 0,
           "isNew": false,
-          "share": 10.3,
+          "share": 9.5,
           "hotels": 11
         },
         {
           "rank": 4,
-          "city": "Kyoto",
-          "prevRank": 4,
-          "change": 0,
+          "city": "Sapporo",
+          "prevRank": 5,
+          "change": 1,
           "isNew": false,
-          "share": 6.2,
-          "hotels": 7
+          "share": 8.4,
+          "hotels": 6
         },
         {
           "rank": 5,
-          "city": "Sapporo",
-          "prevRank": 5,
-          "change": 0,
+          "city": "Kyoto",
+          "prevRank": 4,
+          "change": -1,
           "isNew": false,
-          "share": 6,
-          "hotels": 7
+          "share": 4,
+          "hotels": 5
         },
         {
           "rank": 6,
@@ -1158,8 +1156,8 @@
           "prevRank": 6,
           "change": 0,
           "isNew": false,
-          "share": 4.4,
-          "hotels": 6
+          "share": 3.6,
+          "hotels": 4
         },
         {
           "rank": 7,
@@ -1176,104 +1174,104 @@
           "prevRank": 8,
           "change": 0,
           "isNew": false,
-          "share": 2.6,
-          "hotels": 4
+          "share": 2.2,
+          "hotels": 3
         },
         {
           "rank": 9,
-          "city": "Kanazawa",
-          "prevRank": 13,
-          "change": 4,
-          "isNew": false,
-          "share": 1.8,
-          "hotels": 1
-        },
-        {
-          "rank": 10,
           "city": "Kurashiki",
           "prevRank": 10,
-          "change": 0,
+          "change": 1,
           "isNew": false,
           "share": 1.1,
           "hotels": 1
         },
         {
-          "rank": 11,
+          "rank": 10,
           "city": "Chatan",
           "prevRank": 11,
-          "change": 0,
+          "change": 1,
           "isNew": false,
-          "share": 0.8,
+          "share": 0.9,
           "hotels": 2
         },
         {
-          "rank": 12,
-          "city": "Takayama",
+          "rank": 11,
+          "city": "Kanazawa",
           "prevRank": 9,
-          "change": -3,
+          "change": -2,
           "isNew": false,
           "share": 0.8,
-          "hotels": 1
+          "hotels": 0
+        },
+        {
+          "rank": 12,
+          "city": "Kumamoto",
+          "prevRank": 15,
+          "change": 3,
+          "isNew": false,
+          "share": 0.7,
+          "hotels": 0
         },
         {
           "rank": 13,
           "city": "Onna",
-          "prevRank": 12,
-          "change": -1,
+          "prevRank": 13,
+          "change": 0,
           "isNew": false,
-          "share": 0.7,
+          "share": 0.5,
           "hotels": 1
         },
         {
           "rank": 14,
-          "city": "Kagoshima",
-          "prevRank": 21,
-          "change": 7,
+          "city": "Takayama",
+          "prevRank": 12,
+          "change": -2,
           "isNew": false,
-          "share": 0.6,
+          "share": 0.5,
           "hotels": 1
         },
         {
           "rank": 15,
-          "city": "Kumamoto",
-          "prevRank": 15,
-          "change": 0,
+          "city": "Hakodate",
+          "prevRank": 17,
+          "change": 2,
           "isNew": false,
-          "share": 0.6,
+          "share": 0.4,
           "hotels": 0
         },
         {
           "rank": 16,
-          "city": "Yokohama",
-          "prevRank": 16,
-          "change": 0,
-          "isNew": false,
-          "share": 0.5,
-          "hotels": 0
-        },
-        {
-          "rank": 17,
-          "city": "Hakodate",
-          "prevRank": 17,
-          "change": 0,
-          "isNew": false,
-          "share": 0.5,
-          "hotels": 0
-        },
-        {
-          "rank": 18,
-          "city": "Kashiwa",
-          "prevRank": 14,
-          "change": -4,
+          "city": "Sakai",
+          "prevRank": 22,
+          "change": 6,
           "isNew": false,
           "share": 0.4,
           "hotels": 1
         },
         {
+          "rank": 17,
+          "city": "Yokohama",
+          "prevRank": 16,
+          "change": -1,
+          "isNew": false,
+          "share": 0.4,
+          "hotels": 0
+        },
+        {
+          "rank": 18,
+          "city": "Kagoshima",
+          "prevRank": 14,
+          "change": -4,
+          "isNew": false,
+          "share": 0.3,
+          "hotels": 0
+        },
+        {
           "rank": 19,
-          "city": "Sendai",
-          "prevRank": 19,
-          "change": 0,
+          "city": "Matsuyama",
+          "prevRank": 21,
+          "change": 2,
           "isNew": false,
           "share": 0.3,
           "hotels": 0
@@ -1281,50 +1279,46 @@
         {
           "rank": 20,
           "city": "Okayama",
-          "prevRank": 23,
-          "change": 3,
+          "prevRank": 20,
+          "change": 0,
           "isNew": false,
-          "share": 0.3,
+          "share": 0.2,
           "hotels": 0
         }
       ],
       "seasonality": {
         "checkinMonths": [
           {
-            "month": "2026-09",
-            "pct": 0
-          },
-          {
             "month": "2026-10",
-            "pct": 39.8
+            "pct": 29.5
           },
           {
             "month": "2026-11",
-            "pct": 27.1
+            "pct": 28.6
           },
           {
             "month": "2026-12",
-            "pct": 14.4
+            "pct": 18.6
           },
           {
             "month": "2027-01",
-            "pct": 7.7
+            "pct": 9.6
           },
           {
             "month": "2027-02",
-            "pct": 5
+            "pct": 6
           },
           {
             "month": "2027-03",
-            "pct": 2.2
+            "pct": 3
           },
           {
             "month": "2027-04",
-            "pct": 1.4
+            "pct": 1.6
           },
           {
             "month": "2027-05",
-            "pct": 0.9
+            "pct": 1.3
           },
           {
             "month": "2027-06",
@@ -1336,7 +1330,7 @@
           },
           {
             "month": "2027-08",
-            "pct": 0.2
+            "pct": 0.3
           },
           {
             "month": "2027-09",
@@ -1344,80 +1338,80 @@
           },
           {
             "month": "2027-10",
-            "pct": 0
+            "pct": 0.1
           }
         ],
         "losDist": [
           {
             "nights": "1",
-            "pct": 39.1
+            "pct": 40.3
           },
           {
             "nights": "2",
-            "pct": 28.5
+            "pct": 27.3
           },
           {
             "nights": "3",
-            "pct": 15.4
+            "pct": 15.2
           },
           {
             "nights": "4+",
-            "pct": 17.1
+            "pct": 17.2
           }
         ],
         "leadDist": [
           {
             "band": "<7",
-            "pct": 16.3
+            "pct": 15.1
           },
           {
             "band": "7-14",
-            "pct": 11.4
+            "pct": 10.6
           },
           {
             "band": "15-30",
-            "pct": 18.2
+            "pct": 15.7
           },
           {
             "band": "31-60",
-            "pct": 23.9
+            "pct": 24.7
           },
           {
             "band": "60+",
-            "pct": 30.1
+            "pct": 33.9
           }
         ],
         "dowDist": [
           {
             "dow": 0,
-            "pct": 15.2
-          },
-          {
-            "dow": 1,
-            "pct": 12.9
-          },
-          {
-            "dow": 2,
-            "pct": 13.1
-          },
-          {
-            "dow": 3,
-            "pct": 13.1
-          },
-          {
-            "dow": 4,
-            "pct": 14.1
-          },
-          {
-            "dow": 5,
             "pct": 15.5
           },
           {
+            "dow": 1,
+            "pct": 13.7
+          },
+          {
+            "dow": 2,
+            "pct": 12.7
+          },
+          {
+            "dow": 3,
+            "pct": 12.9
+          },
+          {
+            "dow": 4,
+            "pct": 13.1
+          },
+          {
+            "dow": 5,
+            "pct": 15.8
+          },
+          {
             "dow": 6,
-            "pct": 16.1
+            "pct": 16.2
           }
         ],
-        "avgLeadDays": 51,
+        "avgLeadDays": 55,
         "avgLOS": 2.3
       },
       "promotions": [
@@ -177201,12 +177195,12 @@
       "total": 50,
       "cities": [
         "Busan",
-        "Cheongju",
+        "Chuncheon",
         "Daegu",
-        "Donghae",
         "Gangneung",
         "Gimpo",
-        "Hoengseong",
+        "Hwaseong",
+        "Jecheon",
         "Jeju City",
         "Jeongseon",
         "Pyeongchang",
@@ -177227,191 +177221,191 @@
         },
         {
           "rank": 2,
-          "hotel": "SL Hotel Myeongdong",
-          "code": "1001929",
+          "hotel": "Sejong Hotel",
+          "code": "732447",
           "city": "Seoul",
-          "prevRank": 6,
-          "change": 4,
+          "prevRank": 10,
+          "change": 8,
           "isNew": false,
-          "promoPct": 48
+          "promoPct": 65
         },
         {
           "rank": 3,
+          "hotel": "Jeongseon JS GRAND PALACE Hotel",
+          "code": "1001046",
+          "city": "Jeongseon",
+          "prevRank": 17,
+          "change": 14,
+          "isNew": false,
+          "promoPct": 47
+        },
+        {
+          "rank": 4,
           "hotel": "MYME Hotel",
           "code": "1001793",
           "city": "Seoul",
-          "prevRank": 10,
-          "change": 7,
+          "prevRank": 3,
+          "change": -1,
           "isNew": false,
           "promoPct": 40
         },
         {
-          "rank": 4,
-          "hotel": "Busan Connect Ocean Hotel",
-          "code": "809241",
-          "city": "Busan",
-          "prevRank": 9,
-          "change": 5,
-          "isNew": false,
-          "promoPct": 16
-        },
-        {
           "rank": 5,
-          "hotel": "The Stay Classic Myeongdong",
-          "code": "886479",
+          "hotel": "Hotel The Designers Jongno",
+          "code": "738639",
           "city": "Seoul",
-          "prevRank": 3,
-          "change": -2,
+          "prevRank": 11,
+          "change": 6,
           "isNew": false,
-          "promoPct": 5
+          "promoPct": 25
         },
         {
           "rank": 6,
-          "hotel": "Fraser Place Namdaemun Seoul",
-          "code": "725676",
-          "city": "Seoul",
-          "prevRank": 19,
-          "change": 13,
+          "hotel": "Kenny Stay Jeju Mosulpo (Hotel Kenny)",
+          "code": "710138",
+          "city": "Seogwipo",
+          "prevRank": 9,
+          "change": 3,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 21
         },
         {
           "rank": 7,
-          "hotel": "Marinabay Sokcho Hotel",
-          "code": "886473",
-          "city": "Sokcho",
-          "prevRank": 65,
-          "change": 58,
+          "hotel": "Kenny Stay Jeju Seogwipo-Hotel Kenny",
+          "code": "287865",
+          "city": "Seogwipo",
+          "prevRank": 51,
+          "change": 44,
           "isNew": false,
-          "promoPct": 10
+          "promoPct": 17
         },
         {
           "rank": 8,
-          "hotel": "Hotel Whistlelark Jeju",
-          "code": "187261",
-          "city": "Jeju City",
-          "prevRank": 4,
-          "change": -4,
+          "hotel": "The Stay Classic Myeongdong",
+          "code": "886479",
+          "city": "Seoul",
+          "prevRank": 5,
+          "change": -3,
           "isNew": false,
           "promoPct": 5
         },
         {
           "rank": 9,
-          "hotel": "Kenny Stay Jeju Mosulpo (Hotel Kenny)",
-          "code": "710138",
-          "city": "Seogwipo",
-          "prevRank": 14,
-          "change": 5,
-          "isNew": false,
-          "promoPct": 21
-        },
-        {
-          "rank": 10,
-          "hotel": "Sejong Hotel",
-          "code": "732447",
-          "city": "Seoul",
-          "prevRank": 2,
-          "change": -8,
-          "isNew": false,
-          "promoPct": 65
-        },
-        {
-          "rank": 11,
-          "hotel": "Hotel The Designers Jongno",
-          "code": "738639",
-          "city": "Seoul",
-          "prevRank": 13,
-          "change": 2,
-          "isNew": false,
-          "promoPct": 25
-        },
-        {
-          "rank": 12,
-          "hotel": "Provista Hotel Gangnam",
-          "code": "151154",
-          "city": "Seoul",
-          "prevRank": 5,
-          "change": -7,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 13,
-          "hotel": "Ramada Hotel & Suites by Wyndham Gangwon Pyeongchang",
-          "code": "409897",
-          "city": "Pyeongchang",
-          "prevRank": 99,
-          "change": 86,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 14,
-          "hotel": "Shinchon Ever 8 Serviced Residence Seoul",
-          "code": "773940",
-          "city": "Seoul",
-          "prevRank": 22,
-          "change": 8,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 15,
-          "hotel": "Youus Hotel",
-          "code": "886465",
-          "city": "Seogwipo",
-          "prevRank": 11,
-          "change": -4,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 16,
-          "hotel": "Hotel Society",
-          "code": "401573",
-          "city": "Busan",
-          "prevRank": 7,
-          "change": -9,
-          "isNew": false,
-          "promoPct": 15
-        },
-        {
-          "rank": 17,
-          "hotel": "Jeongseon JS GRAND PALACE Hotel",
-          "code": "1001046",
-          "city": "Jeongseon",
-          "prevRank": 242,
-          "change": 225,
-          "isNew": false,
-          "promoPct": 47
-        },
-        {
-          "rank": 18,
           "hotel": "Nova Stay Gangneung",
           "code": "1001633",
           "city": "Gangneung",
-          "prevRank": 15,
-          "change": -3,
+          "prevRank": 18,
+          "change": 9,
           "isNew": false,
           "promoPct": 2
         },
         {
-          "rank": 19,
-          "hotel": "N285 Hotel Insadong",
-          "code": "812953",
-          "city": "Seoul",
-          "prevRank": 8,
-          "change": -11,
+          "rank": 10,
+          "hotel": "Busan Connect Ocean Hotel",
+          "code": "809241",
+          "city": "Busan",
+          "prevRank": 4,
+          "change": -6,
           "isNew": false,
-          "promoPct": 35
+          "promoPct": 16
+        },
+        {
+          "rank": 11,
+          "hotel": "Provista Hotel Gangnam",
+          "code": "151154",
+          "city": "Seoul",
+          "prevRank": 12,
+          "change": 1,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 12,
+          "hotel": "Shinchon Ever 8 Serviced Residence Seoul",
+          "code": "773940",
+          "city": "Seoul",
+          "prevRank": 14,
+          "change": 2,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 13,
+          "hotel": "Gloucester Hotel Jeju",
+          "code": "213522",
+          "city": "Jeju City",
+          "prevRank": null,
+          "change": null,
+          "isNew": true,
+          "promoPct": 50
+        },
+        {
+          "rank": 14,
+          "hotel": "SL Hotel Myeongdong",
+          "code": "1001929",
+          "city": "Seoul",
+          "prevRank": 2,
+          "change": -12,
+          "isNew": false,
+          "promoPct": 48
+        },
+        {
+          "rank": 15,
+          "hotel": "Jeju Pureun Hotel",
+          "code": "748544",
+          "city": "Seogwipo",
+          "prevRank": 23,
+          "change": 8,
+          "isNew": false,
+          "promoPct": 43
+        },
+        {
+          "rank": 16,
+          "hotel": "Ramada Hotel & Suites by Wyndham Gangwon Pyeongchang",
+          "code": "409897",
+          "city": "Pyeongchang",
+          "prevRank": 13,
+          "change": -3,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 17,
+          "hotel": "Hotel Society",
+          "code": "401573",
+          "city": "Busan",
+          "prevRank": 16,
+          "change": -1,
+          "isNew": false,
+          "promoPct": 15
+        },
+        {
+          "rank": 18,
+          "hotel": "Youus Hotel",
+          "code": "886465",
+          "city": "Seogwipo",
+          "prevRank": 15,
+          "change": -3,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 19,
+          "hotel": "Fraser Place Namdaemun Seoul",
+          "code": "725676",
+          "city": "Seoul",
+          "prevRank": 6,
+          "change": -13,
+          "isNew": false,
+          "promoPct": null
         },
         {
           "rank": 20,
-          "hotel": "Golden City Hotel Dongdaemun",
-          "code": "850992",
+          "hotel": "Rosana Hotel",
+          "code": "693461",
           "city": "Seoul",
-          "prevRank": 67,
-          "change": 47,
+          "prevRank": 35,
+          "change": 15,
           "isNew": false,
           "promoPct": null
         },
@@ -177420,300 +177414,300 @@
           "hotel": "Crown Park Hotel",
           "code": "130438",
           "city": "Seoul",
-          "prevRank": 26,
-          "change": 5,
+          "prevRank": 21,
+          "change": 0,
           "isNew": false,
           "promoPct": 10
         },
         {
           "rank": 22,
+          "hotel": "STAZ HOTEL HERITAGE",
+          "code": "1001729",
+          "city": "Jeju City",
+          "prevRank": 101,
+          "change": 79,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 23,
           "hotel": "Hotel Bernoui Seoul",
           "code": "857930",
           "city": "Seoul",
-          "prevRank": 16,
-          "change": -6,
+          "prevRank": 22,
+          "change": -1,
           "isNew": false,
           "promoPct": 15
         },
         {
-          "rank": 23,
-          "hotel": "Jeju Pureun Hotel",
-          "code": "748544",
-          "city": "Seogwipo",
-          "prevRank": 12,
-          "change": -11,
-          "isNew": false,
-          "promoPct": 43
-        },
-        {
           "rank": 24,
-          "hotel": "Skybay Hotel Gyeongpo",
-          "code": "241059",
-          "city": "Gangneung",
-          "prevRank": 36,
-          "change": 12,
+          "hotel": "Grand Mer Hotel Jeju",
+          "code": "168469",
+          "city": "Seogwipo",
+          "prevRank": 25,
+          "change": 1,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 25,
-          "hotel": "Grand Mer Hotel Jeju",
-          "code": "168469",
-          "city": "Seogwipo",
-          "prevRank": 51,
-          "change": 26,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 26,
-          "hotel": "Kwangsu Hotel",
-          "code": "811623",
-          "city": "Busan",
-          "prevRank": 24,
-          "change": -2,
-          "isNew": false,
-          "promoPct": 62
-        },
-        {
-          "rank": 27,
-          "hotel": "Hotel L'Art Gimpo",
-          "code": "137004",
-          "city": "Gimpo",
-          "prevRank": 28,
-          "change": 1,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 28,
           "hotel": "The Prima Jongno",
           "code": "995718",
           "city": "Seoul",
-          "prevRank": 54,
-          "change": 26,
+          "prevRank": 28,
+          "change": 3,
           "isNew": false,
           "promoPct": 17
         },
         {
+          "rank": 26,
+          "hotel": "Hotel M Felice",
+          "code": "262574",
+          "city": "Seoul",
+          "prevRank": 43,
+          "change": 17,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 27,
+          "hotel": "NewCZ Haeundae Residence",
+          "code": "1001029",
+          "city": "Busan",
+          "prevRank": null,
+          "change": null,
+          "isNew": true,
+          "promoPct": null
+        },
+        {
+          "rank": 28,
+          "hotel": "Hamdeok Beach Stay Jeju",
+          "code": "804763",
+          "city": "Jeju City",
+          "prevRank": 159,
+          "change": 131,
+          "isNew": false,
+          "promoPct": 8
+        },
+        {
           "rank": 29,
-          "hotel": "Seogwipo KAL Hotel",
-          "code": "146620",
-          "city": "Seogwipo",
-          "prevRank": 37,
-          "change": 8,
+          "hotel": "Hotel L'Art Gimpo",
+          "code": "137004",
+          "city": "Gimpo",
+          "prevRank": 27,
+          "change": -2,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 30,
-          "hotel": "Hotel Samjung",
-          "code": "344374",
-          "city": "Seoul",
-          "prevRank": 17,
-          "change": -13,
+          "hotel": "Kwangsu Hotel",
+          "code": "811623",
+          "city": "Busan",
+          "prevRank": 26,
+          "change": -4,
           "isNew": false,
-          "promoPct": 7
+          "promoPct": 62
         },
         {
           "rank": 31,
-          "hotel": "After Chapter Hotel",
-          "code": "1001421",
-          "city": "Busan",
-          "prevRank": 21,
-          "change": -10,
-          "isNew": false,
-          "promoPct": 11
-        },
-        {
-          "rank": 32,
-          "hotel": "Felix by STX Hotel & Suite",
-          "code": "665136",
-          "city": "Busan",
-          "prevRank": 20,
-          "change": -12,
-          "isNew": false,
-          "promoPct": 20
-        },
-        {
-          "rank": 33,
-          "hotel": "Hound Hotel Busan Station",
-          "code": "687083",
-          "city": "Busan",
-          "prevRank": 33,
-          "change": 0,
-          "isNew": false,
-          "promoPct": 14
-        },
-        {
-          "rank": 34,
-          "hotel": "JeJu Bolton Hotel",
-          "code": "974687",
-          "city": "Jeju City",
-          "prevRank": 32,
-          "change": -2,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 35,
-          "hotel": "Rosana Hotel",
-          "code": "693461",
-          "city": "Seoul",
-          "prevRank": 35,
-          "change": 0,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 36,
-          "hotel": "Sokcho Mari Vista Hotel",
-          "code": "1001364",
-          "city": "Sokcho",
-          "prevRank": 18,
-          "change": -18,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 37,
-          "hotel": "Hotel TT Seomyeon",
-          "code": "352081",
-          "city": "Busan",
-          "prevRank": 60,
-          "change": 23,
-          "isNew": false,
-          "promoPct": 7
-        },
-        {
-          "rank": 38,
-          "hotel": "Baiton Hotel Seoul Dongdaemun",
-          "code": "794192",
-          "city": "Seoul",
-          "prevRank": 30,
-          "change": -8,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 39,
-          "hotel": "Wellihilli Park Resort",
-          "code": "852474",
-          "city": "Hoengseong",
-          "prevRank": 40,
-          "change": 1,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 40,
-          "hotel": "Vincent Hotel",
-          "code": "886599",
-          "city": "Cheongju",
-          "prevRank": 39,
-          "change": -1,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 41,
-          "hotel": "Donghae Medical Spa Convention Hotel Gangwondo",
-          "code": "886472",
-          "city": "Donghae",
-          "prevRank": 87,
-          "change": 46,
-          "isNew": false,
-          "promoPct": 5
-        },
-        {
-          "rank": 42,
-          "hotel": "Hotel Nongshim",
-          "code": "344354",
-          "city": "Busan",
-          "prevRank": 91,
-          "change": 49,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 43,
-          "hotel": "Hotel M Felice",
-          "code": "262574",
-          "city": "Seoul",
-          "prevRank": 25,
-          "change": -18,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 44,
-          "hotel": "H Avenue Gwangalli Beach",
-          "code": "442536",
-          "city": "Busan",
-          "prevRank": 47,
-          "change": 3,
-          "isNew": false,
-          "promoPct": 7
-        },
-        {
-          "rank": 45,
-          "hotel": "JK Blossom Hotel",
-          "code": "284695",
-          "city": "Seoul",
-          "prevRank": 62,
-          "change": 17,
-          "isNew": false,
-          "promoPct": 10
-        },
-        {
-          "rank": 46,
           "hotel": "Daegu Hyeonpung Prana Hotel",
           "code": "1001668",
           "city": "Daegu",
-          "prevRank": 53,
+          "prevRank": 46,
+          "change": 15,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 32,
+          "hotel": "Sollago Myeongdong Hotel & Residence",
+          "code": "960244",
+          "city": "Seoul",
+          "prevRank": 81,
+          "change": 49,
+          "isNew": false,
+          "promoPct": 59
+        },
+        {
+          "rank": 33,
+          "hotel": "JeJu Bolton Hotel",
+          "code": "974687",
+          "city": "Jeju City",
+          "prevRank": 34,
+          "change": 1,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 34,
+          "hotel": "Hotel Nongshim",
+          "code": "344354",
+          "city": "Busan",
+          "prevRank": 41,
           "change": 7,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 47,
-          "hotel": "Tamara Jeju",
-          "code": "679081",
-          "city": "Seogwipo",
-          "prevRank": 23,
-          "change": -24,
+          "rank": 35,
+          "hotel": "Best Western Jeju Hotel",
+          "code": "397853",
+          "city": "Jeju City",
+          "prevRank": 79,
+          "change": 44,
           "isNew": false,
-          "promoPct": 6
+          "promoPct": 10
+        },
+        {
+          "rank": 36,
+          "hotel": "N285 Hotel Insadong",
+          "code": "812953",
+          "city": "Seoul",
+          "prevRank": 19,
+          "change": -17,
+          "isNew": false,
+          "promoPct": 35
+        },
+        {
+          "rank": 37,
+          "hotel": "Royal Square Hotel Seoul",
+          "code": "198976",
+          "city": "Seoul",
+          "prevRank": 128,
+          "change": 91,
+          "isNew": false,
+          "promoPct": 15
+        },
+        {
+          "rank": 38,
+          "hotel": "H Avenue Gwangalli Beach",
+          "code": "442536",
+          "city": "Busan",
+          "prevRank": 44,
+          "change": 6,
+          "isNew": false,
+          "promoPct": 7
+        },
+        {
+          "rank": 39,
+          "hotel": "Hound Hotel Busan Station",
+          "code": "687083",
+          "city": "Busan",
+          "prevRank": 33,
+          "change": -6,
+          "isNew": false,
+          "promoPct": 14
+        },
+        {
+          "rank": 40,
+          "hotel": "Gloucester Hotel Hamdeok",
+          "code": "1001837",
+          "city": "Jeju City",
+          "prevRank": 55,
+          "change": 15,
+          "isNew": false,
+          "promoPct": 50
+        },
+        {
+          "rank": 41,
+          "hotel": "MD HOTEL DONGTAN",
+          "code": "126868",
+          "city": "Hwaseong",
+          "prevRank": 256,
+          "change": 215,
+          "isNew": false,
+          "promoPct": 25
+        },
+        {
+          "rank": 42,
+          "hotel": "Cheongpung Resort Lake Hotel",
+          "code": "410625",
+          "city": "Jecheon",
+          "prevRank": 57,
+          "change": 15,
+          "isNew": false,
+          "promoPct": 8
+        },
+        {
+          "rank": 43,
+          "hotel": "Hotel Samhaein",
+          "code": "153009",
+          "city": "Jeju City",
+          "prevRank": 135,
+          "change": 92,
+          "isNew": false,
+          "promoPct": 3
+        },
+        {
+          "rank": 44,
+          "hotel": "Paradise Hotel Busan",
+          "code": "775483",
+          "city": "Busan",
+          "prevRank": 108,
+          "change": 64,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 45,
+          "hotel": "Three Seven Hotel",
+          "code": "1001192",
+          "city": "Seoul",
+          "prevRank": 91,
+          "change": 46,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 46,
+          "hotel": "Sangsangmadang Chuncheon Stay Hotel",
+          "code": "101393",
+          "city": "Chuncheon",
+          "prevRank": 158,
+          "change": 112,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 47,
+          "hotel": "Hotel Kukdo",
+          "code": "174722",
+          "city": "Seoul",
+          "prevRank": 76,
+          "change": 29,
+          "isNew": false,
+          "promoPct": 5
         },
         {
           "rank": 48,
-          "hotel": "Hyunjin Tourist Hotel",
-          "code": "830322",
-          "city": "Donghae",
-          "prevRank": 182,
-          "change": 134,
+          "hotel": "Hotel Samjung",
+          "code": "344374",
+          "city": "Seoul",
+          "prevRank": 30,
+          "change": -18,
           "isNew": false,
-          "promoPct": 10
+          "promoPct": 7
         },
         {
           "rank": 49,
-          "hotel": "Hotel ZINC",
-          "code": "711876",
-          "city": "Seogwipo",
-          "prevRank": 80,
-          "change": 31,
+          "hotel": "Avani Central Busan Hotel",
+          "code": "478764",
+          "city": "Busan",
+          "prevRank": 62,
+          "change": 13,
           "isNew": false,
-          "promoPct": 10
+          "promoPct": 20
         },
         {
           "rank": 50,
-          "hotel": "Sokcho I Park Suite Hotel & Residence",
-          "code": "886562",
+          "hotel": "Marinabay Sokcho Hotel",
+          "code": "886473",
           "city": "Sokcho",
-          "prevRank": 27,
-          "change": -23,
+          "prevRank": 8,
+          "change": -42,
           "isNew": false,
-          "promoPct": 15
+          "promoPct": 10
         }
       ],
       "insights": {
@@ -177722,56 +177716,59 @@
           "city": "Seoul"
         },
         "topClimber": {
-          "hotel": "Jeongseon JS GRAND PALACE Hotel",
-          "city": "Jeongseon",
-          "change": 225
+          "hotel": "MD HOTEL DONGTAN",
+          "city": "Hwaseong",
+          "change": 215
         },
         "topFaller": {
-          "hotel": "Tamara Jeju",
-          "city": "Seogwipo",
-          "change": -24
+          "hotel": "Marinabay Sokcho Hotel",
+          "city": "Sokcho",
+          "change": -42
         },
-        "newCount": 0,
-        "newExample": null,
+        "newCount": 2,
+        "newExample": {
+          "hotel": "Gloucester Hotel Jeju",
+          "city": "Jeju City"
+        },
         "hotCity": {
           "city": "Seoul",
-          "count": 19
+          "count": 20
         },
         "risingCity": {
           "city": "Seoul",
-          "count": 9,
-          "up": 129
+          "count": 11,
+          "up": 267
         },
-        "climbCount": 26,
-        "fallCount": 21,
+        "climbCount": 31,
+        "fallCount": 15,
         "actions": [
           {
             "key": "recRisingCity",
             "p": {
               "city": "Seoul",
-              "n": 9
+              "n": 11
             }
           },
           {
             "key": "recClimber",
             "p": {
-              "hotel": "Jeongseon JS GRAND PALACE Hotel",
-              "city": "Jeongseon",
-              "n": 225
+              "hotel": "MD HOTEL DONGTAN",
+              "city": "Hwaseong",
+              "n": 215
+            }
+          },
+          {
+            "key": "recNew",
+            "p": {
+              "n": 2,
+              "hotel": "Gloucester Hotel Jeju"
             }
           },
           {
             "key": "recHotCity",
             "p": {
               "city": "Seoul",
-              "n": 19
-            }
-          },
-          {
-            "key": "recFaller",
-            "p": {
-              "hotel": "Tamara Jeju",
-              "n": 24
+              "n": 20
             }
           }
         ]
@@ -177783,8 +177780,8 @@
           "prevRank": 1,
           "change": 0,
           "isNew": false,
-          "share": 45.3,
-          "hotels": 19
+          "share": 40.6,
+          "hotels": 20
         },
         {
           "rank": 2,
@@ -177792,7 +177789,7 @@
           "prevRank": 2,
           "change": 0,
           "isNew": false,
-          "share": 13.3,
+          "share": 14.2,
           "hotels": 9
         },
         {
@@ -177801,8 +177798,8 @@
           "prevRank": 3,
           "change": 0,
           "isNew": false,
-          "share": 11,
-          "hotels": 7
+          "share": 11.7,
+          "hotels": 5
         },
         {
           "rank": 4,
@@ -177810,17 +177807,17 @@
           "prevRank": 4,
           "change": 0,
           "isNew": false,
-          "share": 6.6,
-          "hotels": 2
+          "share": 10,
+          "hotels": 7
         },
         {
           "rank": 5,
-          "city": "Sokcho",
-          "prevRank": 5,
-          "change": 0,
+          "city": "Jeongseon",
+          "prevRank": 8,
+          "change": 3,
           "isNew": false,
-          "share": 4,
-          "hotels": 3
+          "share": 3.1,
+          "hotels": 1
         },
         {
           "rank": 6,
@@ -177828,133 +177825,133 @@
           "prevRank": 6,
           "change": 0,
           "isNew": false,
-          "share": 3.1,
-          "hotels": 2
+          "share": 2.5,
+          "hotels": 1
         },
         {
           "rank": 7,
-          "city": "Pyeongchang",
-          "prevRank": 27,
-          "change": 20,
+          "city": "Sokcho",
+          "prevRank": 5,
+          "change": -2,
           "isNew": false,
-          "share": 2,
+          "share": 2.1,
           "hotels": 1
         },
         {
           "rank": 8,
-          "city": "Jeongseon",
-          "prevRank": 47,
-          "change": 39,
+          "city": "Incheon",
+          "prevRank": 11,
+          "change": 3,
           "isNew": false,
-          "share": 1.7,
-          "hotels": 1
+          "share": 1.5,
+          "hotels": 0
         },
         {
           "rank": 9,
-          "city": "Donghae",
-          "prevRank": 15,
-          "change": 6,
+          "city": "Yeosu",
+          "prevRank": 13,
+          "change": 4,
           "isNew": false,
-          "share": 1.3,
-          "hotels": 2
+          "share": 1.4,
+          "hotels": 0
         },
         {
           "rank": 10,
-          "city": "Gimpo",
-          "prevRank": 8,
-          "change": -2,
+          "city": "Pyeongchang",
+          "prevRank": 7,
+          "change": -3,
           "isNew": false,
-          "share": 1.2,
+          "share": 1.4,
           "hotels": 1
         },
         {
           "rank": 11,
-          "city": "Incheon",
-          "prevRank": 7,
-          "change": -4,
+          "city": "Daegu",
+          "prevRank": 16,
+          "change": 5,
           "isNew": false,
-          "share": 1,
-          "hotels": 0
+          "share": 1.1,
+          "hotels": 1
         },
         {
           "rank": 12,
-          "city": "Gunsan",
+          "city": "Gimpo",
           "prevRank": 10,
           "change": -2,
+          "isNew": false,
+          "share": 1,
+          "hotels": 1
+        },
+        {
+          "rank": 13,
+          "city": "Gunsan",
+          "prevRank": 12,
+          "change": -1,
           "isNew": false,
           "share": 0.9,
           "hotels": 0
         },
         {
-          "rank": 13,
-          "city": "Yeosu",
+          "rank": 14,
+          "city": "Chuncheon",
+          "prevRank": 24,
+          "change": 10,
+          "isNew": false,
+          "share": 0.8,
+          "hotels": 1
+        },
+        {
+          "rank": 15,
+          "city": "Donghae",
           "prevRank": 9,
-          "change": -4,
+          "change": -6,
           "isNew": false,
           "share": 0.8,
           "hotels": 0
         },
         {
-          "rank": 14,
-          "city": "Cheongju",
-          "prevRank": 12,
-          "change": -2,
-          "isNew": false,
-          "share": 0.7,
-          "hotels": 1
-        },
-        {
-          "rank": 15,
-          "city": "Hoengseong",
-          "prevRank": 13,
-          "change": -2,
-          "isNew": false,
-          "share": 0.7,
-          "hotels": 1
-        },
-        {
           "rank": 16,
-          "city": "Daegu",
-          "prevRank": 11,
-          "change": -5,
+          "city": "Hwaseong",
+          "prevRank": 53,
+          "change": 37,
           "isNew": false,
           "share": 0.7,
           "hotels": 1
         },
         {
           "rank": 17,
-          "city": "Gyeongju",
+          "city": "Jecheon",
+          "prevRank": 18,
+          "change": 1,
+          "isNew": false,
+          "share": 0.7,
+          "hotels": 1
+        },
+        {
+          "rank": 18,
+          "city": "Cheongju",
+          "prevRank": 14,
+          "change": -4,
+          "isNew": false,
+          "share": 0.6,
+          "hotels": 0
+        },
+        {
+          "rank": 19,
+          "city": "Yangyang",
           "prevRank": 22,
-          "change": 5,
+          "change": 3,
           "isNew": false,
           "share": 0.5,
           "hotels": 0
         },
         {
-          "rank": 18,
-          "city": "Jecheon",
-          "prevRank": 16,
-          "change": -2,
-          "isNew": false,
-          "share": 0.4,
-          "hotels": 0
-        },
-        {
-          "rank": 19,
-          "city": "Jeonju",
-          "prevRank": 19,
-          "change": 0,
-          "isNew": false,
-          "share": 0.4,
-          "hotels": 0
-        },
-        {
           "rank": 20,
-          "city": "Pohang",
-          "prevRank": 14,
-          "change": -6,
+          "city": "Siheung",
+          "prevRank": 23,
+          "change": 3,
           "isNew": false,
-          "share": 0.3,
+          "share": 0.4,
           "hotels": 0
         }
       ],
@@ -177962,23 +177959,23 @@
         "checkinMonths": [
           {
             "month": "2026-10",
-            "pct": 66.5
+            "pct": 54.3
           },
           {
             "month": "2026-11",
-            "pct": 20.7
+            "pct": 25.7
           },
           {
             "month": "2026-12",
-            "pct": 7.5
+            "pct": 9.8
           },
           {
             "month": "2027-01",
-            "pct": 1.8
+            "pct": 4.4
           },
           {
             "month": "2027-02",
-            "pct": 1.1
+            "pct": 3
           },
           {
             "month": "2027-03",
@@ -177986,23 +177983,19 @@
           },
           {
             "month": "2027-04",
-            "pct": 1
+            "pct": 0.7
           },
           {
             "month": "2027-05",
-            "pct": 0.4
-          },
-          {
-            "month": "2027-06",
             "pct": 0.3
           },
           {
-            "month": "2027-07",
-            "pct": 0
+            "month": "2027-06",
+            "pct": 0.5
           },
           {
             "month": "2027-08",
-            "pct": 0.1
+            "pct": 0
           },
           {
             "month": "2027-09",
@@ -178010,65 +178003,69 @@
           },
           {
             "month": "2027-10",
+            "pct": 0.3
+          },
+          {
+            "month": "2027-11",
             "pct": 0.1
           }
         ],
         "losDist": [
           {
             "nights": "1",
-            "pct": 54.1
+            "pct": 52.5
           },
           {
             "nights": "2",
-            "pct": 23.7
+            "pct": 24.1
           },
           {
             "nights": "3",
-            "pct": 11.5
+            "pct": 12
           },
           {
             "nights": "4+",
-            "pct": 10.7
+            "pct": 11.4
           }
         ],
         "leadDist": [
           {
             "band": "<7",
-            "pct": 39.2
+            "pct": 33.6
           },
           {
             "band": "7-14",
-            "pct": 14
+            "pct": 14.7
           },
           {
             "band": "15-30",
-            "pct": 17.9
+            "pct": 18.7
           },
           {
             "band": "31-60",
-            "pct": 17.6
+            "pct": 16
           },
           {
             "band": "60+",
-            "pct": 11.3
+            "pct": 17
           }
         ],
         "dowDist": [
           {
             "dow": 0,
-            "pct": 13.4
+            "pct": 13.5
           },
           {
             "dow": 1,
-            "pct": 12.8
+            "pct": 12.1
           },
           {
             "dow": 2,
-            "pct": 11.8
+            "pct": 12.1
           },
           {
             "dow": 3,
-            "pct": 12.8
+            "pct": 13.8
           },
           {
             "dow": 4,
@@ -178076,15 +178073,15 @@
           },
           {
             "dow": 5,
-            "pct": 18.8
+            "pct": 16.5
           },
           {
             "dow": 6,
-            "pct": 17.9
+            "pct": 19.4
           }
         ],
-        "avgLeadDays": 26,
-        "avgLOS": 1.9
+        "avgLeadDays": 32,
+        "avgLOS": 2
       },
       "promotions": [
         {
@@ -238167,15 +238164,18 @@
       "total": 50,
       "cities": [
         "Buon Ma Thuot",
+        "Cam Lam",
         "Da Lat",
         "Da Nang",
+        "Ha Long",
         "Hanoi",
         "Ho Chi Minh City",
         "Hoi An",
-        "My Tho",
         "Nha Trang",
+        "Phan Thiet",
         "Phu Quoc",
-        "Sa Pa"
+        "Sa Pa",
+        "Thuan An"
       ],
       "hotels": [
         {
@@ -238190,199 +238190,199 @@
         },
         {
           "rank": 2,
-          "hotel": "Savvy by M Village Hai Ba Trung, a brand of Modern Village Lifestyle",
-          "code": "1001834",
-          "city": "Ho Chi Minh City",
-          "prevRank": 3,
-          "change": 1,
-          "isNew": false,
-          "promoPct": 5
-        },
-        {
-          "rank": 3,
-          "hotel": "Ocean Haven Hotel Danang",
-          "code": "861138",
-          "city": "Da Nang",
-          "prevRank": 4,
-          "change": 1,
+          "hotel": "Maple Hotel & Apartment",
+          "code": "215829",
+          "city": "Nha Trang",
+          "prevRank": 5,
+          "change": 3,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 4,
-          "hotel": "Grand Signature by M Village Le Thanh Ton, a brand of Modern Village Lifestyle",
-          "code": "982790",
-          "city": "Ho Chi Minh City",
-          "prevRank": 22,
-          "change": 18,
+          "rank": 3,
+          "hotel": "Joville Hotel Sapa",
+          "code": "982788",
+          "city": "Sa Pa",
+          "prevRank": 6,
+          "change": 3,
           "isNew": false,
-          "promoPct": 9
+          "promoPct": 10
+        },
+        {
+          "rank": 4,
+          "hotel": "Grand Ocean Bay Resort Phu Quoc",
+          "code": "985239",
+          "city": "Phu Quoc",
+          "prevRank": 15,
+          "change": 11,
+          "isNew": false,
+          "promoPct": 13
         },
         {
           "rank": 5,
-          "hotel": "Maple Hotel & Apartment",
-          "code": "215829",
+          "hotel": "Seaside Boutique Hotel Nha Trang Beach",
+          "code": "1001369",
           "city": "Nha Trang",
-          "prevRank": 2,
-          "change": -3,
+          "prevRank": 14,
+          "change": 9,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 6,
-          "hotel": "Joville Hotel Sapa",
-          "code": "982788",
-          "city": "Sa Pa",
-          "prevRank": 9,
-          "change": 3,
+          "hotel": "Tom Hill Boutique Wellness Resort",
+          "code": "306035",
+          "city": "Phu Quoc",
+          "prevRank": 23,
+          "change": 17,
           "isNew": false,
-          "promoPct": 10
+          "promoPct": null
         },
         {
           "rank": 7,
           "hotel": "Nagar Hotel Nha Trang",
           "code": "288294",
           "city": "Nha Trang",
-          "prevRank": 21,
-          "change": 14,
+          "prevRank": 7,
+          "change": 0,
           "isNew": false,
           "promoPct": 5
         },
         {
           "rank": 8,
-          "hotel": "M Village Hotel Premier Thi Sach, a brand of Modern Village Lifestyle",
-          "code": "1001299",
-          "city": "Ho Chi Minh City",
-          "prevRank": 85,
-          "change": 77,
+          "hotel": "Havana Nha Trang Hotel",
+          "code": "176187",
+          "city": "Nha Trang",
+          "prevRank": 270,
+          "change": 262,
           "isNew": false,
-          "promoPct": 11
+          "promoPct": null
         },
         {
           "rank": 9,
-          "hotel": "Signature By M Village Tho Nhuom, a brand of Modern Village Lifestyle",
-          "code": "1001024",
-          "city": "Hanoi",
-          "prevRank": 27,
-          "change": 18,
+          "hotel": "Adamas Boutique Hotel Nha Trang",
+          "code": "1000113",
+          "city": "Nha Trang",
+          "prevRank": 17,
+          "change": 8,
           "isNew": false,
-          "promoPct": 11
+          "promoPct": 58
         },
         {
           "rank": 10,
-          "hotel": "M Village Hotel Ton That Dam, a brand of Modern Village Lifestyle",
-          "code": "982791",
-          "city": "Ho Chi Minh City",
-          "prevRank": 33,
-          "change": 23,
+          "hotel": "Amiana Resort Cam Ranh",
+          "code": "1001322",
+          "city": "Cam Lam",
+          "prevRank": 90,
+          "change": 80,
           "isNew": false,
-          "promoPct": 5
+          "promoPct": 10
         },
         {
           "rank": 11,
-          "hotel": "Terra Boutique Hotel",
-          "code": "139868",
-          "city": "Da Nang",
-          "prevRank": 35,
-          "change": 24,
+          "hotel": "Cozy Savvy Boutique Hotel Hoi An",
+          "code": "503742",
+          "city": "Hoi An",
+          "prevRank": 19,
+          "change": 8,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 12
         },
         {
           "rank": 12,
-          "hotel": "M Village Hotel Phan Văn Trị District 1 Edge, a brand of Modern Village Lifestyle",
-          "code": "1001954",
-          "city": "Ho Chi Minh City",
-          "prevRank": 115,
-          "change": 103,
+          "hotel": "Maison Nha - Boutique Apartment (16 NK)",
+          "code": "1001487",
+          "city": "Hanoi",
+          "prevRank": 48,
+          "change": 36,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 15
         },
         {
           "rank": 13,
-          "hotel": "Reyna Hotel Hanoi",
-          "code": "554765",
-          "city": "Hanoi",
-          "prevRank": 50,
-          "change": 37,
+          "hotel": "Terra Boutique Hotel",
+          "code": "139868",
+          "city": "Da Nang",
+          "prevRank": 11,
+          "change": -2,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 14,
-          "hotel": "Seaside Boutique Hotel Nha Trang Beach",
-          "code": "1001369",
-          "city": "Nha Trang",
-          "prevRank": 12,
-          "change": -2,
+          "hotel": "Rex Hotel Saigon",
+          "code": "606114",
+          "city": "Ho Chi Minh City",
+          "prevRank": 38,
+          "change": 24,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 15,
-          "hotel": "Grand Ocean Bay Resort Phu Quoc",
-          "code": "985239",
-          "city": "Phu Quoc",
-          "prevRank": 6,
-          "change": -9,
-          "isNew": false,
-          "promoPct": 13
-        },
-        {
-          "rank": 16,
-          "hotel": "M Village Resort Riverbeach Hoi An, a brand of Modern Village Lifestyle",
-          "code": "1002008",
-          "city": "Hoi An",
-          "prevRank": 14,
-          "change": -2,
-          "isNew": false,
+          "hotel": "Green View Sapa Hotel",
+          "code": "",
+          "city": "Sa Pa",
+          "prevRank": null,
+          "change": null,
+          "isNew": true,
           "promoPct": null
         },
         {
-          "rank": 17,
-          "hotel": "Adamas Boutique Hotel Nha Trang",
-          "code": "1000113",
-          "city": "Nha Trang",
-          "prevRank": 5,
-          "change": -12,
-          "isNew": false,
-          "promoPct": 58
-        },
-        {
-          "rank": 18,
-          "hotel": "M VIllage Hotel Ho Guom, a brand of Modern Village Lifestyle",
-          "code": "983132",
-          "city": "Hanoi",
-          "prevRank": 8,
-          "change": -10,
+          "rank": 16,
+          "hotel": "Ocean Bay Phu Quoc Resort & Spa",
+          "code": "709121",
+          "city": "Phu Quoc",
+          "prevRank": 68,
+          "change": 52,
           "isNew": false,
           "promoPct": 10
         },
         {
-          "rank": 19,
-          "hotel": "Cozy Savvy Boutique Hotel Hoi An",
-          "code": "503742",
-          "city": "Hoi An",
-          "prevRank": 18,
-          "change": -1,
+          "rank": 17,
+          "hotel": "Citadines Central Binh Duong",
+          "code": "373032",
+          "city": "Thuan An",
+          "prevRank": 249,
+          "change": 232,
           "isNew": false,
-          "promoPct": 12
+          "promoPct": null
+        },
+        {
+          "rank": 18,
+          "hotel": "DeLaSea Ha Long Hotel",
+          "code": "658207",
+          "city": "Ha Long",
+          "prevRank": 55,
+          "change": 37,
+          "isNew": false,
+          "promoPct": 8
+        },
+        {
+          "rank": 19,
+          "hotel": "Saigon Hotel",
+          "code": "445993",
+          "city": "Ho Chi Minh City",
+          "prevRank": 37,
+          "change": 18,
+          "isNew": false,
+          "promoPct": null
         },
         {
           "rank": 20,
-          "hotel": "M Village Hotel Tho Nhuom, a brand of Modern Village Lifestyle",
-          "code": "1001282",
+          "hotel": "22Land Residence Hotel & Spa 71 Hang Bong Hoan Kiem",
+          "code": "770847",
           "city": "Hanoi",
-          "prevRank": 151,
-          "change": 131,
+          "prevRank": 79,
+          "change": 59,
           "isNew": false,
-          "promoPct": 6
+          "promoPct": null
         },
         {
           "rank": 21,
-          "hotel": "M Village Hotel Tao Dan Park, a brand of Modern Village Lifestyle",
-          "code": "1001204",
-          "city": "Ho Chi Minh City",
+          "hotel": "Signature by M Village Hotel Hoi An, a branch of Modern Village Lifestyle",
+          "code": "1001966",
+          "city": "Hoi An",
           "prevRank": 56,
           "change": 35,
           "isNew": false,
@@ -238390,293 +238390,293 @@
         },
         {
           "rank": 22,
-          "hotel": "M Village Hotel Nguyen Du, a brand of Modern Village Lifestyle",
-          "code": "1001392",
-          "city": "Ho Chi Minh City",
-          "prevRank": 131,
-          "change": 109,
+          "hotel": "JM Boutique Hotel",
+          "code": "900856",
+          "city": "Phu Quoc",
+          "prevRank": 94,
+          "change": 72,
           "isNew": false,
-          "promoPct": 7
+          "promoPct": null
         },
         {
           "rank": 23,
-          "hotel": "Golden Sun Hotel - Dalat",
-          "code": "953810",
-          "city": "Da Lat",
+          "hotel": "M Village Resort Riverbeach Hoi An, a brand of Modern Village Lifestyle",
+          "code": "1002008",
+          "city": "Hoi An",
+          "prevRank": 16,
+          "change": -7,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 24,
+          "hotel": "Aroma Beach Resort & Spa",
+          "code": "717812",
+          "city": "Phan Thiet",
+          "prevRank": 282,
+          "change": 258,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 25,
+          "hotel": "Camia Resort & Spa",
+          "code": "251392",
+          "city": "Phu Quoc",
+          "prevRank": 30,
+          "change": 5,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 26,
+          "hotel": "Pink Horizon Hotel",
+          "code": "1001862",
+          "city": "Ho Chi Minh City",
+          "prevRank": 76,
+          "change": 50,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 27,
+          "hotel": "Hillary Hanoi Hotel with outdoor Swimming Pool",
+          "code": "678107",
+          "city": "Hanoi",
+          "prevRank": 125,
+          "change": 98,
+          "isNew": false,
+          "promoPct": 65
+        },
+        {
+          "rank": 28,
+          "hotel": "Santa Luxury Hotel",
+          "code": "586685",
+          "city": "Da Nang",
+          "prevRank": 82,
+          "change": 54,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 29,
+          "hotel": "Masova Hotel",
+          "code": "662371",
+          "city": "Nha Trang",
+          "prevRank": 73,
+          "change": 44,
+          "isNew": false,
+          "promoPct": 58
+        },
+        {
+          "rank": 30,
+          "hotel": "Hotel du Parc Hanoi",
+          "code": "649716",
+          "city": "Hanoi",
+          "prevRank": 88,
+          "change": 58,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 31,
+          "hotel": "Express by M Village Đông Du, a brand of Modern Village Lifestyle",
+          "code": "",
+          "city": "Ho Chi Minh City",
           "prevRank": null,
           "change": null,
           "isNew": true,
           "promoPct": null
         },
         {
-          "rank": 24,
-          "hotel": "Tom Hill Boutique Wellness Resort",
-          "code": "306035",
-          "city": "Phu Quoc",
-          "prevRank": 39,
+          "rank": 32,
+          "hotel": "Hotel de Lagom Hanoi",
+          "code": "1001346",
+          "city": "Hanoi",
+          "prevRank": 117,
+          "change": 85,
+          "isNew": false,
+          "promoPct": 10
+        },
+        {
+          "rank": 33,
+          "hotel": "Grand Signature by M Village Resort Hoi An, a brand of Modern Village Lifestyle",
+          "code": "1001659",
+          "city": "Hoi An",
+          "prevRank": 35,
+          "change": 2,
+          "isNew": false,
+          "promoPct": 15
+        },
+        {
+          "rank": 34,
+          "hotel": "Wyndham Royal Beachfront Resort & Spa Hoi An Danang",
+          "code": "",
+          "city": "Hoi An",
+          "prevRank": null,
+          "change": null,
+          "isNew": true,
+          "promoPct": null
+        },
+        {
+          "rank": 35,
+          "hotel": "Canary Nha Trang Hotel",
+          "code": "356680",
+          "city": "Nha Trang",
+          "prevRank": 58,
+          "change": 23,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 36,
+          "hotel": "Soho Boutique Hotel Danang",
+          "code": "247930",
+          "city": "Da Nang",
+          "prevRank": 139,
+          "change": 103,
+          "isNew": false,
+          "promoPct": null
+        },
+        {
+          "rank": 37,
+          "hotel": "Muong Thanh Luxury Buon Ma Thuot",
+          "code": "188336",
+          "city": "Buon Ma Thuot",
+          "prevRank": 52,
           "change": 15,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 25,
-          "hotel": "Mekong My Tho",
-          "code": "1001350",
-          "city": "My Tho",
-          "prevRank": 88,
-          "change": 63,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 26,
-          "hotel": "22Land Lake View Hotel",
-          "code": "848249",
+          "rank": 38,
+          "hotel": "22Land Moon West Lake",
+          "code": "713750",
           "city": "Hanoi",
-          "prevRank": 54,
-          "change": 28,
+          "prevRank": 140,
+          "change": 102,
           "isNew": false,
-          "promoPct": 10
+          "promoPct": 40
         },
         {
-          "rank": 27,
-          "hotel": "G8 Diamond Hotel Saigon",
-          "code": "1001798",
+          "rank": 39,
+          "hotel": "InterContinental Nha Trang, an IHG Hotel",
+          "code": "654455",
+          "city": "Nha Trang",
+          "prevRank": 122,
+          "change": 83,
+          "isNew": false,
+          "promoPct": 30
+        },
+        {
+          "rank": 40,
+          "hotel": "Hotel Continental Saigon",
+          "code": "606107",
           "city": "Ho Chi Minh City",
-          "prevRank": 337,
-          "change": 310,
+          "prevRank": 178,
+          "change": 138,
           "isNew": false,
           "promoPct": null
         },
         {
-          "rank": 28,
-          "hotel": "Tamarind Hotel Da Nang",
-          "code": "286524",
-          "city": "Da Nang",
-          "prevRank": 52,
-          "change": 24,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 29,
-          "hotel": "Wyndham Garden Grandworld Phu Quoc",
-          "code": "886662",
-          "city": "Phu Quoc",
-          "prevRank": 55,
-          "change": 26,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 30,
-          "hotel": "Camia Resort & Spa",
-          "code": "251392",
-          "city": "Phu Quoc",
-          "prevRank": 31,
-          "change": 1,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 31,
-          "hotel": "22Land Residence Hotel",
-          "code": "740979",
-          "city": "Hanoi",
-          "prevRank": 69,
-          "change": 38,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 32,
-          "hotel": "Amanaki Thao Dien Hotel",
-          "code": "962278",
-          "city": "Ho Chi Minh City",
-          "prevRank": 93,
-          "change": 61,
-          "isNew": false,
-          "promoPct": 5
-        },
-        {
-          "rank": 33,
-          "hotel": "V-Hotel",
-          "code": "995726",
-          "city": "Da Nang",
-          "prevRank": 28,
-          "change": -5,
-          "isNew": false,
-          "promoPct": 47
-        },
-        {
-          "rank": 34,
+          "rank": 41,
           "hotel": "Silkotel Hoi An",
           "code": "154326",
           "city": "Hoi An",
-          "prevRank": 45,
-          "change": 11,
+          "prevRank": 34,
+          "change": -7,
           "isNew": false,
           "promoPct": 39
         },
         {
-          "rank": 35,
-          "hotel": "Grand Signature by M Village Resort Hoi An, a brand of Modern Village Lifestyle",
-          "code": "1001659",
-          "city": "Hoi An",
-          "prevRank": 25,
-          "change": -10,
+          "rank": 42,
+          "hotel": "Cat Cat Galerie d'Art Hotel",
+          "code": "1001332",
+          "city": "Sa Pa",
+          "prevRank": 121,
+          "change": 79,
           "isNew": false,
-          "promoPct": 15
+          "promoPct": 55
         },
         {
-          "rank": 36,
-          "hotel": "TND Hotel",
-          "code": "178803",
-          "city": "Nha Trang",
-          "prevRank": 196,
-          "change": 160,
+          "rank": 43,
+          "hotel": "22Land Lake View Hotel",
+          "code": "848249",
+          "city": "Hanoi",
+          "prevRank": 26,
+          "change": -17,
           "isNew": false,
-          "promoPct": 70
+          "promoPct": 10
         },
         {
-          "rank": 37,
-          "hotel": "Rex Hotel Saigon",
-          "code": "606114",
-          "city": "Ho Chi Minh City",
-          "prevRank": 15,
-          "change": -22,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 38,
-          "hotel": "Saigon Hotel",
-          "code": "445993",
-          "city": "Ho Chi Minh City",
-          "prevRank": 13,
-          "change": -25,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 39,
+          "rank": 44,
           "hotel": "Terracotta Hotel & Resort Dalat",
           "code": "861321",
           "city": "Da Lat",
-          "prevRank": 94,
-          "change": 55,
+          "prevRank": 39,
+          "change": -5,
           "isNew": false,
           "promoPct": 46
         },
         {
-          "rank": 40,
-          "hotel": "Daphovina Hotel",
-          "code": "983128",
-          "city": "Nha Trang",
-          "prevRank": 17,
-          "change": -23,
-          "isNew": false,
-          "promoPct": 5
-        },
-        {
-          "rank": 41,
-          "hotel": "Avanti Boutique Hotel",
-          "code": "486741",
-          "city": "Ho Chi Minh City",
-          "prevRank": 48,
-          "change": 7,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 42,
-          "hotel": "Champa Island Nha Trang - Resort Hotel & Spa",
-          "code": "118691",
-          "city": "Nha Trang",
-          "prevRank": 37,
-          "change": -5,
-          "isNew": false,
-          "promoPct": 58
-        },
-        {
-          "rank": 43,
-          "hotel": "Oakwood Residence Saigon",
-          "code": "271462",
-          "city": "Ho Chi Minh City",
-          "prevRank": 30,
-          "change": -13,
-          "isNew": false,
-          "promoPct": null
-        },
-        {
-          "rank": 44,
-          "hotel": "Sabina Hotel 2",
-          "code": "449411",
-          "city": "Ho Chi Minh City",
-          "prevRank": 149,
-          "change": 105,
-          "isNew": false,
-          "promoPct": 12
-        },
-        {
           "rank": 45,
-          "hotel": "Night Sea Hotel",
-          "code": "705669",
-          "city": "Phu Quoc",
-          "prevRank": 42,
-          "change": -3,
+          "hotel": "Mai House Saigon Hotel",
+          "code": "452660",
+          "city": "Ho Chi Minh City",
+          "prevRank": 81,
+          "change": 36,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 15
         },
         {
           "rank": 46,
-          "hotel": "SUZU Saigon Hotel",
-          "code": "1001184",
+          "hotel": "Royal Hotel Saigon",
+          "code": "606110",
           "city": "Ho Chi Minh City",
-          "prevRank": 124,
-          "change": 78,
+          "prevRank": 142,
+          "change": 96,
           "isNew": false,
-          "promoPct": null
+          "promoPct": 71
         },
         {
           "rank": 47,
-          "hotel": "Nhat Ha Lavish Hotel",
-          "code": "1001197",
-          "city": "Ho Chi Minh City",
-          "prevRank": 84,
-          "change": 37,
+          "hotel": "V-Hotel",
+          "code": "995726",
+          "city": "Da Nang",
+          "prevRank": 32,
+          "change": -15,
           "isNew": false,
-          "promoPct": 7
+          "promoPct": 47
         },
         {
           "rank": 48,
-          "hotel": "Muong Thanh Luxury Buon Ma Thuot",
-          "code": "188336",
-          "city": "Buon Ma Thuot",
-          "prevRank": 87,
-          "change": 39,
+          "hotel": "Zenia Boutique Hotel Nha Trang",
+          "code": "368134",
+          "city": "Nha Trang",
+          "prevRank": 191,
+          "change": 143,
           "isNew": false,
           "promoPct": null
         },
         {
           "rank": 49,
-          "hotel": "Maison Nha - Boutique Apartment (16 NK)",
-          "code": "1001487",
+          "hotel": "Hanoi Calido Premier Hotel",
+          "code": "945879",
           "city": "Hanoi",
-          "prevRank": 82,
-          "change": 33,
+          "prevRank": 60,
+          "change": 11,
           "isNew": false,
-          "promoPct": 15
+          "promoPct": null
         },
         {
           "rank": 50,
-          "hotel": "E13 Hotel & Apartment",
-          "code": "1001830",
+          "hotel": "SUN RESIDENCES Managed by 22 Land Hospitality",
+          "code": "1001261",
           "city": "Hanoi",
-          "prevRank": 137,
-          "change": 87,
+          "prevRank": 189,
+          "change": 139,
           "isNew": false,
-          "promoPct": 3
+          "promoPct": null
         }
       ],
       "insights": {
@@ -238685,59 +238685,59 @@
           "city": "Nha Trang"
         },
         "topClimber": {
-          "hotel": "G8 Diamond Hotel Saigon",
-          "city": "Ho Chi Minh City",
-          "change": 310
+          "hotel": "Havana Nha Trang Hotel",
+          "city": "Nha Trang",
+          "change": 262
         },
         "topFaller": {
-          "hotel": "Saigon Hotel",
-          "city": "Ho Chi Minh City",
-          "change": -25
+          "hotel": "22Land Lake View Hotel",
+          "city": "Hanoi",
+          "change": -17
         },
-        "newCount": 1,
+        "newCount": 3,
         "newExample": {
-          "hotel": "Golden Sun Hotel - Dalat",
-          "city": "Da Lat"
+          "hotel": "Green View Sapa Hotel",
+          "city": "Sa Pa"
         },
         "hotCity": {
-          "city": "Ho Chi Minh City",
-          "count": 16
+          "city": "Nha Trang",
+          "count": 10
         },
         "risingCity": {
-          "city": "Ho Chi Minh City",
-          "count": 13,
-          "up": 964
+          "city": "Hanoi",
+          "count": 8,
+          "up": 588
         },
-        "climbCount": 33,
-        "fallCount": 15,
+        "climbCount": 39,
+        "fallCount": 6,
         "actions": [
           {
             "key": "recRisingCity",
             "p": {
-              "city": "Ho Chi Minh City",
-              "n": 13
+              "city": "Hanoi",
+              "n": 8
             }
           },
           {
             "key": "recClimber",
             "p": {
-              "hotel": "G8 Diamond Hotel Saigon",
-              "city": "Ho Chi Minh City",
-              "n": 310
+              "hotel": "Havana Nha Trang Hotel",
+              "city": "Nha Trang",
+              "n": 262
             }
           },
           {
             "key": "recNew",
             "p": {
-              "n": 1,
-              "hotel": "Golden Sun Hotel - Dalat"
+              "n": 3,
+              "hotel": "Green View Sapa Hotel"
             }
           },
           {
             "key": "recHotCity",
             "p": {
-              "city": "Ho Chi Minh City",
-              "n": 16
+              "city": "Nha Trang",
+              "n": 10
             }
           }
         ]
@@ -238745,21 +238745,21 @@
       "cityRanking": [
         {
           "rank": 1,
-          "city": "Ho Chi Minh City",
+          "city": "Nha Trang",
           "prevRank": 2,
           "change": 1,
           "isNew": false,
-          "share": 24.6,
-          "hotels": 16
+          "share": 22.1,
+          "hotels": 10
         },
         {
           "rank": 2,
-          "city": "Nha Trang",
+          "city": "Ho Chi Minh City",
           "prevRank": 1,
           "change": -1,
           "isNew": false,
-          "share": 18.6,
-          "hotels": 8
+          "share": 15.9,
+          "hotels": 7
         },
         {
           "rank": 3,
@@ -238767,34 +238767,34 @@
           "prevRank": 3,
           "change": 0,
           "isNew": false,
-          "share": 15.6,
-          "hotels": 8
+          "share": 14.4,
+          "hotels": 9
         },
         {
           "rank": 4,
-          "city": "Da Nang",
+          "city": "Phu Quoc",
           "prevRank": 5,
           "change": 1,
           "isNew": false,
-          "share": 8.4,
-          "hotels": 4
-        },
-        {
-          "rank": 5,
-          "city": "Phu Quoc",
-          "prevRank": 4,
-          "change": -1,
-          "isNew": false,
-          "share": 7.8,
+          "share": 10.3,
           "hotels": 5
         },
         {
-          "rank": 6,
+          "rank": 5,
           "city": "Hoi An",
           "prevRank": 6,
-          "change": 0,
+          "change": 1,
           "isNew": false,
-          "share": 6.5,
+          "share": 6.9,
+          "hotels": 6
+        },
+        {
+          "rank": 6,
+          "city": "Da Nang",
+          "prevRank": 4,
+          "change": -2,
+          "isNew": false,
+          "share": 6.6,
           "hotels": 4
         },
         {
@@ -238803,8 +238803,8 @@
           "prevRank": 7,
           "change": 0,
           "isNew": false,
-          "share": 4.3,
-          "hotels": 1
+          "share": 4.9,
+          "hotels": 3
         },
         {
           "rank": 8,
@@ -238812,52 +238812,52 @@
           "prevRank": 8,
           "change": 0,
           "isNew": false,
-          "share": 3.2,
-          "hotels": 2
+          "share": 3.6,
+          "hotels": 1
         },
         {
           "rank": 9,
-          "city": "Ha Long",
-          "prevRank": 9,
-          "change": 0,
+          "city": "Phan Thiet",
+          "prevRank": 15,
+          "change": 6,
           "isNew": false,
-          "share": 2,
-          "hotels": 0
+          "share": 2.7,
+          "hotels": 1
         },
         {
           "rank": 10,
-          "city": "Hue",
-          "prevRank": 12,
-          "change": 2,
+          "city": "Ha Long",
+          "prevRank": 9,
+          "change": -1,
           "isNew": false,
-          "share": 1.5,
-          "hotels": 0
+          "share": 2.2,
+          "hotels": 1
         },
         {
           "rank": 11,
-          "city": "Quy Nhon",
-          "prevRank": 10,
-          "change": -1,
+          "city": "Cam Lam",
+          "prevRank": 16,
+          "change": 5,
           "isNew": false,
-          "share": 0.8,
-          "hotels": 0
+          "share": 1.4,
+          "hotels": 1
         },
         {
           "rank": 12,
           "city": "Buon Ma Thuot",
-          "prevRank": 13,
-          "change": 1,
+          "prevRank": 12,
+          "change": 0,
           "isNew": false,
-          "share": 0.8,
+          "share": 1,
           "hotels": 1
         },
         {
           "rank": 13,
-          "city": "My Tho",
-          "prevRank": 15,
-          "change": 2,
+          "city": "Thuan An",
+          "prevRank": 34,
+          "change": 21,
           "isNew": false,
-          "share": 0.8,
+          "share": 0.9,
           "hotels": 1
         },
         {
@@ -238866,32 +238866,32 @@
           "prevRank": 14,
           "change": 0,
           "isNew": false,
-          "share": 0.7,
+          "share": 0.9,
           "hotels": 0
         },
         {
           "rank": 15,
-          "city": "Phan Thiet",
-          "prevRank": 11,
-          "change": -4,
+          "city": "Can Tho",
+          "prevRank": 19,
+          "change": 4,
+          "isNew": false,
+          "share": 0.8,
+          "hotels": 0
+        },
+        {
+          "rank": 16,
+          "city": "Hue",
+          "prevRank": 10,
+          "change": -6,
           "isNew": false,
           "share": 0.6,
           "hotels": 0
         },
         {
-          "rank": 16,
-          "city": "Cam Lam",
-          "prevRank": 16,
-          "change": 0,
-          "isNew": false,
-          "share": 0.5,
-          "hotels": 0
-        },
-        {
           "rank": 17,
-          "city": "Quang Ninh",
-          "prevRank": 17,
-          "change": 0,
+          "city": "My Tho",
+          "prevRank": 13,
+          "change": -4,
           "isNew": false,
           "share": 0.4,
           "hotels": 0
@@ -238899,28 +238899,28 @@
         {
           "rank": 18,
           "city": "Thu Dau Mot",
-          "prevRank": 36,
-          "change": 18,
+          "prevRank": 18,
+          "change": 0,
           "isNew": false,
-          "share": 0.3,
+          "share": 0.4,
           "hotels": 0
         },
         {
           "rank": 19,
-          "city": "Can Tho",
-          "prevRank": 20,
-          "change": 1,
+          "city": "Bien Hoa",
+          "prevRank": 21,
+          "change": 2,
           "isNew": false,
-          "share": 0.3,
+          "share": 0.4,
           "hotels": 0
         },
         {
           "rank": 20,
-          "city": "Thang Binh",
+          "city": "Bac Ninh",
           "prevRank": null,
           "change": null,
           "isNew": true,
-          "share": 0.3,
+          "share": 0.4,
           "hotels": 0
         }
       ],
@@ -238928,35 +238928,35 @@
         "checkinMonths": [
           {
             "month": "2026-10",
-            "pct": 63.2
+            "pct": 52.7
           },
           {
             "month": "2026-11",
-            "pct": 13.6
+            "pct": 18
           },
           {
             "month": "2026-12",
-            "pct": 10.3
+            "pct": 12.4
           },
           {
             "month": "2027-01",
-            "pct": 6.4
+            "pct": 6
           },
           {
             "month": "2027-02",
-            "pct": 3.2
+            "pct": 5.1
           },
           {
             "month": "2027-03",
-            "pct": 1.9
+            "pct": 3
           },
           {
             "month": "2027-04",
-            "pct": 0.6
+            "pct": 1.3
           },
           {
             "month": "2027-05",
-            "pct": 0.3
+            "pct": 0.9
           },
           {
             "month": "2027-06",
@@ -238971,82 +238971,82 @@
             "pct": 0.1
           },
           {
-            "month": "2027-10",
+            "month": "2027-09",
             "pct": 0.1
           }
         ],
         "losDist": [
           {
             "nights": "1",
-            "pct": 37.9
+            "pct": 42.7
           },
           {
             "nights": "2",
-            "pct": 25.6
+            "pct": 26.9
           },
           {
             "nights": "3",
-            "pct": 15
+            "pct": 13.7
           },
           {
             "nights": "4+",
-            "pct": 21.6
+            "pct": 16.7
           }
         ],
         "leadDist": [
           {
             "band": "<7",
-            "pct": 41.3
+            "pct": 38.4
           },
           {
             "band": "7-14",
-            "pct": 11.9
+            "pct": 10.6
           },
           {
             "band": "15-30",
-            "pct": 12.9
+            "pct": 12.7
           },
           {
             "band": "31-60",
-            "pct": 12.1
+            "pct": 13.8
           },
           {
             "band": "60+",
-            "pct": 21.7
+            "pct": 24.5
           }
         ],
         "dowDist": [
           {
             "dow": 0,
-            "pct": 12.3
+            "pct": 12.5
           },
           {
             "dow": 1,
-            "pct": 13.4
+            "pct": 13.1
           },
           {
             "dow": 2,
-            "pct": 14
+            "pct": 11.4
           },
           {
             "dow": 3,
-            "pct": 12.2
+            "pct": 12.8
           },
           {
             "dow": 4,
-            "pct": 12.9
+            "pct": 14.3
           },
           {
             "dow": 5,
-            "pct": 15.1
+            "pct": 16.6
           },
           {
             "dow": 6,
-            "pct": 20.1
+            "pct": 19.2
           }
         ],
-        "avgLeadDays": 33,
-        "avgLOS": 2.6
+        "avgLeadDays": 38,
+        "avgLOS": 2.3
       },
       "promotions": [
         {
