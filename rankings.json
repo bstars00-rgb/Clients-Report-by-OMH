@@ -238321,7 +238321,7 @@
         {
           "rank": 15,
           "hotel": "Green View Sapa Hotel",
-          "code": "",
+          "code": "1002110",
           "city": "Sa Pa",
           "prevRank": null,
           "change": null,
@@ -238481,7 +238481,7 @@
         {
           "rank": 31,
           "hotel": "Express by M Village Đông Du, a brand of Modern Village Lifestyle",
-          "code": "",
+          "code": "1002113",
           "city": "Ho Chi Minh City",
           "prevRank": null,
           "change": null,
@@ -238511,12 +238511,12 @@
         {
           "rank": 34,
           "hotel": "Wyndham Royal Beachfront Resort & Spa Hoi An Danang",
-          "code": "",
+          "code": "886508",
           "city": "Hoi An",
           "prevRank": null,
           "change": null,
           "isNew": true,
-          "promoPct": null
+          "promoPct": 60
         },
         {
           "rank": 35,
