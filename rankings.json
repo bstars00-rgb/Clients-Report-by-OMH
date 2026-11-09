@@ -345299,7 +345299,8 @@
         },
         "code": "462943",
         "hotel": "Toyoko Inn Tsushima Hitakatsu",
-        "city": "Tsushima"
+        "city": "Tsushima",
+        "isNew": false
       }
     ],
     "Korea": [
@@ -345329,7 +345330,9 @@
         },
         "code": "1001793",
         "hotel": "MYME Hotel",
-        "city": "Seoul (Hongdae)"
+        "city": "Seoul (Hongdae)",
+        "disc": 40,
+        "isNew": false
       },
       {
         "tag": {
@@ -345357,7 +345360,9 @@
         },
         "code": "1001929",
         "hotel": "SL Hotel Myeongdong",
-        "city": "Seoul"
+        "city": "Seoul",
+        "disc": 48,
+        "isNew": false
       },
       {
         "tag": {
@@ -345385,7 +345390,9 @@
         },
         "code": "672798",
         "hotel": "Aewol Stay In Jeju",
-        "city": "Jeju"
+        "city": "Jeju",
+        "disc": 20,
+        "isNew": false
       }
     ],
     "Vietnam": [
@@ -345415,7 +345422,9 @@
         },
         "code": "1002008",
         "hotel": "M Village Resort Riverbeach Hoian",
-        "city": "Hoi An"
+        "city": "Hoi An",
+        "new": true,
+        "isNew": true
       },
       {
         "tag": {
@@ -345443,7 +345452,9 @@
         },
         "code": "738625",
         "hotel": "Green World Hotel Nha Trang",
-        "city": "Nha Trang"
+        "city": "Nha Trang",
+        "disc": 71,
+        "isNew": false
       },
       {
         "tag": {
@@ -345471,7 +345482,9 @@
         },
         "code": "654455",
         "hotel": "InterContinental Nha Trang, an IHG Hotel",
-        "city": "Nha Trang"
+        "city": "Nha Trang",
+        "disc": 30,
+        "isNew": false
       }
     ],
     "Thailand": [
@@ -345501,7 +345514,9 @@
         },
         "code": "239237",
         "hotel": "VELA be Bangkok Ratchathewi",
-        "city": "Bangkok"
+        "city": "Bangkok",
+        "disc": 63,
+        "isNew": false
       },
       {
         "tag": {
@@ -345529,7 +345544,8 @@
         },
         "code": "665814",
         "hotel": "The Gems Mining Pool Villas Pattaya",
-        "city": "Pattaya"
+        "city": "Pattaya",
+        "isNew": false
       },
       {
         "tag": {
@@ -345557,7 +345573,8 @@
         },
         "code": "652060",
         "hotel": "Grand Howard Hotel Bangkok",
-        "city": "Bangkok"
+        "city": "Bangkok",
+        "isNew": false
       }
     ],
     "Hong Kong": [
@@ -345587,7 +345604,9 @@
         },
         "code": "599412",
         "hotel": "The Harbourview",
-        "city": "Kowloon"
+        "city": "Kowloon",
+        "disc": 20,
+        "isNew": false
       }
     ],
     "Taiwan": [],
