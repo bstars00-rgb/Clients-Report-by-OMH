@@ -40,6 +40,8 @@
     padding: 7px 12px; font-size: 13px; cursor:pointer; transition: all .15s; font-weight:600;
   }
   .btn:hover { border-color: var(--accent); }
+  .visit-counter { display:inline-flex; align-items:center; gap:5px; border:1px solid var(--line); border-radius:10px; padding:7px 11px; font-size:12px; font-weight:700; color:var(--muted); background:var(--card); white-space:nowrap; }
+  .visit-counter b { color:var(--accent); font-weight:800; font-variant-numeric:tabular-nums; }
   .lang-toggle { display:flex; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
   .lang-toggle button { background:var(--card); color:var(--muted); border:0; padding:7px 11px; cursor:pointer; font-size:12px; font-weight:700; }
   .lang-toggle button.on { background: var(--accent); color:#fff; }
@@ -252,6 +254,7 @@
       </div>
     </div>
     <div class="top-actions">
+      <div class="visit-counter" id="visitCounter" title="Total visits">👁 <b id="visitNum">99</b></div>
       <div class="lang-toggle">
         <button id="langKo" onclick="setLang('ko')">한국어</button>
         <button id="langEn" class="on" onclick="setLang('en')">EN</button>
@@ -344,11 +347,6 @@
     <div data-i18n="footer">© OhMyHotel — Weekly top-selling hotel rankings shared with our valued partners.</div>
     <div class="disclaimer" data-i18n="disclaimer">Rankings reflect relative booking volume for the period. Figures are indicative and exclude confidential commercial data.</div>
     <div id="genStamp" style="margin-top:4px;"></div>
-    <div style="margin-top:9px;display:flex;justify-content:center;">
-      <img src="https://visitor-badge.laobi.icu/badge?page_id=bstars00-rgb.clients-report-by-omh&title=visits&color=%232b5ce6"
-           alt="visits" referrerpolicy="no-referrer" loading="lazy"
-           style="height:20px;border-radius:4px;opacity:.9;">
-    </div>
   </footer>
 </div>
 
@@ -1095,6 +1093,15 @@ function renderSeason(){
   updateTabs();
   applyI18n();
   showView('hotels');
+})();
+// 방문 카운터 (Abacus · 무가입 JSON+CORS). 99 베이스: 98 + 실제값 → 첫 방문 99부터.
+(function(){
+  var el = document.getElementById('visitNum'); if(!el) return;
+  var BASE = 98;
+  fetch('https://abacus.jasoncameron.dev/hit/bstars00-omh/visits')
+    .then(function(r){ return r.json(); })
+    .then(function(d){ if(d && typeof d.value==='number'){ try{ el.textContent=(BASE+d.value).toLocaleString(); }catch(e){} } })
+    .catch(function(){ /* 실패 시 기본 99 유지 */ });
 })();
 </script>
 </body>
